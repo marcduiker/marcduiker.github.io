@@ -3,7 +3,7 @@ layout: post
 title: The Importance of Good Unit Tests and Test Reviews
 ---
 
-{% include header.md %}
+{% include header.html %}
 
 #{ page.title }
 _2013-04-09 Marc Duiker_

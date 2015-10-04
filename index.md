@@ -2,7 +2,7 @@
 title: Marc Duiker
 ---
 
-{% include header.md %}
+{% include header.html %}
 
 _Warning: this page is work in progress, for now I'm just focussing on the content. Styling will eventually follow ;)._
 
@@ -10,7 +10,7 @@ _Warning: this page is work in progress, for now I'm just focussing on the conte
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date | date_to_long_string }} - {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
