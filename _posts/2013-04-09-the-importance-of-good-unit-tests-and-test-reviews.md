@@ -3,6 +3,10 @@ layout: post
 title: The Importance of Good Unit Tests and Test Reviews
 tags: unit testing, code quality
 ---
+[![GOTO by xkcd][2]][1]
+
+[1]: http://xkcd.com/292/
+[2]: http://imgs.xkcd.com/comics/goto.png (xkcd GOTO)
 
 I'm currently following an [online TDD course](https://www.udemy.com/draft/14162/) by [Roy Osherove](http://osherove.com/). I'm about half way through and although I have quite a bit of experience writing unit tests and using test frameworks I've gained a lot of knowledge from the course already. Here are some highlights about good unit tests and test reviews.
 
