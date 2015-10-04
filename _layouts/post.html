@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		{% include header.html %}
+		
+		<h1>{{ title }}</h1>
+		<em>{{ page.date | date_to_long_string }} Marc Duiker</em>
+		
+		{{content}}
+	</body>
+</html>

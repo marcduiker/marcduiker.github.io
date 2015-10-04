@@ -4,7 +4,7 @@ title: Marc Duiker
 
 {% include header.html %}
 
-_Warning: this page is work in progress, for now I'm just focussing on the content. Styling will eventually follow ;)._
+_Warning: this page and it's subpages are heavily under construction. For now I'm just focussing on content (blog posts). Some sort of styling will eventually follow ;)._
 
 ## Posts
 <ul>
