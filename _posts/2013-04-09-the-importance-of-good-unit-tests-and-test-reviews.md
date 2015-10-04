@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Importance of Good Unit Tests and Test Reviews
 ---
 
