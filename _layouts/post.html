@@ -5,10 +5,13 @@
 		{% include header.html %}
 		
 		<h1>{{ page.title }}</h1>
-	
+		<em>{{ page.date | date_to_long_string }}</em>
+		
 		{{content}}
 		
-		{% include postsignature.html %}
+		<p>
+			<a href="http://marcduiker.github.io/">Back to index</a> 
+		</p>
 		{% include footer.html %}
 	</body>
 </html>
