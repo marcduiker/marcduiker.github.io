@@ -22,6 +22,7 @@ In one of the lessons Roy talks about the importance of test reviews. Having a h
 
 1. Unit tests should be easy to locate in the solution. Are the unit tests in a separate project?
 2. Readability is key in unit testing. Is there a clear naming convention?
+
  - Naming the unit test projects:
 
     `<ProjectUnderTest>.UnitTests`    
