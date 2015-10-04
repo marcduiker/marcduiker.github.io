@@ -2,8 +2,7 @@
 title: Marc Duiker
 ---
 
-#Marc Duiker
-My thoughts about Sitecore, .Net and code quality.
+{% include header.md %}
 
 _Warning: this page is work in progress, for now I'm just focussing on the content. Styling will eventually follow ;)._
 
