@@ -27,10 +27,10 @@ Next I tried [Prezi](http://prezi.com/) for a while. Initially I was really blow
 And now there is [HTML5](https://developer.mozilla.org/en/docs/HTML/HTML5). And I love it. A lot of HTML5 presentation frameworks are emerging and currently I'm experimenting with [reveal.js](http://lab.hakim.se/reveal-js/#/) (written by [Hakim El Hattab](http://hakim.se/)). Really have a go at this one if you haven't seen it yet!
 
 
-[![Reveal.js][2]][1]
+[![Reveal.js][4]][3]
 
-[1]: http://lab.hakim.se/reveal-js/#/
-[2]: {{ site.url }}/assets/2013/04/19/reveal.png
+[4]: http://lab.hakim.se/reveal-js/#/
+[3]: {{ site.url }}/assets/2013/04/19/reveal.png
 
 An HTML5 presentation framework is just a collection of html, css and javascript files which you have complete control over (yay!). You can tweak the markup, styles and functions as desired. That immediately is also the downside for people who don't have any web development skills (but they should stick to PowerPoint anyway ;). You need to know a bit of html to get started (although reveal.js has an online editor called [slides.com](http://slides.com/)). The presentation can be used either online or offline, it all works the same, only an up-to-date browser is required (I prefer Chrome).
 
