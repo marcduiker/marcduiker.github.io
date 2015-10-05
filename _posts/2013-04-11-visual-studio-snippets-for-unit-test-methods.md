@@ -11,7 +11,6 @@ As mentioned in a previous post, having a clear naming convention for unit test 
 
 ###Visual Studio Snippets
 In order to make it easy for myself (and other developers) to use the `<UnitOfWork> _ <StateUnderTest> _ <ExpectedBehaviour>` naming convention, I've created two code snippets, one for NUnit and one for MSTest.
-
 After importing the snippets (see below) you can use the them by typing:
 
 `nutest[TAB]` (for NUnit) 
@@ -20,9 +19,7 @@ or
 
 `mstest[TAB]` (for MSTest)
 
-The resulting code is displayed at the top of this post.
-
-The snippets use three placeholders (marked in yellow) which make up the method name using the suggested convention. In addition I've added Arrange, Act, Assert comments in order to help structuring the test.
+The resulting code is displayed at the top of this post. The snippets use three placeholders (marked in yellow) which make up the method name using the suggested convention. In addition I've added Arrange, Act, Assert comments in order to help structuring the test.
 
 ###Importing Snippets
 Once you've downloaded the snippet(s) open Visual Studio and go to _Tools > Code Snippets Manager_.

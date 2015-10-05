@@ -4,14 +4,33 @@
 	<body>
 		{% include header.html %}
 		
-		<h1>{{ page.title }}</h1>
-		<em>{{ page.date | date_to_long_string }}</em>
+		<div class="container">
+			<div class="row">
+        		<div class="twelve columns" style="margin-top: 5%">
+        			<h1>{{ page.title }}</h1>
+					<em>{{ page.date | date_to_long_string }}</em>  
+        		</div>
+      		</div>
+    	</div>
 		
-		{{content}}
+		<div class="container">
+			<div class="row">
+        		<div class="twelve columns">
+        			{{content}} 
+        		</div>
+      		</div>
+    	</div>
 		
-		<p>
-			<a href="http://marcduiker.github.io/">Back to index</a> 
-		</p>
+		<div class="container">
+			<div class="row">
+        		<div class="twelve columns" style="margin-top: 5%">
+        			<p>
+						<a href="http://marcduiker.github.io/">Back to index</a> 
+					</p>
+        		</div>
+      		</div>
+    	</div>
+		
 		{% include footer.html %}
 	</body>
 </html>
