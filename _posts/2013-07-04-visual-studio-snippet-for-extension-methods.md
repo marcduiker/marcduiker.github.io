@@ -4,7 +4,7 @@ title: Visual Studio Snippet for Extension Methods
 tags: .Net, extension methods, snippets, Visual Studio
 ---
 
-[![Extension method snippet]][1]
+![Extension method snippet]({{ site.url }}/assets/2013/07/04/ExtensionMethodSnippet.png)
 
 ##Extension methods
 
@@ -19,5 +19,3 @@ After importing the snippet via _Tools > Code Snippets Manager_ you can use it b
 ##Source
 
 {% gist 64a512a057644533eefc %}
-
-[1]: {{ site.url }}/assets/2013/07/04/ExtensionMethodSnippet.png
