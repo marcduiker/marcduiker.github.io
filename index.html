@@ -4,22 +4,41 @@ title: Marc Duiker - blog post index
 
 <!DOCTYPE html>
 <html lang="en">
-	{% include head.html %}
-	<body>
-		{% include header.html %}
-		
-    <em>Warning: this page and its subpages are heavily under construction. For now I'm just focussing on content (blog posts). Some sort of styling will eventually follow ;).</em>
-    
-		<h2>Posts</h2>
-    <ul>
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">{{ post.date | date_to_long_string }} - {{ post.title }}</a>
-      </li>
-    {% endfor %}
-    </ul>
-    
-    {% include footer.html %}
-	</body>
-</html>
+<body>
+  
+  {% include head.html %}
+  
+   <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        {% include header.html %} 
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <em>Warning: this page and its subpages are heavily under construction. For now I'm just focussing on content (blog posts). Some sort of styling will eventually follow ;).</em>
+        <h2>Posts</h2>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.date | date_to_long_string }} - {{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        {% include footer.html %} 
+      </div>
+    </div>
+  </div>
 
+</body>
+</html>
