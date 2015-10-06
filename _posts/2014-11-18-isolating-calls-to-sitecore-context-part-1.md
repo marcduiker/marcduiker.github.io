@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Isolating calls to Sitecore.Context for improved unit testability (part I: ItemProvider, Moq and FakeDb)
+title: Isolating calls to Sitecore.Context for improved unit testability - Part I - ItemProvider, Moq and FakeDb
 tags: Sitecore, .Net, unit testing
 ---
 
