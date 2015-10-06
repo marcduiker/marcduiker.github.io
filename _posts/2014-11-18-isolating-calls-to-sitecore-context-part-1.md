@@ -72,7 +72,7 @@ Let's look at the the unit test in more detail.
 
 Though this example is fairly straightforward it demonstrates how to write testable code when you're dealing with Sitecore projects. Writing testable code and using a mocking framework in combination with Sitecore.FakeDb in unit tests can be a bit of a learning curve but I consider these as must have skills for any Sitecore developer these days.
 
-In the next post I'll show a similar approach with an `ItemProvider` that uses an `ItemAdapter` instead of a regular Sitecore item. 
+In the [next post]({{ site.url }}/2014/11/22/isolating-calls-to-sitecore-context-part-2.html) I'll show a similar approach with an `ItemProvider` that uses an `ItemAdapter` instead of a regular Sitecore item. 
 
 ##Source code
 
