@@ -12,6 +12,6 @@ Here's an impression of the keynote session.
 
 {% for i in (1..9) %}
   
-  ![]({{ site.url }}/assets/2014/09/24/sitecoresymposium-0{{ i }}.jpg)
+  ![]({{ site.url }}/assets/2014/09/23/sitecoresymposium-0{{ i }}.jpg)
 
 {% endfor %}
