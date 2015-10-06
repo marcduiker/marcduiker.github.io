@@ -25,7 +25,7 @@ Github has a really great feature called [Github Pages](https://pages.github.com
 The website is generated through [Jekyll](http://jekyllrb.com/). This is a very straightforward static site generator built with [Ruby](https://www.ruby-lang.org/) and has good support for blogging.
 
 ####Templates: Liquid
-Don't be fooled with the term 'static site'. It certainly does not mean you have to write a full html page for each post. Jekyll uses the [Liquid templating engine](https://github.com/Shopify/liquid/wiki) and with it you can break down a html page in reusable components (for head, header, footer, content etc).
+Don't be fooled with the term 'static site'. It certainly does not mean you have to write a full html page for each post. Jekyll uses the [Liquid templating engine](https://github.com/Shopify/liquid/wiki) and with it you can break down an html page in reusable components (for head, header, footer, content etc).
 
 I used [Visual Studio Code](https://code.visualstudio.com/) to create the html components.
 
@@ -43,7 +43,7 @@ Now the blog looks good again and writing posts has become much simpler and more
 
 ###My blogging workflow
 
-- I have a local (and up-to-date) repository of the remote `marcduiker.github.io` repo.
+- I have a local (and up-to-date) repository of the remote [`marcduiker.github.io`](https://github.com/marcduiker/marcduiker.github.io) repo.
 - I copy the default blog post Markdown file and give it a proper name according to the Jekyll naming convention.
 -  I start editing the content of blog post file using [MarkdownPad2](http://markdownpad.com/).
 - When I can't finish the post in one go I save it in the `_drafts` folder.
