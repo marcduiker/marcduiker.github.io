@@ -4,7 +4,7 @@ title: "Isolating calls to Sitecore.Context for improved unit testability - Part
 tags: Sitecore, .Net, unit testing
 ---
 
-![I find your lack of unit tests disturbing!]({{ site.url }}/assets/2014/11/18/vader unit tests.jpg)
+<img class="u-max-full-width" src="{{ site.url }}/assets/2014/11/18/vader unit tests.jpg" alt="I find your lack of unit tests disturbing!">
 
 ##Sitecore projects and (un)testable code
 

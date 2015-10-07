@@ -4,8 +4,7 @@ title: "Moving my blog - I <3 Github &amp; Markdown"
 tags: Github, markdown
 ---
 
-![Moved blog to Github, writing posts in markdown]({{ site.url }}/assets/2015/10/06/successkid-blog.jpg
-)
+<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/06/successkid-blog.jpg" alt="Moved blog to Github, writing posts in markdown.">
 
 ##The blogging experience
 

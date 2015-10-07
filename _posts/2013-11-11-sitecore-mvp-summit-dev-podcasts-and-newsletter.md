@@ -4,8 +4,7 @@ title: Sitecore MVP Summit, Dev Podcasts and Newsletter
 tags: Sitecore, MVP, summit, learning
 ---
 
-![Sitecore MVP Summit Miami]({{ site.url }}/assets/2013/11/11/Sitecore MVP summit 2013.png)
-
+<img class="u-max-full-width" src="{{ site.url }}/assets/2013/11/11/Sitecore MVP summit 2013.png" alt="Sitecore MVP Summit Miami">
 
 ##Sitecore MVP Summit Miami
 

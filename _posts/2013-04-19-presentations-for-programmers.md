@@ -4,10 +4,11 @@ title: Presentations for Programmers
 tags: presenting, html5, soft skills
 ---
 
-[![Presentations for programmers][2]][1]
+<a href="http://marcduiker.azurewebsites.net/presentations/presentations%20for%20programmers.html#/" target="_blank">
+  <img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/19/Presentations for programmers.png" alt="Presentations for programmers">
+</a>
 
-[1]: http://marcduiker.azurewebsites.net/presentations/presentations%20for%20programmers.html#/
-[2]: {{ site.url }}/assets/2013/04/19/Presentations for programmers.png
+<small>(click to open the presentation)</small>
 
 ##Great Slides + Great Speaker = Great Presentation
 

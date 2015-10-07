@@ -4,7 +4,7 @@ title: Lazy Programmers User Code Snippets
 tags: .Net, C#, productivity, snippets, Visual Studio
 ---
 
-![Full property code snippet]({{ site.url }}/assets/2013/07/07/propfull_snippet.png)
+<img class="u-max-full-width" src="{{ site.url }}/assets/2013/07/07/propfull_snippet.png" alt="Full property code snippet">
 
 ##The best programmers are lazy
 

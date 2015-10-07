@@ -12,6 +12,6 @@ Here's an impression of the keynote session.
 
 {% for i in (1..9) %}
   
-  ![]({{ site.url }}/assets/2014/09/23/sitecoresymposium-0{{ i }}.jpg)
+  <img class="u-max-full-width" src="{{ site.url }}/assets/2014/09/23/sitecoresymposium-0{{ i }}.jpg">
 
 {% endfor %}

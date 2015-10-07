@@ -4,7 +4,7 @@ title: "Isolating calls to Sitecore.Context for improved unit testability - Part
 tags: Sitecore, .Net, unit testing
 ---
 
-![I find your lack of unit tests disturbing!]({{ site.url }}/assets/2014/11/22/norris adapt.jpg)
+<img class="u-max-full-width" src="{{ site.url }}/assets/2014/11/22/norris adapt.jpg" alt="I don't adapt to my environment, my enviroment adapts to me.">
 
 ##Recap of Part I
 

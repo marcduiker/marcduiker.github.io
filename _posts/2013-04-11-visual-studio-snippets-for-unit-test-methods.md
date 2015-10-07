@@ -4,7 +4,7 @@ title: Visual Studio Snippets for Unit Test Methods
 tags: unit testing, code quality, code snippet
 ---
 
-![]({{ site.url }}/assets/2013/04/11/NUnit test snippet.png)
+<img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/11/NUnit test snippet.png" alt="NUnit test snippet">
 
 ##Unit Test Method Naming
 As mentioned in a previous post, having a clear naming convention for unit test methods is important to keep tests readable and maintainable. Sticking to the convention might be difficult at first and require some discipline but is definitely worth it in the long run.

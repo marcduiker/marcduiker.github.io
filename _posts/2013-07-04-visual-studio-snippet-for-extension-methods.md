@@ -4,7 +4,7 @@ title: Visual Studio Snippet for Extension Methods
 tags: .Net, extension methods, snippets, Visual Studio
 ---
 
-![Extension method snippet]({{ site.url }}/assets/2013/07/04/ExtensionMethodSnippet.png)
+<img class="u-max-full-width" src="{{ site.url }}/assets/2013/07/04/ExtensionMethodSnippet.png" alt="Extension method snippet">
 
 ##Extension methods
 
