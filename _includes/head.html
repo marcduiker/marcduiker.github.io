@@ -2,7 +2,7 @@
 
   <meta charset="utf-8">
   <title>Marc Duiker about Sitecore, .Net, code quality and continuous integration.</title>
-  <meta name="description" content="Blog about Sitecore, .Net, code quality and continuous integration.">
+  <meta name="description" content="{{ page.title }}" />
   <meta name="author" content="Marc Duiker">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,5 +14,8 @@
   <link rel="stylesheet" href="{{ site.url }}/css/blog.css">
 
   <link rel="icon" type="image/png" href="{{ site.url }}/assets/favicon.ico">
-
+  
+  {% if page.canonical %}
+    <link rel="canonical" href="{{ site.url }}/css/blog.css">
+  {% endif %}
 </head>

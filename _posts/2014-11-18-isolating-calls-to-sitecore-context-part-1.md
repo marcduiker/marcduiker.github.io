@@ -2,6 +2,7 @@
 layout: post
 title: "Isolating calls to Sitecore.Context for improved unit testability - Part I: ItemProvider, Moq and FakeDb"
 tags: Sitecore, .Net, unit testing
+canonical: "http://marcduiker.blogspot.nl/2014/11/isolating-calls-to-sitecorecontext-for.html"
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2014/11/18/vader unit tests.jpg" alt="I find your lack of unit tests disturbing!">
