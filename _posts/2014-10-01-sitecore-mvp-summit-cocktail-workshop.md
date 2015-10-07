@@ -12,7 +12,7 @@ Here's a small impression of the evening. If you want to see all the pictures (a
 
 {% for i in (1..12) %}
   
-  ![]({{ site.url }}/assets/2014/10/01/sitecoremvpcocktailparty-{{ i }}.jpg)
+  <img class="u-max-full-width" src="{{ site.url }}/assets/2014/10/01/sitecoremvpcocktailparty-{{ i }}.jpg">
 
 {% endfor %}
 
