@@ -2,6 +2,7 @@
 layout: post
 title: Sitecore MVP Summit Cocktail Workshop (photo impression)
 tags: Sitecore, MVP, summit, photo impression, barcelona
+canonical: "http://blog.marcduiker.nl/2014/10/sitecore-mvp-summit-cocktail-workshop.html"
 ---
 
 ##MVP Summit Barcelona

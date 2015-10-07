@@ -2,6 +2,7 @@
 layout: post
 title: Visual Studio Snippets for Unit Test Methods
 tags: unit testing, code quality, code snippet
+canonical: "http://blog.marcduiker.nl/2013/04/visual-studio-snippets-for-unit-test.html"
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/11/NUnit test snippet.png" alt="NUnit test snippet">

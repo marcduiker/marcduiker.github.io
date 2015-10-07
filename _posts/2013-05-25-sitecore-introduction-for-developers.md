@@ -2,6 +2,7 @@
 layout: post
 title: Sitecore Introduction for Developers
 tags: Sitecore, presentation, html5
+canonical: "http://blog.marcduiker.nl/2013/05/sitecore-introduction-for-developers.html"
 ---
 <a href="http://marcduiker.azurewebsites.net/presentations/sitecore.html#/" target="_blank">
   <img class="u-max-full-width" src="{{ site.url }}/assets/2013/05/25/Sitecore Intro.png" alt="Sitecore introduction for programmers">

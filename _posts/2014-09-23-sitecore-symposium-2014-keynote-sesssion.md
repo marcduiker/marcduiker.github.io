@@ -2,6 +2,7 @@
 layout: post
 title: Sitecore Symposium 2014 - Keynote Session (photo impression)
 tags: Sitecore, symposium, photo impression, barcelona
+canonical: "http://blog.marcduiker.nl/2014/09/sitecore-symposium-2014-keynote-session.html"
 ---
 
 ##Barcelona Keynote Session
