@@ -4,9 +4,8 @@ title: TITLE
 tags: TAGS
 ---
 
-[![ALTTEXT][2]][1]
-
-[1]: HYPERLINK
-[2]: {{ site.url }}/assets/YYYY/MM/DD/image.png
+<a href="" target="_blank">
+  <img class="u-max-full-width" src="" alt="">
+</a>
 
 ##Heading
