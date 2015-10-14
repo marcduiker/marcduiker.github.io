@@ -57,7 +57,7 @@ Slack is great for synchronous conversations, it's not meant for one-off message
 _Am I a Slack fanboy? Oh yes :). I'm currently in three Slack teams which works seamlessly when the desktop client is used._
 
 ###Yammer
-[Yammer](http://www.yammer.com) promotes itself as the enterprise social network for businesses. It's the Facebook for organizations. It handles one-off/one-way messages very well. It's great for news updates about an upcoming event you want to promote or showing appreciation to a colleague. Your co-workers can like the message and reply to it but it's not a platform for real-time conversations. I'd say it's quite complementary to what Slack is offering. 
+[Yammer](http://www.yammer.com) promotes itself as the enterprise social network for businesses. It's the Facebook for organizations. It handles one-off/asynchronous messages very well. It's great for news updates about an upcoming event you want to promote or showing appreciation to a colleague. Co-workers on Yammer can like the message and reply to it but it's not a platform for synchronous conversations. I'd say it's quite complementary to what Slack is offering. 
 
 My two major complaints with Yammer are:
 
