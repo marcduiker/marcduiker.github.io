@@ -9,8 +9,9 @@ tags: communication, team
 </a>
 
 ##Team communication
-My work at [Tahzoo](http://www.tahzoo.com) and the work I do for the [Dutch Sitecore user group](http://www.sugnl.net) require me to do a lot of communication in distributed teams. 
-Since there are so many communication tools out there I want to share my opinion on some of these tools so perhaps you can make a better informed judgment when deciding which tools to use.
+My work at [Tahzoo](http://www.tahzoo.com) and the work I do for the [Dutch Sitecore user group](http://www.sugnl.net) require me to do a lot of communication in distributed teams.
+Effective and clear communication is difficult, even more so when the team members are at different locations. Having the right tools in place helps a lot.
+Since there are so many communication tools out there I want to share my opinion on some of these so perhaps you can make a more informed judgment when deciding which tools to use.
 
 __Go straight to the [TL;DR](#tldr)__
 
@@ -18,7 +19,7 @@ __Go straight to the [TL;DR](#tldr)__
 There are various types of communication I do during the day:
 
 - Informing my local colleagues of a new technology meetup we should attend.
-- Performing a code review with of of my team members who is located in another country.
+- Performing a code review with one of my team members who is located in another country.
 - Show appreciation towards a colleague who did something great in a project.
 - Discuss with colleagues (world wide) how to unify our continuous integration set-ups.
 - Converse with fellow Sitecore user group organization members and hosts (located throughout the Netherlands) about the topics of the next user group meeting.
