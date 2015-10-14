@@ -5,7 +5,7 @@ tags: communication, team
 ---
 
 <a href="https://slack.com" target="_blank">
-  <img class="u-max-full-width" src="{ site.url }/assets/2015/10/14/slack_home.png" alt="Slack">
+  <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/14/slack_home.png" alt="Slack">
 </a>
 
 ##Team communication
@@ -69,7 +69,7 @@ My two major complaints with Yammer are:
 I would only recommend Skype when video or screen sharing is required and Google Hangouts can't be used. I wouldn't recommend it for chat conversations due to it's lack of channels, less advanced notifications and lack of integrations when compared to Slack.
 
 ###Office365
-With Office365 you can create [public or private groups](https://www.youtube.com/watch?v=t3OLvYXepvE) and start a 'conversation' there. Don't expect a fluent conversation experience such as Slack though. The conversation is actually made up of email like messages on which you can perform actions such as reply, reply all, forward and like. It's a good fit for more official communication, capturing information and documenting especially when you use the other integrated functionalities such as Files, Calender and Notebook. It still seems that Office365 is not 100% cross-browser compatible though. I couldn't access a group Notebook using Chrome :(.
+With Office365 you can create [public or private groups](https://www.youtube.com/watch?v=t3OLvYXepvE) and start a 'conversation' there. Don't expect a fluent conversation experience such as Slack though. The conversation is actually made up of email like messages on which you can perform actions such as reply, reply all, forward and like. It's a good fit for more official communication, capturing information and documenting everthing long term, especially when you use the other integrated functionalities such as Files, Calender and Notebook. It still seems that Office365 is not 100% cross-browser compatible though. I couldn't access a group Notebook using Chrome :(.
 
 ###Google Hangouts
 I use [Google Hangouts](https://hangouts.google.com/) frequently for video conferencing with other Sitecore user group members. Stability and video quality is good and screen sharing works flawlessly. If you have a Youtube channel as well you can even do live streaming. I hardly use Hangouts for chat anymore since it's far behind compared to Slack.
@@ -78,8 +78,7 @@ I use [Google Hangouts](https://hangouts.google.com/) frequently for video confe
 
 _There is simply not just one tool that can supports everything well. So pick the right tool for the right job._
 
-- For synchronous conversations/discussions use [Slack](http://www.slack.com) because the conversations are focused in 
-- channels/groups and it offers handy integrations.
+- For synchronous conversations/discussions use [Slack](http://www.slack.com) because the conversations are focused in channels/groups and it offers handy integrations.
 - For one-off/asynchronous messages, targeted to either the whole organization or to a group, use [Yammer](http://www.yammer.com).
 - For video conferencing use Google Hangouts or Skype. I have a slight preference for Hangouts since it integrates with Slack :).
 
