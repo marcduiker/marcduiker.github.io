@@ -12,7 +12,7 @@ tags: communication, team
 My work at [Tahzoo](http://www.tahzoo.com) and the work I do for the [Dutch Sitecore user group](http://www.sugnl.net) require me to do a lot of communication in distributed teams. 
 Since there are so many communication tools out there I want to share my opinion on some of these tools so perhaps you can make a better informed judgment when deciding which tools to use.
 
-####Go straight to the [TL;DR](#tldr)
+__Go straight to the [TL;DR](#tldr)__
 
 ###Types of communication
 There are various types of communication I do during the day:
