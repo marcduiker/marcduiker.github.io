@@ -26,21 +26,6 @@ title: "Marc Duiker about Sitecore, .Net, code quality and continuous integratio
         </div>
       </div>
       
-      <div class="row">
-        <div class="twelve columns">
-          <h2>Drafts</h2>
-          <ul>
-            {% for post in site.posts %}
-              {% if post.draft %}
-                <li>
-                  {{ post.title }}
-                </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-      
     </div>
     
     {% include footer.html %} 
