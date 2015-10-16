@@ -2,6 +2,7 @@
 layout: post
 title: "Ruling the Sitecore seas with Ship - Part 2: publish"
 tags: Sitecore, Ship, continuous integration, deployment
+date: 2015-10-16 00:00:00
 draft: true
 ---
 
