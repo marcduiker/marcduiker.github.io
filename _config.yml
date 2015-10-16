@@ -1,2 +1,5 @@
 gems:
   - jekyll-sitemap
+  
+collections:
+- drafts
