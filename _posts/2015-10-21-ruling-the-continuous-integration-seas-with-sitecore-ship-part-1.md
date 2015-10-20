@@ -4,9 +4,7 @@ title: "Ruling the continuous integration seas with Sitecore.Ship - Part 1"
 tags: Sitecore, Ship, continuous integration, deployment
 ---
 
-<a href="" target="_blank">
-  <img class="u-max-full-width" src="" alt="">
-</a>
+<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/21/picard_packages.jpg" alt="Why the hell are you deploying Sitecore packages manually?">
 
 ##Deploying Sitecore items
 All software development projects that involve Sitecore are faced with the same problem: 
@@ -57,13 +55,14 @@ Let's have a look what's in the NuGet packages of the 0.4.0 pre-release version 
 
 This is the contents of the Sitecore.Ship package:
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/20/ship_nancy_nuget.png" alt="Sitecore.Ship NuGet package">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/21/ship_nancy_nuget.png" alt="Sitecore.Ship NuGet package">
 
 This is the contents of the Sitecore.Ship.AspNet package:
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/20/ship_aspnet_nuget.png" alt="Sitecore.Ship.ASpNet NuGet package">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/21/ship_aspnet_nuget.png" alt="Sitecore.Ship.ASpNet NuGet package">
 
 The assemblies involved are:
+
 - `Sitecore.Ship.Core.dll` - Contains the interfaces, domain objects and services for recording the package installation and parsing the packages. 
 - `Sitecore.Ship.Infrastructure.dll` - Reads the configuration, performs logging, reads/writes the package deployment history and performs the actual installation of items using the Sitecore API. This assembly has dependencies to `Sitecore.Kernel`, `Sitecore.Logging`, `Sitecore.Update` and `Sitecore.Zip`.
 - `Sitecore.Ship.dll` - Contains Install and Publish modules (based on `NancyModule`) which define the HTTP requests that can be executed.
