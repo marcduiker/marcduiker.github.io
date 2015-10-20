@@ -22,7 +22,7 @@ There are several downsides to this manual approach:
  the static way instead of the dynamic way).
 - Correct package installation is never guaranteed to happen in the same way across all 
 environments (or even at all!) because a developer needs to: 
-  1. Wait until the regular deployment of files was finished, 
+  1. Wait until the regular deployment of files is finished (if this takes long the next steps might be forgotten), 
   2. Upload the _right_ packages,
   3. Install the packages in the _right_ order (_and_ select the _correct_ installation options).
 
