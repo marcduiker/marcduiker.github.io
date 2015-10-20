@@ -26,7 +26,7 @@ environments (or even at all!) because a developer needs to:
   2. Upload the _right_ packages,
   3. Install the packages in the _right_ order (_and_ select the _correct_ installation options).
 
-This manual process is very tedious and error prone, even when it's done ny just one person. Fortunately several tools emerged over the years which make packaging and deploying Sitecore items a breeze.
+This manual process is very tedious and error prone, even when it's done by just one person. Fortunately several tools emerged over the years which make packaging and deploying Sitecore items a breeze.
 
 ###Developer friendly and consistent: Sitecore Ship
 One of the tools that made my life a Sitecore developer easier is called [Sitecore.Ship](https://github.com/kevinobee/Sitecore.Ship). 
