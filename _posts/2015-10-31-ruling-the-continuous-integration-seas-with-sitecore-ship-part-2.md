@@ -4,6 +4,8 @@ title: "Ruling the continuous integration seas with Sitecore.Ship - Part 2: file
 tags: Sitecore, Ship, continuous integration, deployment
 ---
 
+<img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/one-does-not-simply-make-a-proper-http-request.jpg" alt="One does not simply make a proper http request.">
+
 ##Deploying Sitecore items with Sitecore.Ship
 
 As I mentioned in the [previous post]({{ site.url }}/2015/10/21/ruling-the-continuous-integration-seas-with-sitecore-ship-part-1.html) 
@@ -22,7 +24,7 @@ The default values of this element are:
   `<packageInstallation enabled="true" allowRemote="false" allowPackageStreaming="false" recordInstallationHistory="false" />`
 
   The attributes are pretty self explanatory. I'll get to the `recordInstallationHistory` in a later post. 
-Just make sure it is `false` otherwise there will be errors about a missing `PackageId`.
+Just make sure it is `false` otherwise there will be errors about a missing _PackageId_.
 
 ###Uploading and installing a package
 One of the most useful commands of Sitecore.Ship is `fileupload`. When you issue an HTTP request to `<website>/services/package/install/fileupload` 
@@ -43,8 +45,8 @@ which I'm using here.
 
   <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/postman_data.png" alt="Postman fileupload post request">
   
-    - Note that the value of the _Key_ parameter (`path` in this example) is actually irrelevant, it can be any value.
-    - Once the value type is set to `File` an _Open file_ dialog can be used to select the file to upload.
+   - Note that the value of the _Key_ parameter (`path` in this example) is actually irrelevant, it can be any value.
+   - Once the value type is set to `File` an _Open file_ dialog can be used to select the file to upload.
 
 
 - Now press the blue Send button to do the post request. 
@@ -82,7 +84,7 @@ from a script during a deployment process as we'll see next.
 In the Gist below you can see the _deploy-sitecorepackage.ps1_ script which I use to upload and deploy Sitecore packages.
 I actually prefer to use the more verbose cURL syntax (e.g. `--form` instead of `-F`) because I believe the intention
 of the script is much more clear to the reader who might not know the syntax well. 
-A full description of the parameters can be found in the [cuRL manual](http://curl.haxx.se/docs/manpage.html).
+A full description of the parameters can be found in the [cURL manual](http://curl.haxx.se/docs/manpage.html).
 
 {% gist 6e3ada7efad84dc418b7 %}
 

@@ -72,4 +72,4 @@ Once the website files are deployed you can issue a POST request to `<website>/s
 Or do a smart publish by doing a POST to `<website>/services/publish/smart`. 
 As usual though the devil in the details and while the [wiki page](https://github.com/kevinobee/Sitecore.Ship/wiki) gives some basic guidance how to start using Sitecore.Ship it is not a complete end-to-end guide how to integrate it in your solution.
 
-In my next blog post I will explain in detail how I'm using Sitecore.Ship with [Powershell](https://msdn.microsoft.com/en-us/mt173057.aspx) and [cURL](http://curl.haxx.se/) in continuous integration setups with tools like Visual Studio Release Management or Octopus Deploy.
+In [the next blog post]({{ site.url }}/2015/10/31/ruling-the-continuous-integration-seas-with-sitecore-ship-part-2.html) I will explain in detail how I'm using Sitecore.Ship with [Powershell](https://msdn.microsoft.com/en-us/mt173057.aspx) and [cURL](http://curl.haxx.se/) in continuous integration setups with tools like Visual Studio Release Management or Octopus Deploy.
