@@ -45,9 +45,8 @@ which I'm using here.
 
   <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/postman_data.png" alt="Postman fileupload post request">
   
-   - Note that the value of the _Key_ parameter (`path` in this example) is actually irrelevant, it can be any value.
-   - Once the value type is set to `File` an _Open file_ dialog can be used to select the file to upload.
-
+- Note that the value of the _Key_ parameter (`path` in this example) is actually irrelevant, it can be any value.
+- Once the value type is set to `File` an _Open file_ dialog can be used to select the file to upload.
 
 - Now press the blue Send button to do the post request. 
 If everything went well output shows the Sitecore IDs and path of the items that were in the package and have been installed: 
@@ -61,7 +60,7 @@ We need a solution that can be automated and used in a continuous integration se
 I first looked into PowerShell and the `Invoke-RestMethod` command but it appeared that OOTB this method does not support 
 multipart form data, which is required to call the `fileupload` command.
 There is [a workaround](http://stackoverflow.com/a/25083745/112544) to create the required multipart boundaries
-in the request but I did not like this approach. I looked for another solution and then found cURL.
+in the request but I did not like this approach. I looked for another solution and found cURL.
 
 [cURL](http://curl.haxx.se/) is a very powerful commandline application to script HTTP jobs. 
 Getting the syntax right can be a little tricky although there is quite some [documentation](http://curl.haxx.se/docs/httpscripting.html).
@@ -72,7 +71,7 @@ Luckily Postman can generate various scripts including one for cURL:
 <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/postman_curl.png" alt="Postman cURL code">
 
 However the cURL script in the screenshot above contains a lot of unncessesary statements and actually gives errors.
-I've found that this is the minimal cURL syntax which works:
+I've found that this is the minimal cURL syntax which works for me:
 
 `curl -F "path=@<path to update or zip package>" 'http://<website>/services/package/install/fileupload'`
 
