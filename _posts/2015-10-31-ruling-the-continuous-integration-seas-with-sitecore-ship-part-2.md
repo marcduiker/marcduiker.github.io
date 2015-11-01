@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruling the Sitecore seas with Ship - Part 2: fileupload"
+title: "Ruling the continuous integration seas with Sitecore.Ship - Part 2: fileupload"
 tags: Sitecore, Ship, continuous integration, deployment
 ---
 
@@ -11,17 +11,17 @@ Sitecore.Ship can be used to install Sitecore `update` or `zip` packages by post
 
 ###Configuration
 
-The configuration of Sitecore.Ship is split into two parts.
+The configuration of Sitecore.Ship is split into two parts:
 
-The __`ship.config`__ file (located in App_Config\Include) contains the 
+- The __`ship.config`__ file (located in App_Config\Include) contains the 
 patched `IgnoreUrlPrefixes` attribute to include the `/services/` url part which Sitecore.Ship is using.
 
-The __`web.config`__ is updated with a  `packageInstallation` element. 
+- The __`web.config`__ is updated with a  `packageInstallation` element. 
 The default values of this element are:
 
-`<packageInstallation enabled="true" allowRemote="false" allowPackageStreaming="false" recordInstallationHistory="false" />`
+  `<packageInstallation enabled="true" allowRemote="false" allowPackageStreaming="false" recordInstallationHistory="false" />`
 
-The attributes are pretty self explanatory. I'll get to the `recordInstallationHistory` in a later post. 
+  The attributes are pretty self explanatory. I'll get to the `recordInstallationHistory` in a later post. 
 Just make sure it is `false` otherwise there will be errors about a missing `PackageId`.
 
 ###Uploading and installing a package
@@ -43,8 +43,9 @@ which I'm using here.
 
   <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/postman_data.png" alt="Postman fileupload post request">
   
-  - Note that the value of the _Key_ parameter (`path` in this example) is actually irrelevant, it can be any value.
-  - Once the value type is set to `File` an _Open file_ dialog can be used to select the file to upload.
+    - Note that the value of the _Key_ parameter (`path` in this example) is actually irrelevant, it can be any value.
+    - Once the value type is set to `File` an _Open file_ dialog can be used to select the file to upload.
+
 
 - Now press the blue Send button to do the post request. 
 If everything went well output shows the Sitecore IDs and path of the items that were in the package and have been installed: 
