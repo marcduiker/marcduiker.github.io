@@ -13,7 +13,8 @@ Sitecore.Ship can be used to install Sitecore `update` or `zip` packages by post
 
 ###Configuration
 
-The configuration of Sitecore.Ship is split into two parts:
+I forgot to talk about the configuration in the previous post so let's have a look at that now. 
+The Sitecore.Ship configuration is split into two parts:
 
 - The __`ship.config`__ file (located in App_Config\Include) contains the 
 patched `IgnoreUrlPrefixes` attribute to include the `/services/` url part which Sitecore.Ship is using.
