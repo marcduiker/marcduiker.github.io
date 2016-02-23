@@ -27,7 +27,7 @@ The default values of this element are:
   The attributes are pretty self explanatory. I'll get to the `recordInstallationHistory` in a later post. 
 Just make sure it is `false` otherwise there will be errors about a missing _PackageId_.
 
-###U ploading and installing a package
+### Uploading and installing a package
 One of the most useful commands of Sitecore.Ship is `fileupload`. When you issue an HTTP request to `<website>/services/package/install/fileupload` 
 you can upload _and_ install a Sitecore package.
 
