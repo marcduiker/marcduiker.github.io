@@ -1,6 +1,4 @@
 gems:
   - jekyll-sitemap
   
-markdown: kramdown 
-redcarpet:   
-  extensions: ["strikethrough"] 
+markdown: kramdown
