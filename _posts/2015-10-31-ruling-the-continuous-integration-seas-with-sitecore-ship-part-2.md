@@ -6,12 +6,12 @@ tags: Sitecore, Ship, continuous integration, deployment
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/one-does-not-simply-make-a-proper-http-request.jpg" alt="One does not simply make a proper http request.">
 
-##Deploying Sitecore items with Sitecore.Ship
+## Deploying Sitecore items with Sitecore.Ship
 
 As I mentioned in the [previous post]({{ site.url }}/2015/10/21/ruling-the-continuous-integration-seas-with-sitecore-ship-part-1.html) 
 Sitecore.Ship can be used to install Sitecore `update` or `zip` packages by posting HTTP requests to the Sitecore site.
 
-###Configuration
+### Configuration
 
 I forgot to talk about the configuration in the previous post so let's have a look at that now. 
 The Sitecore.Ship configuration is split into two parts:
@@ -27,14 +27,14 @@ The default values of this element are:
   The attributes are pretty self explanatory. I'll get to the `recordInstallationHistory` in a later post. 
 Just make sure it is `false` otherwise there will be errors about a missing _PackageId_.
 
-###Uploading and installing a package
+###U ploading and installing a package
 One of the most useful commands of Sitecore.Ship is `fileupload`. When you issue an HTTP request to `<website>/services/package/install/fileupload` 
 you can upload _and_ install a Sitecore package.
 
 The [wiki](https://github.com/kevinobee/Sitecore.Ship/wiki/Package-Install-Upload) describes that you need to provide the path of 
 the package as form-data in the request. Lets have look how that is done exactly.
 
-####Postman
+#### Postman
 The easiest way to test the commands Sitecore.Ship offers is to use an HTTP/REST client such as [Postman](https://www.getpostman.com/),
 which I'm using here.
 
@@ -57,7 +57,7 @@ If everything went well output shows the Sitecore IDs and path of the items that
 So far so good, but we don't want to use Postman manually in order to upload and install packages for every deployment right?
 We need a solution that can be automated and used in a continuous integration setup. 
 
-####cURL
+#### cURL
 I first looked into PowerShell and the `Invoke-RestMethod` command but it appeared that OOTB this method does not support 
 multipart form data, which is required to call the `fileupload` command.
 There is [a workaround](http://stackoverflow.com/a/25083745/112544) to create the required multipart boundaries
@@ -79,7 +79,7 @@ I've found that this is the minimal cURL syntax which works for me:
 Sofar we've only replaced Postman with cURL, but since cURL is a commandline tool it can be easily called 
 from a script during a deployment process as we'll see next.
 
-####PowerShell
+#### PowerShell
 
 In the Gist below you can see the _deploy-sitecorepackage.ps1_ script which I use to upload and deploy Sitecore packages.
 I actually prefer to use the more verbose cURL syntax (e.g. `--form` instead of `-F`) because I believe the intention

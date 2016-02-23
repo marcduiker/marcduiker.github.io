@@ -7,10 +7,10 @@ canonical: "http://blog.marcduiker.nl/2013/04/visual-studio-snippets-for-unit-te
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/11/NUnit test snippet.png" alt="NUnit test snippet">
 
-##Unit Test Method Naming
+## Unit Test Method Naming
 As mentioned in a previous post, having a clear naming convention for unit test methods is important to keep tests readable and maintainable. Sticking to the convention might be difficult at first and require some discipline but is definitely worth it in the long run.
 
-###Visual Studio Snippets
+### Visual Studio Snippets
 In order to make it easy for myself (and other developers) to use the `<UnitOfWork> _ <StateUnderTest> _ <ExpectedBehaviour>` naming convention, I've created two code snippets, one for NUnit and one for MSTest.
 After importing the snippets (see below) you can use the them by typing:
 
@@ -22,7 +22,7 @@ or
 
 The resulting code is displayed at the top of this post. The snippets use three placeholders (marked in yellow) which make up the method name using the suggested convention. In addition I've added Arrange, Act, Assert comments in order to help structuring the test.
 
-###Importing Snippets
+### Importing Snippets
 Once you've downloaded the snippet(s) open Visual Studio and go to _Tools > Code Snippets Manager_.
 
 ![]({{ site.url }}/assets/2013/04/11/1 Code Snippets Manager.png)
@@ -39,7 +39,7 @@ Click _Finish_ and the snippets are ready to be used. To verify that they are in
 
 Reducing some boiler plate coding is always a good thing and I hope you'll find these snippets convenient.
 
-##Resources
+## Resources
 - [NUnit code snippet](https://www.dropbox.com/s/86kpsnagd7ftgtc/nunit_testmethod.snippet)
 - [MSTest code snippet](https://www.dropbox.com/s/870fi15c4oik5qo/ms_testmethod.snippet)
 

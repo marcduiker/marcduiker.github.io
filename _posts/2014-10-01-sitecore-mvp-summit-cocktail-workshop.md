@@ -5,7 +5,7 @@ tags: Sitecore, MVP, summit, photo impression, barcelona
 canonical: "http://blog.marcduiker.nl/2014/10/sitecore-mvp-summit-cocktail-workshop.html"
 ---
 
-##MVP Summit Barcelona
+## MVP Summit Barcelona
 
 Directly after Sitecore Symposium Barcelona had finished the Sitecore MVP Summit started. And it started in style. We were taken to [Dry Martini The Academy](http://www.javierdelasmuelas.com/eng/dry/barcelona/the-academy-v2) where a cocktail making workshop was organised. The evening was completed with a excellent dinner at [Speakeasy](http://www.speakeasy-bcn.com/en/).
 

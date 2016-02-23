@@ -11,7 +11,7 @@ canonical: "http://blog.marcduiker.nl/2013/04/the-importance-of-good-unit-tests-
 
 I'm currently following an [online TDD course](https://www.udemy.com/draft/14162/) by [Roy Osherove](http://osherove.com/). I'm about half way through and although I have quite a bit of experience writing unit tests and using test frameworks I've gained a lot of knowledge from the course already. Here are some highlights about good unit tests and test reviews.
 
-##Good Unit Tests
+## Good Unit Tests
 Roy stresses the importance of the three pillars of a good unit test:
 
 1. Readability
@@ -20,10 +20,10 @@ Roy stresses the importance of the three pillars of a good unit test:
 
 If any of these are not taken into account during development developers are likely to drop unit tests all together because it will become a burden to use instead of an aid.
 
-##Unit Test Reviews
+## Unit Test Reviews
 In one of the lessons Roy talks about the importance of test reviews. Having a high code coverage doesn't guarantee your code is good because you could be testing the wrong thing. Doing test reviews can help in ensuring the unit tests are correct. The unit tests themselves should be easy to read and understand to ensure maintainability.
 
-##Guidelines for Writing and Reviewing Tests
+## Guidelines for Writing and Reviewing Tests
 
 1. Unit tests should be easy to locate in the solution. Are the unit tests in a separate project?
 2. Readability is key in unit testing. Is there a clear naming convention?

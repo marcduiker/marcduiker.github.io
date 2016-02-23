@@ -7,11 +7,11 @@ canonical: "http://blog.marcduiker.nl/2013/07/lazy-programmers-use-code-snippets
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2013/07/07/propfull_snippet.png" alt="Full property code snippet">
 
-##The best programmers are lazy
+## The best programmers are lazy
 
 The great [Larry Wall](http://en.wikipedia.org/wiki/Larry_Wall) (author of Perl) claimed that laziness is one of the greatest virtues a programmer could develop. The best programmers are lazy in the sense that they do not write duplicate code or take pleasure in writing boilerplate code. They are efficient in writing code that follows the [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself), [KISS](http://en.wikipedia.org/wiki/KISS_principle) and [YAGNI](http://en.wikipedia.org/wiki/You_aren't_gonna_need_it) principles.
 
-###Efficient IDE usage
+### Efficient IDE usage
 
 Next to writing as few lines of code as possible (without compromising on readability ofcourse), being a lazy programmer also means using the IDE efficiently.
 
@@ -21,7 +21,7 @@ This means:
 2. Using keyboard shortcuts instead of navigating through long menus.
 3. Using code snippets instead of writing boilerplate code.
 
-###Code Snippets
+### Code Snippets
 
 Ever since the 2005 edition, Visual Studio allows inserting blocks of reusable code, called code snippets, through shortcut keys (or the context menu, but truly lazy programmers don't take away their hands off the keyboard).
 
@@ -44,7 +44,7 @@ __So if you want to be a lazy programmer learn these snippet shortcuts by heart!
 
 Simply invoke the snippet by typing the shortcut followed by `[TAB]`. [Here's a list](http://msdn.microsoft.com/en-us/library/z41h7fat.aspx) with more built-in shortcuts if you're eager for more.
 
-###Get lazier: write your own snippets!
+### Get lazier: write your own snippets!
 
 If you want to be as lazy as me you can easily [write your own snippets](http://msdn.microsoft.com/en-us/library/ms165394.aspx) as I've done for [extension methods]({{ site.url }}/2013/07/04/visual-studio-snippet-for-extension-methods.html), [unit tests]({{ site.url }}/2013/04/11/visual-studio-snippets-for-unit-test-methods.html) and more. The [Snippet Designer plugin](http://visualstudiogallery.msdn.microsoft.com/B08B0375-139E-41D7-AF9B-FAEE50F68392) can be useful if you don't like editing the raw XML.
 
