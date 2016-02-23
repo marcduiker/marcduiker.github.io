@@ -1,4 +1,6 @@
 gems:
   - jekyll-sitemap
-  
+  - jekyll-paginate
+  - jekyll-gist
+
 markdown: kramdown
