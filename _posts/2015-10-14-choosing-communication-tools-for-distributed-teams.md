@@ -38,7 +38,7 @@ _Please note that this is not an extensive list of communication tools out there
 
 ###Slack
 [Slack.com](https://slack.com) is definitely my favorite conversation platform nowadays. I like the minimal interface on the web and the desktop client, the ability to focus conversations around topics and the intuitive way of notifying people.
-I haven't even started about the fantastic [integrations](http://www.slack.com/services/new) it offers with other tools.
+I haven't even started about the fantastic [integrations](https://slack.com/apps) it offers with other tools.
 
 Slack is great for synchronous conversations, it's not meant for one-off messages.
 With Slack you can communicate in three ways:
@@ -49,11 +49,11 @@ With Slack you can communicate in three ways:
 
 What I really like about Slack is that you can easily notify other users in different ways:
 
-- type `@<username>` in a group or channel to notify one user in specific. The others in the group/channel can also see this message but won't receive a notification.
-- type `@all` in a channel to notify all members of that channel with your message.
-- type `@group` in a group to notify all members of the group with your message.
+- type `@<username>` in a channel to notify one user in specific. The others in the group/channel can also see this message but won't receive a notification.
+- type `@channel` in a channel to notify all members of that channel with your message.
+- type `@everyone` in a public channel to notify the entire team.
 
-Next to the web interface Slack has [desktop clients](https://slack.com/apps) for Windows, Mac and Linux. Mobile apps are available for Android, iOS and Windows.
+Next to the web interface Slack has [desktop clients](https://slack.com/downloads) for Windows, Mac and Linux. Mobile apps are available for Android, iOS and Windows.
 
 _Am I a Slack fanboy? Oh yes :). I'm currently in three Slack teams which works seamlessly with the desktop client._
 
