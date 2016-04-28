@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sitecore investigation: Errors installing content package with item buckets"
+title: "Sitecore investigation: Errors installing a content package with item buckets"
 tags: Sitecore, bucket, index, error
 ---
 
@@ -28,6 +28,6 @@ When you use item buckets, make sure you uncomment the `RemoveEmptyBucketFolders
 
 {% gist 0f1e7c266f5e45dbce269bef841d50ef %}
 
-Finally always double check if there are empty `Bucket` folder items before making a content package that will contain bucketable items. 
+Finally, always double check if there are empty `Bucket` folder items before making a content package that will contain bucketable items. 
 
 __Case closed__
