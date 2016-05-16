@@ -19,7 +19,7 @@ We needed a way to update the content items with the workflow that was set on th
 For me this was an excellent opportunity to try SPE. I wrote a Sitecore PowerShell script to update _Workflow_ and _Workflow state_ fields, posted it [in a gist](https://gist.github.com/marcduiker/950e0358bb4752ed5b047931a8c958c1) and [tweeted](https://twitter.com/marcduiker/status/728375187431936000) about it. I got in contact with [Michael West](https://twitter.com/michaelwest101) and Adam Najmanowicz (the developers of SPE) who made some excellent suggestions to improve the user friendliness of the script.
 
 ## Workflow Management Module
-Adam asked if I could turn the script into a custom SPE module that could be installed alongside SPE. I really liked this idea and this made me delve deeper in SPE which btw is [extremely well documented](https://sitecorepowershell.gitbooks.io/sitecore-powershell-extensions/content/).
+Adam asked if I could turn the script into a custom SPE module that could be installed alongside SPE. I really liked this idea and this made me delve deeper in SPE which is btw [extremely well documented](https://sitecorepowershell.gitbooks.io/sitecore-powershell-extensions/content/).
 
 And now the Workflow Management module is ready. Currently only containing one toolbox action: _Update workflow and state for content items_ but more will follow.
 
@@ -60,7 +60,8 @@ To update the content items with the workflow and workflow state you can choose 
 - Update workflow for all items.
 - Update workflow for selected items.
 
-After running one of these actions you will see a notification about the number of items that have been processed and the list will be updated and now including the _workflow ID_ and _workflow state ID_ values for the items. 
+After running one of these actions you will see a notification about the number of items that have been processed.
+The list will be updated and now includes the _workflow ID_ and _workflow state ID_ values for the items. 
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_report2.png" alt="Workflow Management SPE Module">
 
