@@ -64,6 +64,13 @@ After running one of these actions you will see a notification about the number 
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_report2.png" alt="Workflow Management SPE Module">
 
-### Source
+## Final Thoughts
+
+This was mostly a fun learning exercise for me getting to know Sitecore PowerShell Extensions. I really like SPE and I plan to use it much more for automating tedious manual tasks.
+
+I do hope this Workflow Management module can be of use to others. Please make sure you try it on a development or test environment first before using it on production.
+
+When I tested it on 101 content items it took about 10 seconds to process them on my (outdated) local machine. So be careful when you want to process large amounts of items. 
+In that case you might be better of with the [simple script](https://gist.github.com/marcduiker/950e0358bb4752ed5b047931a8c958c1) without the UI. 
 
 If you have any feature requests or issues, please post them on [GitHub](https://github.com/marcduiker/SPE-Modules).
