@@ -4,9 +4,9 @@ title: "Workflow Management SPE Module"
 tags: sitecore PowerShell Extensions Workflow Management
 ---
 
-<a href="" target="_blank">
-  <img class="u-max-full-width" src="" alt="">
-</a>
+
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement.png" alt="Workflow Management SPE Module">
+
 
 ## Sitecore PowerShell Extensions first encounter
 
@@ -48,6 +48,7 @@ Here you need to select the __workflow state__ which is expected to be set on th
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_dialog2.png" alt="Workflow Management SPE Module">
 
 Once you click _Proceed_ the script will do the following:
+
 - Find the workflow for the selected workflow state.
 - Find the templates which have the workflow set on the _Default workflow_ field in their ___Standard Values_.
 - Find the content items based on these templates and only list those items which _Workflow_ field are empty.
@@ -55,6 +56,7 @@ Once you click _Proceed_ the script will do the following:
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_report1.png" alt="Workflow Management SPE Module">
 
 To update the content items with the workflow and workflow state you can choose between two actions in the menu:
+
 - Update workflow for all items.
 - Update workflow for selected items.
 
