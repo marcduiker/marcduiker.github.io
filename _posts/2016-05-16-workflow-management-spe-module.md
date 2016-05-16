@@ -5,7 +5,7 @@ tags: sitecore PowerShell Extensions Workflow Management
 ---
 
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management.png" alt="Workflow Management SPE Module">
 
 
 ## Sitecore PowerShell Extensions first encounter
@@ -29,23 +29,23 @@ You'll need SPE v4 and Sitecore 8.x to make use of the module. The zip package c
 
 Install the zip package using the Installation Wizard:
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_install1.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_install1.png" alt="Workflow Management SPE Module">
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_install2.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_install2.png" alt="Workflow Management SPE Module">
 
 ### Workflow Management toolbox
 
 Once the package is installed you'll see that a _Workflow Management_ element is added to the PowerShell toolbox:
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_toolbox.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_toolbox.png" alt="Workflow Management SPE Module">
 
 When you click the _Update workflow and state for content items_ action you'll be presented with the following dialog: 
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_dialog1.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_dialog1.png" alt="Workflow Management SPE Module">
 
 Here you need to select the __workflow state__ which is expected to be set on the content items in a later stage. 
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_dialog2.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_dialog2.png" alt="Workflow Management SPE Module">
 
 Once you click _Proceed_ the script will do the following:
 
@@ -53,7 +53,7 @@ Once you click _Proceed_ the script will do the following:
 - Find the templates which have the workflow set on the _Default workflow_ field in their ___Standard Values_.
 - Find the content items based on these templates and only list those items which _Workflow_ field are empty.
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_report1.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_report1.png" alt="Workflow Management SPE Module">
 
 To update the content items with the workflow and workflow state you can choose between two actions in the menu:
 
@@ -62,7 +62,7 @@ To update the content items with the workflow and workflow state you can choose 
 
 After running one of these actions you will see a notification about the number of items that have been processed and the list will be updated and now including the _workflow ID_ and _workflow state ID_ values for the items. 
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_mamangement_report2.png" alt="Workflow Management SPE Module">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2016/05/16/workflow_management_report2.png" alt="Workflow Management SPE Module">
 
 ### Source
 
