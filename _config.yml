@@ -2,6 +2,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-feed
 markdown: kramdown
 future: true
 paginate: 50
