@@ -39,15 +39,15 @@ Here's how I refactored the unit test:
 There are two major differences:
 
 - Creation of fake objects and the request object is now done in private methods. This allows re-usage of these methods in future unit tests. When the number of these helper methods grows you should consider moving them to a seperate class.
-- [Named arguments](https://msdn.microsoft.com/en-us/library/dd264739.aspx) are used when calling the helper methods and for constructing the `MovieService`. It is now evident what the `null` values actually represent. An alternative would be to declare seperate variables for all these arguments. Although that would be very clear and descriptive I believe that would hurt readability because the Arrange section would get quite bulky again.
+- [Named arguments](https://msdn.microsoft.com/en-us/library/dd264739.aspx) are used when calling the helper methods and for constructing the `MovieService`. It is now evident what the `null` values actually represent. An alternative would be to declare seperate variables for all these arguments. Although that would be very clear and descriptive I believe that would hurt readability because the _Arrange_ section would get quite bulky again.
 
 ### Tips for keeping your unit tests lean and understandable
 
-- I usually only 'new up' the class under test in the _Arrange_, other (fake) objects are created in helper methods or classes.
-- Use existing and proven libraries &amp; frameworks so you can focus on more difficult problems.
-    - Try to use a mocking framework (such as [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)) over a custom made mock/stub framework. Using a custom framework costs time in two ways:
-        - It needs to be maintained.
-        - It needs to be explained to every new member on the team.
-    - Need to create collections of fake objecs? Consider using [AutoFixture's `CreateMany&lt;T&gt;`](http://blog.ploeh.dk/2009/05/11/AnonymousSequencesWithAutoFixture/).
+- I usually only 'new up' the class under test in the _Arrange_ section, other (fake) objects are created in helper methods or classes.
+- Use existing and proven libraries &amp; frameworks so you don't have to write boilerplate code and you can focus on more difficult problems.
+    - Try to use a mocking framework (such as [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)) over a custom made mock/stub framework. Using a custom framework costs time in two ways: it needs to be maintained and it needs to be explained to every new member on the team.
+    - Need to create collections of fake objecs? Consider using [AutoFixture's `CreateMany<T>`](http://blog.ploeh.dk/2009/05/11/AnonymousSequencesWithAutoFixture/).
     - The [FluentAssertions](http://www.fluentassertions.com/) library contains dozens of useful assert methods, especially for collections.
-- Always be very explicit in naming the methods and arguments to avoid unclarity. Consider using named arguments when you need to pass numbers, strings or null to methods.
+- Always be very explicit in naming the methods and arguments to avoid unclarity. Consider using named arguments when you need to pass numbers, strings or null to methods. If you're using code analysis tools such as Resharper you'll get warnings that the usage of named arguments is not required most of the time. You might want to lower the severity of that message so the code analysis stays 'green'.
+
+Happy unit testing!
