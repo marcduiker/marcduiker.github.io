@@ -20,12 +20,12 @@ Consider the following unit test for testing the `GetHighestRatedMovies` method 
 
 {% gist 9db3de2f8fb70121e77cd6c6423164b7 %}
 
-Although this unit test uses some great frameworks such as [AutoFixture](https://github.com/AutoFixture/AutoFixture), [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) and [FluentAssertions](http://www.fluentassertions.com/) (big fan of these!) there are still some things I don't like, particularly in the _Arrange_ section:
+Although this unit test uses some great frameworks such as [xUnit](https://xunit.github.io/), [AutoFixture](https://github.com/AutoFixture/AutoFixture), [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) and [FluentAssertions](http://www.fluentassertions.com/) (big fan of these!) there are still some things I don't like, particularly in the _Arrange_ section:
 
 - In lines 5-6 a collection of `Movie` objects is set up using _AutoFixture_. I get why this collection is neccesary but I really don't care about __how__ it's done. In addition you could argue that 20 is a magic number although the intent is quite clear here. It can definitely be a bit more clear.
 - In lines 7-8 a fake object based on `IMovieRepository` is created using _FakeItEasy_. The fake repository is required to be able to return `Movie` objects from the `MovieService` but again I don't really care __how__ that is done.
 - In line 9 the `MovieService` is instantiated and the fake repository is passed in the constructor. But what are the `null` arguments there? What do they represent?
-- In lines 10 a `MovieServiceRequest` object is constructed. It's a simple value object with just one property. But what will happen if more properties are added later? Then the construction of this request will take up quite some space which has a negative impact on readability.  
+- In line 10 a `MovieServiceRequest` object is constructed. It's a simple value object with just one property. But what will happen if more properties are added later? Then the construction of this request will take up quite some space which has a negative impact on readability.  
 
 In general I feel there is too much detail in this _Arrange_ section which is not relevant for understanding the unit test. 
 Although 6 lines is not that much I do believe fewer lines in the _Arrange_ and clear usage of arguments will improve the readability a lot.
