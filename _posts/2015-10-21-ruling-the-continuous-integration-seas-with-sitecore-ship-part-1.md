@@ -11,6 +11,7 @@ All software development projects that involve Sitecore are faced with the same 
 how to get the Sitecore items (templates, layouts or content) from development to the 
 other environments in a consistent way.
 
+<!--more-->
 ### Tedious and error prone: manual deployment o_O
 During my first couple of Sitecore projects the packaging and deployment of Sitecore items 
 was a manual ~~struggle~~ process. Item packages were created using the _Package Designer_ and the resulting packages 

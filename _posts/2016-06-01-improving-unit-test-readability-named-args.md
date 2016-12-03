@@ -10,6 +10,7 @@ _"The ratio of time spent reading (code) versus writing is well over 10 to 1 ...
 
 So think about that when you write your next bit of code. You need to make sure your code is easily readable and understandable for _others_, you hardly ever write code just for yourself.
 
+<!--more-->
 ## Readable unit tests
 
 Unit test code is not different than 'production' code. Readability is key here because unclear unit tests will be distrusted, ignored and possibly removed.

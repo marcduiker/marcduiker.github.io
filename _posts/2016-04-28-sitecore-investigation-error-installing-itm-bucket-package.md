@@ -18,6 +18,7 @@ Here's an example of how that looks like (when you've checked the _Buckets_ opti
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/04/28/item_bucket_without_content.png" alt="Item bucket with an empty bucket folder">
 
+<!--more-->
 ### Cause
 
 Apparently when _bucketable_ items are deleted their automatically generated parent folders are not deleted. There is a built-in task that periodically removes the empty `Bucket` items but this is disabled by default in the configuration as Raúl Jiménez describes in [this post](http://blog.rauljimenez.co.uk/the-depths-of-the-bucket/).

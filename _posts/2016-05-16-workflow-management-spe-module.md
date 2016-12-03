@@ -18,6 +18,7 @@ We needed a way to update the content items with the workflow that was set on th
 
 For me this was an excellent opportunity to try SPE. I wrote a Sitecore PowerShell script to update _Workflow_ and _Workflow state_ fields, posted it [in a gist](https://gist.github.com/marcduiker/950e0358bb4752ed5b047931a8c958c1) and [tweeted](https://twitter.com/marcduiker/status/728375187431936000) about it. I got in contact with [Michael West](https://twitter.com/michaelwest101) and Adam Najmanowicz (the developers of SPE) who made some excellent suggestions to improve the user friendliness of the script.
 
+<!--more-->
 ## Workflow Management Module
 Adam asked if I could turn the script into a custom SPE module that could be installed alongside SPE. I really liked this idea and this made me delve deeper in SPE which is btw [extremely well documented](https://sitecorepowershell.gitbooks.io/sitecore-powershell-extensions/content/).
 
