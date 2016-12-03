@@ -14,6 +14,7 @@ Party this was due because I deviated from the built-in themes and I hacked some
 
 And when blogging gets tedious because of such things you blog less and less. It's been almost a year since I posted anything, which is of course unacceptable ;).
 
+<!--more-->
 ## Moved!
 So, it was time for desperate measures and I decided to move my blog to Github.
 

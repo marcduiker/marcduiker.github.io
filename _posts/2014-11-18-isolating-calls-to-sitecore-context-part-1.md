@@ -19,6 +19,7 @@ Of course all these three points are related. If maintainability is important it
 
 This post is intended as a practical guide for the ones involved with these 'difficult' projects and are strongly in favor of improving the code base in order to improve the testability and maintainability without spending many man months up front to make it happen.
 
+<!--more-->
 ## Isolating calls to the Sitecore context
 
 The biggest problem I noticed with some Sitecore solutions is that calls to  `Sitecore.Context.Database.GetItem()` are all over the place. 
