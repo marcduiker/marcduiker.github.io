@@ -10,6 +10,7 @@ canonical: "http://blog.marcduiker.nl/2014/10/sitecore-mvp-summit-cocktail-works
 Directly after Sitecore Symposium Barcelona had finished the Sitecore MVP Summit started. And it started in style. We were taken to [Dry Martini The Academy](http://www.javierdelasmuelas.com/eng/dry/barcelona/the-academy-v2) where a cocktail making workshop was organised. The evening was completed with a excellent dinner at [Speakeasy](http://www.speakeasy-bcn.com/en/).
 
 <!--more-->
+
 Here's a small impression of the evening. If you want to see all the pictures (and you should :) check the link at the bottom of this post.
 
 {% for i in (1..12) %}

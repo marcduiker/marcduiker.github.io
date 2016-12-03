@@ -16,6 +16,7 @@ canonical: "http://blog.marcduiker.nl/2013/04/presentations-for-programmers.html
 In the last few years I find myself doing more and more (technical) presentations. I have to admit I even start to like it. I absolutely admire great speakers like [Scott Hanselman](http://www.hanselman.com/) (Microsoft) and [Tim Ward](https://twitter.com/jerrong) (Sitecore/CluedIn). They speak with such passion about technology that I immediately want to use or do whatever they promote. Although my presentation skills are nowhere near the level of these speakers I do have a good grasp of what makes a great presentation. So before becoming a great speaker lets start with creating great slides.
 
 <!--more-->
+
 ## Presentation Tools
 
 Regardless of the content, a tool is required for creating slides and doing presentations. For quite some time I've been on a quest to find a tool that fits all my needs.

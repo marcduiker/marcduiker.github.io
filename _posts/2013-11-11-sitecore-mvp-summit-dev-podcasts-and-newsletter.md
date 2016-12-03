@@ -14,6 +14,7 @@ This week more than 60 Sitecore MVPs from 10 different countries will attend the
 There are quite a few Dutch MVPs and many of them are able to join the summit in Miami. For the non-Dutch MVPs who are attending, I'm pretty sure you'll be able to recognize us ;). (Make sure to check [#sitecoremvpsummit](https://twitter.com/search?q=%23sitecoremvpsummit) on Twitter the next few days!).
 
 <!--more-->
+
 ## Travel &amp; learn
 
 Since I'll be spending quite some time travelling from The Netherlands to the US I thought I can use this time efficiently and catch up with some of the latest software engineering & .Net development news by listening to podcasts. So I installed [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict) (for Android) on my phone and added the following feeds:

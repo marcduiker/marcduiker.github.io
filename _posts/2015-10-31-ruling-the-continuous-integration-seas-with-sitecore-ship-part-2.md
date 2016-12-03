@@ -12,6 +12,7 @@ As I mentioned in the [previous post]({{ site.url }}/2015/10/21/ruling-the-conti
 Sitecore.Ship can be used to install Sitecore `update` or `zip` packages by posting HTTP requests to the Sitecore site.
 
 <!--more-->
+
 ### Configuration
 
 I forgot to talk about the configuration in the previous post so let's have a look at that now. 

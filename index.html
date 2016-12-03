@@ -17,7 +17,8 @@ title: "My experiences &amp; thoughts about Sitecore, code quality, continuous i
             {% for post in paginator.posts %}
 
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                {{ post.date | date_to_long_string }}
+                <i>{{ post.date | date_to_long_string }}</i>
+                <br>
                 {{ post.excerpt }}
                 <a class="button" href="{{ post.url }}">Read full article</a>
                 <hr>

@@ -12,6 +12,7 @@ canonical: "http://blog.marcduiker.nl/2013/07/lazy-programmers-use-code-snippets
 The great [Larry Wall](http://en.wikipedia.org/wiki/Larry_Wall) (author of Perl) claimed that laziness is one of the greatest virtues a programmer could develop. The best programmers are lazy in the sense that they do not write duplicate code or take pleasure in writing boilerplate code. They are efficient in writing code that follows the [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself), [KISS](http://en.wikipedia.org/wiki/KISS_principle) and [YAGNI](http://en.wikipedia.org/wiki/You_aren't_gonna_need_it) principles.
 
 <!--more-->
+
 ### Efficient IDE usage
 
 Next to writing as few lines of code as possible (without compromising on readability ofcourse), being a lazy programmer also means using the IDE efficiently.
