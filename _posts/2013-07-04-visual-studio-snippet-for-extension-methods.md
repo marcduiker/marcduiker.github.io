@@ -14,6 +14,7 @@ Using extension methods in Visual Studio can really help to reduce writing boile
 After importing the snippet via _Tools > Code Snippets Manager_ you can use it by typing `exm[TAB]`.
 
 <!--more-->
+
 ## Download
 
 [extensionmethod.snippet](https://www.dropbox.com/s/rimvki60ezudrdj/extensionmethod.snippet)

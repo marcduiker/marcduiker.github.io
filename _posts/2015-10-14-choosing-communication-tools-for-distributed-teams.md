@@ -14,6 +14,7 @@ Effective and clear communication is difficult, even more so when the team membe
 Since there are so many communication tools out there I want to share my opinion on some of these so perhaps you can make a more informed judgment when deciding which tools to use.
 
 <!--more-->
+
 __Go straight to the [TL;DR](#tldr)__
 
 ### Types of communication

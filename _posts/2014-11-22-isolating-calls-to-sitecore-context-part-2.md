@@ -22,6 +22,7 @@ Although unit testing is now possible there are some (minor) downsides to them d
 So lets look at another way of dealing with Sitecore items to get very lean unit tests.
 
 <!--more-->
+
 ## Adapters
 
 I prefer to use abstractions of Sitecore objects because they make unit testing so much easier. The abstractions act as an adapter. It wraps the Sitecore object and exposes some frequently used properties and methods of that object. The adapter or wrapper pattern in combination with Sitecore is quite common and has been described earlier by several others (e.g. [Alistair Deneys](https://adeneys.wordpress.com/2012/04/13/mocking-sitecore/) and [Martina Welander](http://mhwelander.net/2014/04/30/unit-testing-sitecore-mvc/)). 

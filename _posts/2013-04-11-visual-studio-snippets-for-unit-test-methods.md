@@ -23,6 +23,7 @@ or
 The resulting code is displayed at the top of this post. The snippets use three placeholders (marked in yellow) which make up the method name using the suggested convention. In addition I've added Arrange, Act, Assert comments in order to help structuring the test.
 
 <!--more-->
+
 ### Importing Snippets
 Once you've downloaded the snippet(s) open Visual Studio and go to _Tools > Code Snippets Manager_.
 
