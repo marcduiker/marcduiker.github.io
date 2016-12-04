@@ -36,7 +36,10 @@ This is not included int the excerpt.
 
 Jekyll will use the content before the seperator as the excerpt. This can be used in the index page when iterating the posts as:
 
-`{{ post.excerpt }}`
+```
+{{ post.excerpt }}
+
+```
 
 Super easy. Let's continue with structuring the content.
 
@@ -63,4 +66,4 @@ But both of these tools indicated that using a content delivery network (CND) wo
 
 I found that [CloudFlare](https://www.cloudflare.com/plans/) offers a free plan for personal websites so I signed up right away. I was quite surprised that this free plan still allows a great deal of configuration. A useful feature is the _developer mode_ which disables the caching temporarily so you can see your changes quickly.
 
-The YSlow score is now at 88 and Google PageSpeed is at 84 and I'm quite content with those.
+The YSlow score is now at 92 and Google PageSpeed is at 85 and I'm quite content with those.
