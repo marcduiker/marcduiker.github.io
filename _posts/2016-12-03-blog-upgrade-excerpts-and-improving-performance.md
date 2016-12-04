@@ -37,7 +37,15 @@ This is not included int the excerpt.
 Jekyll will use the content before the seperator as the excerpt. This can be used in the index page when iterating the posts as:
 
 
-`{% raw %}{{ post.excerpt }}{% endraw %}`
+```
+{% raw %}
+{% for post in paginator.posts %}
+  ...
+  {{ post.excerpt }}
+  ...
+{% endfor %}
+{% endraw %}
+```
 
 
 Super easy. Let's continue with structuring the content.
