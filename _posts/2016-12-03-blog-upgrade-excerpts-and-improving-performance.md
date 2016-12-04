@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blog upgrade: Post excerpts, microformats and improving performance"
-tags: blog microformat excerpt jekyll cdn 
+tags: blog microformat excerpt jekyll cdn performance seo
 ---
 
 ## Time for an upgrade
@@ -36,7 +36,6 @@ This is not included int the excerpt.
 
 Jekyll will use the content before the seperator as the excerpt. This can be used in the index page when iterating the posts as:
 
-
 ```
 {% raw %}
 {% for post in paginator.posts %}
@@ -46,7 +45,6 @@ Jekyll will use the content before the seperator as the excerpt. This can be use
 {% endfor %}
 {% endraw %}
 ```
-
 
 Super easy. Let's continue with structuring the content.
 
@@ -62,15 +60,17 @@ The most useful for blog writers is the [`BlogPosting`](https://schema.org/BlogP
 - `itemscope itemtype="http://schema.org/BlogPosting"` on the `article` element.
 - `itemprop="name"` on the `h1` which contains the blog title.
 - `itemprop="datePublished"` on the `time` element.
+- `itemprop="auhor"` and `itemscope itemtype="http://schema.org/Person"` on the `span` which contains my name.
 - `itemprop="articleBody"` on the `div` that contains the post body content.
 
-Search engines should now be able to index my blog posts better which should improve SEO.
+Google provides [an online testing tool](https://search.google.com/structured-data/testing-tool) to verify structured website data. 
+Currently I'm still missing _publisher_ and _image_ data but search engines should already be able to index my blog posts better which will improve SEO.
 
 ## Improving performance
 
 The last thing on my list was to improve the performance of my blog. [YSlow](http://yslow.org/) and [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) scores were around 80 out of 100 which is not bad to begin with.
-But both of these tools indicated that using a content delivery network (CND) would improve performance. I've used CDN solutions for work projects but never considered it for personal projects like this blog. 
+But both of these tools indicated that using a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) (CDN) would improve performance. I've used CDN solutions for work projects but never considered it for personal projects like this blog. 
 
 I found that [CloudFlare](https://www.cloudflare.com/plans/) offers a free plan for personal websites so I signed up right away. I was quite surprised that this free plan still allows a great deal of configuration. A useful feature is the _developer mode_ which disables the caching temporarily so you can see your changes quickly.
 
-The YSlow score for this post is now at 92 and Google PageSpeed is at 85 and I'm quite content with those.
+The YSlow score for this page is now at 92 and Google PageSpeed is at 85 and I'm quite content with those numbers. Now it's time to write more posts again and get the traffic going! 
