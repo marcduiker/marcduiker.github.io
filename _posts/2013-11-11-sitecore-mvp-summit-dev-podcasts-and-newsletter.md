@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sitecore MVP Summit, Dev Podcasts and Newsletter
-tags: Sitecore, MVP, summit, learning
+tags: Sitecore MVP summit learning
 canonical: "http://blog.marcduiker.nl/2013/11/sitecore-mvp-summit-podcasts-and.html"
 ---
 

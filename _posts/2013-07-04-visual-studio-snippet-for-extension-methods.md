@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Studio Snippet for Extension Methods
-tags: .Net, extension methods, snippets, Visual Studio
+tags: .Net extension methods snippets Visual Studio
 canonical: "http://blog.marcduiker.nl/2013/07/visual-studio-snippet-for-extension.html"
 ---
 

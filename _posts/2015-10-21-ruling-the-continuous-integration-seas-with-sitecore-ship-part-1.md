@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruling the continuous integration seas with Sitecore.Ship - Part 1"
-tags: Sitecore, Ship, continuous integration, deployment
+tags: Sitecore Ship continuous integration deployment
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/21/picard_packages.jpg" alt="Why the hell are you deploying Sitecore packages manually?">
