@@ -21,23 +21,22 @@
 					<div class="twelve columns" style="margin-top: 3%">
 						{{content}} 
 					</div>
-					<div class="twelve columns">
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
+					<div class="three columns">
+						<p>
+							<a class="button" href="{{ site.url }}">Back to index</a> 
+						</p>
+					</div>
+					<div class="nine columns">
 						<ul class="tags">
 							{% for tag in page.tags %}
 								<li>{{ tag }}</li>
 							{% endfor %}
 						</ul>
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="container">
-				<div class="row">
-					<div class="twelve columns">
-						<p>
-							<a class="button" href="http://marcduiker.github.io/">Back to index</a> 
-						</p>
 					</div>
 				</div>
 			</div>
