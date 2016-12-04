@@ -8,7 +8,7 @@ tags: blog microformat excerpt jekyll cdn performance seo
 
 I finally made some time available to work on this blog. There were a couple of things I wanted to improve since [I moved to GitHub Pages/Jekyll]({{ site.url }}/2015/10/06/moving-my-blog-i-love-github-and-markdown.html).
 
-1. Better looking index page. Before todays change it was a __very__ simple (but boring) bullited list of links containing the date and title of individual blogposts.
+1. Better looking index page. Before todays change it was a __very__ simple (and boring) bulleted list of links containing the date and title of individual blogposts.
 2. Improved content structure. Having a well defined content structure improves SEO. 
 3. Higher performance. Faster page loads makes both users and Google happy. 
 
