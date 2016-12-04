@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Choosing communication tools for distributed teams"
-tags: communication, team
+tags: communication team tools
 ---
 
 <a href="https://slack.com" target="_blank">

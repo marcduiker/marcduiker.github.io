@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presentations for Programmers
-tags: presenting, html5, soft skills
+tags: presenting html5 soft skills
 canonical: "http://blog.marcduiker.nl/2013/04/presentations-for-programmers.html"
 ---
 

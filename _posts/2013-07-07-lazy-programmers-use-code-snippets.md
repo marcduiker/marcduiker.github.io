@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lazy Programmers User Code Snippets
-tags: .Net, C#, productivity, snippets, Visual Studio
+tags: .Net C# productivity snippets Visual Studio
 canonical: "http://blog.marcduiker.nl/2013/07/lazy-programmers-use-code-snippets.html"
 ---
 
