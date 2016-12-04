@@ -7,20 +7,22 @@ title: "My experiences &amp; thoughts about Sitecore, code quality, continuous i
   {% include head.html %}
   <body>
  
-    {% include header.html %} 
+    {% include header.html %}
   
-    <div class="container">
+    <div class="container" itemscope itemtype="http://schema.org/Blog">
 
       <div class="row">
         <div class="twelve columns">
 
             {% for post in paginator.posts %}
-
-                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <i>{{ post.date | date_to_long_string }}</i>
-                <br>
-                {{ post.excerpt }}
-                <a class="button" href="{{ post.url }}">Read full article</a>
+                <article itemscope itemtype="http://schema.org/BlogPosting">
+                  <h1><a href="{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a></h1>
+                  <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}"><em>{{ post.date | date_to_long_string }}</em></time>
+                  <div itemprop="description">
+                    {{ post.excerpt }}
+                  </div>
+                  <a class="button" href="{{ post.url }}" itemprop="url">Read full article</a>
+                </article>
                 <hr>
             {% endfor %}
 
