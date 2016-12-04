@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sitecore Introduction for Developers
-tags: Sitecore, presentation, html5
+tags: Sitecore presentation html5 reveal.js
 canonical: "http://blog.marcduiker.nl/2013/05/sitecore-introduction-for-developers.html"
 ---
 <a href="http://marcduiker.azurewebsites.net/presentations/sitecore.html#/" target="_blank">

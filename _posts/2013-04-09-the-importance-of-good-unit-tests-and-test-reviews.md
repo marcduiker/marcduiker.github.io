@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Importance of Good Unit Tests and Test Reviews
-tags: unit testing, code quality
+tags: unit testing code quality
 canonical: "http://blog.marcduiker.nl/2013/04/the-importance-of-good-unit-tests-and.html"
 ---
 

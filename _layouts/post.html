@@ -11,7 +11,9 @@
 						<header>
 							<h1 itemprop="name headline">{{ page.title }}</h1>
 							<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}"><em>{{ page.date | date_to_long_string }}</em></time>
-							- <em><span itemprop="author publisher">Marc Duiker</span></em>
+							- <em><span itemprop="author publisher" itemscope itemtype="http://schema.org/Person">
+								<span itemprop="name">Marc Duiker</span>
+							</span></em>
 						</header>  
 					</div>
 				</div>

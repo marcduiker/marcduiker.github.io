@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Studio Snippets for Unit Test Methods
-tags: unit testing, code quality, code snippet
+tags: unit testing code quality code snippet
 canonical: "http://blog.marcduiker.nl/2013/04/visual-studio-snippets-for-unit-test.html"
 ---
 

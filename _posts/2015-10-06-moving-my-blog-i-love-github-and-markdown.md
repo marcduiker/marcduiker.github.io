@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Moving my blog - I <3 Github &amp; Markdown"
-tags: Github, markdown
+tags: Github markdown Jekyll
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/06/successkid-blog.jpg" alt="Moved blog to Github, writing posts in markdown.">
