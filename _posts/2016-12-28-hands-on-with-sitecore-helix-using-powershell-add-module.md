@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hands-on with Sitecore Helix: Using powershell to add a new module"
+title: "Hands-on with Sitecore Helix: Using PowerShell to add a new module"
 tags: powershell sitecore helix habitat dte envdte visual studio
 ---
 
@@ -42,7 +42,7 @@ Because I'm [lazy](http://threevirtues.com/) and don't want to do repetitive wor
 
 ## PowerShell
 
-Since I'm more familiair with Powershell I used that instead of the Yeoman generators (I already invested quite some time in my own solution before I became aware of the Yeoman generators). 
+Since I'm more familiair with PowerShell I used that instead of the Yeoman generators (I already invested quite some time in my own solution before I became aware of the Yeoman generators). 
 Fairly quickly I had a script that would copy a template folder to the desired destination and replace tokens for the module name, namespaces and GUIDs. 
 
 The only thing left was adding the projects to the solution. 
@@ -84,7 +84,7 @@ When you make changes to this user profile while Visual Studio is open Visual St
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/12/28/add-helixmodule.png" alt="Add-HelixModule">
 
 1. `module-template`, a folder containing code and config template files. This template is based on a Sitecore Habitat Feature which is stripped down significantly.
-2. `add-helixmodule.ps1`, a powershell script which creates a new Feature or Foundation module __AND__ adds this to the current solution.
+2. `add-helixmodule.ps1`, a PowerShell script which creates a new Feature or Foundation module __AND__ adds this to the current solution in Visual Studio.
 3. `NuGet_profile.ps1`, a PowerShell NuGet profile that is used by the Visual Studio Package Manager Console. This profile only loads the add-helixmodule.ps1.
 4. `add-helix-module-configuration.json`, a config file containing values for namespaces, location of the module-template and more.
 
@@ -92,7 +92,7 @@ You can see it working in my fork of Sitecore Habitat:
 
 - Clone my [Sitecore Habitat fork](https://github.com/marcduiker/Habitat).
 - Verify that you have a `NuGet_profile.ps1` (use `$profile` to check the location).
-- Add the following to this profile and update the path to point to the add-helixmodule.ps1 file on your disk:
+- Add the following to this profile and update the path to point to the `add-helixmodule.ps1` file on your disk:
 
 {% gist d519bb402dc199d350c05de8bf696231 %}
 
@@ -121,6 +121,6 @@ Improvements I can think of now:
 - Make the script more robust/configurable so it works with other naming conventions instead on Feature/Foundation. 
 - Add yml files for rendering and template folders similar as `generator-habitat` is doing.
 - Extend the script so it could also create a whole new Sitecore Helix based solution.
-- Use seperate template structures for Feature and Foundation modules. 
+- Use separate template structures for Feature and Foundation modules. 
 
 A whole different approach will be to investigate the experimental [`vs-net-dte`](https://github.com/elkdanger/vs-net-dte) and [`gulp-notify-dte`](https://github.com/elkdanger/gulp-notify-dte) projects in order to get DTE to work with Gulp. Please do let me know if you have plans to dig into this :).
