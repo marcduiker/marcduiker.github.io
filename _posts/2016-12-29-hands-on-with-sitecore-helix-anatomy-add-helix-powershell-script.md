@@ -20,7 +20,7 @@ The `add-helixmodule.ps1` script is where all the action happens. The file is [i
 as a gist which is shown inline below.
 
 I've added loads of comments to it today so I think should give you enough to work with. 
-The function which handles the addition of projects to the solution through the [DTE interface](https://msdn.microsoft.com/en-us/library/envdte.dte.aspx) is called `Add-Projects` (how suprising!) and starts at line 283.
+The function which handles the addition of projects to the solution through the [DTE interface](https://msdn.microsoft.com/en-us/library/envdte.dte.aspx) is called `Add-Projects` (how surprising!) and starts at line 283.
 
 Please do let me know if you have comments or suggestions for improvements!    
 
