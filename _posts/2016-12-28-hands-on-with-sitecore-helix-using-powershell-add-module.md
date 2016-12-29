@@ -4,7 +4,7 @@ title: "Hands-on with Sitecore Helix: Using PowerShell to add a new module"
 tags: powershell sitecore helix habitat dte envdte visual studio
 ---
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2016/12/28/powershell_vs_sitecore_helix.png" alt="PowerShell plus Visual Studio equals Sitecore Helix">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2016/12/28/powershell_vs_sitecore_helix.png" alt="PowerShell plus Visual Studio equals Sitecore Helix">
 
 ## Embracing Sitecore Helix
 
@@ -111,6 +111,9 @@ You can see it working in my fork of Sitecore Habitat:
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/12/28/add_feature_completed.png" alt="Add-Feature Completed">
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/12/28/solution_explorer.png" alt="Solution Explorer showing the added feature">
+
+In my [next post]({{ site.url }}/2016/12/29/hands-on-with-sitecore-helix-anatomy-add-helix-powershell-script.html) I'll dig deeper 
+into the inner workings of the add-helixmodule.ps1 PowerShell script.
 
 ## So are we done now?
 
