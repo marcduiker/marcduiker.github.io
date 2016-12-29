@@ -4,9 +4,7 @@ title: TITLE
 tags: TAGS
 ---
 
-<a href="" target="_blank">
-  <img class="u-max-full-width" src="" alt="">
-</a>
+<img class="u-max-full-width" itemprop="image" src="" alt="">
 
 ## Heading
 
