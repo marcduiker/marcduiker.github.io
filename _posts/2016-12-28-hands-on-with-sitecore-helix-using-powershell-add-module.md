@@ -113,7 +113,7 @@ You can see it working in my fork of Sitecore Habitat:
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/12/28/solution_explorer.png" alt="Solution Explorer showing the added feature">
 
 In my [next post]({{ site.url }}/2016/12/29/hands-on-with-sitecore-helix-anatomy-add-helix-powershell-script.html) I'll dig deeper 
-into the inner workings of the add-helixmodule.ps1 PowerShell script.
+into the inner workings of the `add-helixmodule.ps1` PowerShell script.
 
 ## So are we done now?
 
