@@ -6,14 +6,15 @@ tags: sitecore helix habitat automated build bamboo nuget octopus deploy modular
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/01/03/helix-logical-architecture.png" alt="Modular architecture">
 
-In my previous posts I've shown how our team is able to add new feature or foundation modules easily.
+In my [previous]({{ site.url }}/2016/12/28/hands-on-with-sitecore-helix-using-powershell-add-module.html) [posts]({{ site.url }}/2016/12/29/hands-on-with-sitecore-helix-anatomy-add-helix-powershell-script.html) I've shown how our team is able to add new feature or foundation modules easily.
 Now let's take a look at effect of the modular architecture on the build and packaging of a Sitecore Helix style solution.
 This is a topic which is receiving loads of attention lately and has been blogged about before by other Sitecore [community](https://www.akshaysura.com/2016/12/27/finally-with-one-great-big-gulp-i-conquered-sitecore-helix/){:target="_blank"} [fanboys](https://www.akshaysura.com/2016/12/28/helix-and-the-re-tooling-of-your-continuous-integration-and-deployments/){:target="_blank"} ;).
 
 <!--more-->
 
 First I need to make clear that the solution I will describe is just one of many approaches that can be taken. 
-This is definitely not the best one but it will at least give some insights in the possibilities of building and packaging your solution.  
+It is meant to provide insights in the possibilities of building and packaging your Sitecore Helix solution. 
+I will share my concerns of this solution in my next post.  
 
 ## Modules, Modules Everywhere!
 
@@ -45,7 +46,7 @@ As a developer you really need some decent hardware to make this work efficientl
 If your development machine is slow, do [some calculations](https://docs.google.com/spreadsheets/d/16tzObRLEdgszbxU-un4lG6K-shiE5c39K95aSfrlXvI/edit?usp=sharing){:target="_blank"} so you can make a business case which supports your request to get a new machine.   
 
 So what do need to do when you have a whole team producing loads of modules? Well, build & package those modules in order to deploy to other 
-environments of course so testers and end-users can can marvel at your work. 
+environments of course so testers and end-users can marvel at your work. 
 
 ## Continuous Integration & Deployment
 
