@@ -7,7 +7,7 @@ tags: sitecore helix habitat automated build bamboo nuget octopus deploy modular
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/01/03/helix-logical-architecture.png" alt="Modular architecture">
 
 In my [previous]({{ site.url }}/2016/12/28/hands-on-with-sitecore-helix-using-powershell-add-module.html) [posts]({{ site.url }}/2016/12/29/hands-on-with-sitecore-helix-anatomy-add-helix-powershell-script.html) I've shown how our team is able to add new feature or foundation modules easily.
-Now let's take a look at effect of the modular architecture on the build and packaging of a Sitecore Helix style solution.
+Now let's take a look at the effect of the modular architecture on the build and packaging of a Sitecore Helix style solution.
 This is a topic which is receiving loads of attention lately and has been blogged about before by other Sitecore [community](https://www.akshaysura.com/2016/12/27/finally-with-one-great-big-gulp-i-conquered-sitecore-helix/){:target="_blank"} [fanboys](https://www.akshaysura.com/2016/12/28/helix-and-the-re-tooling-of-your-continuous-integration-and-deployments/){:target="_blank"} ;).
 
 <!--more-->
@@ -45,10 +45,10 @@ Identifying modules is so straightforward now and this greatly helps the communi
 As a developer you really need some decent hardware to make this work efficiently in Visual Studio.
 If your development machine is slow, do [some calculations](https://docs.google.com/spreadsheets/d/16tzObRLEdgszbxU-un4lG6K-shiE5c39K95aSfrlXvI/edit?usp=sharing){:target="_blank"} so you can make a business case which supports your request to get a new machine.   
 
-So what do need to do when you have a whole team producing loads of modules? Well, build & package those modules in order to deploy to other 
+So what do you need to do when you have a whole team producing loads of modules? Well, build & package those modules in order to deploy to other 
 environments of course so testers and end-users can marvel at your work. 
 
-## Continuous Integration & Deployment
+## Continuous Integration & Delivery
 
 You are all using source control and a centralized build environment, right?
 
@@ -98,7 +98,7 @@ Everything is setup now in Visual Studio. Let's move on to the build server.
 
 ### Bamboo
 
-The build plans are Bamboo are quite straightforward. A plan consists of one stage having one job which has the following three tasks:
+The build plans in are Bamboo are quite straightforward. A plan consists of one stage having one job which has the following three tasks:
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/01/03/bamboo-tasks.png" alt="Bamboo tasks">
 
@@ -107,7 +107,7 @@ Currently there are two build plans:
 1. One which checks out the `develop` branch and does a build in `Debug` configuration. This plan runs every 15 mins and when does a build when changes are detected in the repository.
 2. One which checks out the `master` branch and performs a build in `Release` configuration. This plan is triggered manually. During the build it will create NuGet packages and pushes them to an internal Octopus Deploy NuGet feed. 
 
-I just want to focus on building the solution (in `Release` configuration) since that part is different since we use the Helix approach nowadays.
+I just want to focus on building the solution in `Release` configuration since that part is different since we use the Helix approach nowadays.
 
 #### Build, Package & Publish
 
@@ -115,7 +115,7 @@ The MSBuild task looks as follows:
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/01/03/ms-build-task.png" alt="MSBuild task">
 
-The _Options_ field is the most interesting (I've replaced some sensitive info with placeholders): 
+The _Options_ field is the most interesting (I've replaced some sensitive info): 
 
 `/p:Configuration=Release;RunOctoPack=true;OctoPackEnforceAddingFiles=true;OctoPackPackageVersion=1.0.${bamboo.buildNumber};OctoPackPublishPackageToHttp=<URL_TO_OCTOPUS_NUGET>;OctoPackPublishApiKey=<OCTOPUS_API_KEY>`
 
