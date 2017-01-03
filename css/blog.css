@@ -4,3 +4,4 @@ h1 a:hover { color: #0FA0CE; text-decoration: none; }
 ul.tags { list-style-type: none; }
 ul.tags li { float: left; padding-left: 10px; font-style: italic; }
 ul.tags li:before { content: "#"; }
+blockquote p { font-style: italic; }
