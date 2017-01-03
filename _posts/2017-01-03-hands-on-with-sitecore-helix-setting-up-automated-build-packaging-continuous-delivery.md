@@ -19,8 +19,8 @@ This is definitely not the best one but it will at least give some insights in t
 
 Carefully read the following paragraph from the [Helix Architecure Principles](http://helix.sitecore.net/principles/architecture-principles/modules.html){:target="_blank"}:
 
-> Keep in mind that in Helix, modules are business-centric. This means that they should relate to business objectives and group together multiple technology entities that refer to this objective. 
-> This principle goes against many traditional software conventions - such as the ones dictated by MVC (models, controllers and views) or even Sitecore (templates, layouts, settings) - that define grouping based on their type, rather than their business objective.
+> "Keep in mind that in Helix, modules are business-centric. This means that they should relate to business objectives and group together multiple technology entities that refer to this objective. 
+> This principle goes against many traditional software conventions - such as the ones dictated by MVC (models, controllers and views) or even Sitecore (templates, layouts, settings) - that define grouping based on their type, rather than their business objective."
 
 The Sitecore Habitat solution currently constists of:
 
@@ -29,7 +29,10 @@ The Sitecore Habitat solution currently constists of:
 - 2 project modules
 
 The Visual Studio solution has 54 projects (incl test projects) in total. 
-The real world Sitecore project I'm working on at the moment has even more.
+The real world Sitecore project I'm working on at the moment has even more. 
+It is definitely a mind shift to work with large numbers of projects. 
+Be cautious not create a module for each user story on your backlog though. 
+You can of course group or consolidate components which are very similar into one feature. 
 
 ### Performance vs Clarity
 
@@ -129,4 +132,4 @@ In the next blogpost I'll go into detail how the deployment process is setup in 
 
 As already mentioned by my Sitecore community friend [Akshay](https://twitter.com/akshaysura13){:target="_blank"}:
 
-> I encourage you to discuss Helix/Habitat based conversations in the [Sitecore Slack Helix-Habitat channel](https://sitecorechat.slack.com){:target="_blank"}.
+> "I encourage you to discuss Helix/Habitat based conversations in the [Sitecore Slack Helix-Habitat channel](https://sitecorechat.slack.com){:target="_blank"}."
