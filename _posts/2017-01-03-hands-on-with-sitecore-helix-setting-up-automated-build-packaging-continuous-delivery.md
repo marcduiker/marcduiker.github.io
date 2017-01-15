@@ -23,7 +23,7 @@ Carefully read the following paragraph from the [Helix Architecure Principles](h
 > "Keep in mind that in Helix, modules are business-centric. This means that they should relate to business objectives and group together multiple technology entities that refer to this objective. 
 > This principle goes against many traditional software conventions - such as the ones dictated by MVC (models, controllers and views) or even Sitecore (templates, layouts, settings) - that define grouping based on their type, rather than their business objective."
 
-The Sitecore Habitat solution currently constists of:
+The Sitecore Habitat solution currently consists of:
 
 - 16 feature modules
 - 14 foundation modules
@@ -54,7 +54,7 @@ You are all using source control and a centralized build environment, right?
 
 Currently I'm using [GitLab](https://about.gitlab.com/){:target="_blank"} for source control and [Bamboo](https://www.atlassian.com/software/bamboo){:target="_blank"} as the build environment. 
 Although Bamboo is not one of my preferred build platforms it does the job well enough. 
-In addition [Octopus Deploy](https://octopus.com/){:target="_blank"} is used at the centralized deployment environment (more of that in the next post). 
+In addition [Octopus Deploy](https://octopus.com/){:target="_blank"} is used as the automated deployment environment (more of that in the next post). 
 
 Let's have a closer look at how Visual Studio projects are configured.
 
