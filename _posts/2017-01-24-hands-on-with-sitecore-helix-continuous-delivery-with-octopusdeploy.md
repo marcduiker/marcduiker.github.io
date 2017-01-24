@@ -130,7 +130,7 @@ The multiple package approach also has some drawbacks:
 
 1. Many of the created NuGet packages use the same dependencies (e.g. `Sitecore.*.dll`) which means that there is a lot of duplication of referenced assemblies in these packages. Therefore the total size of the multiple NuGet packages (one for each `csproj`) is much larger than the size of just one NuGet package for the whole solution. You need to be alert of setting up retention policies on OctopusDeploy and the Tentacles to prevent disk space filling up rapidly (you need to do this anyway but it becomes a problem earlier with many packages). 
 2. When a new module is added to the Visual Studio solution, the deployment process also needs to be updated with an additional NuGet package deployment step. So you actually have a dynamic deployment process which you need to actively maintain. There are ways around this by using a custom Powershell script (see the final section of this post).
-3. Because there are more packages to deploy the process also takes longer to complete. So if you don't use a [blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
+3. Because there are more packages to deploy the process also takes longer to complete. So if you don't use a [blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html){:target="_blank"}
 strategy you have a longer downtime. The deployment process we have in place now takes about 20 minutes to deploy 48 NuGet packages.
 
 ## Moving forward
