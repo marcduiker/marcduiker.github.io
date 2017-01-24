@@ -15,20 +15,20 @@ In this post I'll be covering the configuration of the automated deployment envi
 
 Octopus Deploy uses the following terminology:
 
-- _Environment_; a collection of one or more machines where a release can be deployed to (e.g. _Acceptance_, which contain two machines, _ACC-CM_ and _ACC-CD_). 
-- _Machine role_; describes the role of a machine (e.g. _ContentManagement_ or _ContentDelivery_).
-- _Tentacle_; an Octopus service agent running on a deployment target under a specific machine role. The agent communicates with the Octopus server and executes certain deployment steps (install packages/run scripts). 
-- _Lifecycle_; determines the order of promoting a release from one environment to the next. (Also contains the retention policies for the releases.)
-- _Project_; contains the deployment process, the releases and variables.
-- _Deployment Process_; a sequence of steps which controls the deployment of your application.
-- _Variables_; allows the use of variables in deployment steps. This is useful for values which differ between environments or machine roles. 
-- _Release_; a version of the deployment process and associated variables.
+- _Environment_ ; a collection of one or more machines where a release can be deployed to (e.g. _Acceptance_, which contain two machines, _ACC-CM_ and _ACC-CD_). 
+- _Machine role_ ; describes the role of a machine (e.g. _ContentManagement_ or _ContentDelivery_).
+- _Tentacle_ ; an Octopus service agent running on a deployment target under a specific machine role. The agent communicates with the Octopus server and executes certain deployment steps (e.g. install packages/run scripts). 
+- _Lifecycle_ ; determines the order of promoting a release from one environment to the next. (Also contains the retention policies for the releases.)
+- _Project_ ; contains the deployment process, the releases and variables.
+- _Deployment Process_ ; a sequence of steps which controls the deployment of your application.
+- _Variables_ ; allows the use of variables in deployment steps. This is useful for values which differ between environments or machine roles. 
+- _Release_ ; a version of the deployment process and associated variables.
 
 Octopus Deploy has [great documentation](http://docs.octopusdeploy.com/display/OD/Getting+started){:target="_blank"} 
 so I won't be covering all the details. 
 I will discuss the Octopus _Deployment Process_ and _Release_ since these have Sitecore (Helix) specific configurations. 
 
-### Deployment Process
+## Deployment Process
 
 A deployment process consists of deployment steps. A step is based on a step template and Octopus provides an 
 [extensive library](https://library.octopusdeploy.com/listing){:target="_blank"} of those. 
@@ -54,7 +54,7 @@ The deployment process for our Sitecore Helix project is constructed as follows 
 
 The _Remove_ step (2) is recommended because each deployment will only add new files to the website. 
 We're not installing a vanilla Sitecore from scratch each time.  
-By module specific files such as yml, config files and assemblies we can ensure we won't get unexpected behaviors when files (or complete modules) are removed from the build.  
+By removing module specific files such as yml, config files and assemblies we can ensure we won't get unexpected behaviors when files (or complete modules) are removed from the build.  
 
 ### PowerShell
 
@@ -63,16 +63,16 @@ This allows re-use of script code and keeps the PowerShell steps succinct and ea
 
 The following custom made modules are used:
 
-- _Remove folder content_; used in step 2 and 7
-- _Copy folder content_; used in step 6
-- _Disable and Enable Config files_; used to enable disable CM/CD specific configs in step 8
-- _Update file content_; used to replace environment and machine role specific tokens in config files in step 9
-- _Sync Unicorn_; used in step 11
+- _Remove folder content_ ; used in step 2 and 7
+- _Copy folder content_ ; used in step 6
+- _Disable and Enable Config files_ ; used to enable disable CM/CD specific configs in step 8
+- _Update file content_ ; used to replace environment and machine role specific tokens in config files in step 9
+- _Sync Unicorn_ ; used in step 11
 
 The _Disable and Enable Config Files_ module is useful when dealing with separate content management and delivery servers. 
 I plan to write a blog post about that one separately and to submit the script to the Octopus Library eventually. 
 
-### Release
+## Release
 
 I've setup the release versioning to use the latest available version from the NuGet packages:
 
@@ -94,6 +94,8 @@ Octopus which still refers to some old packages.
 
 Since the build order of the projects (and thus the push of the packages to Octopus) might change it is too risky to have the release created automatically 
 based on the presence of one package of which you assume is the latest in the build process.
+
+### Octo.exe
 
 It is much better to trigger the build by running a command line tool called `Octo.exe`.
 This tool needs to be [installed on the build server](http://docs.octopusdeploy.com/display/OD/Bamboo#Bamboo-Creatingarelease){:target="_blank"} and a post build step needs to be added which calls `Octo.exe` with the following arguments:
@@ -117,11 +119,11 @@ The [OctopusDeploy-API GitHub repo](https://github.com/OctopusDeploy/OctopusDepl
 
 ## Multiple Nuget packages: The good, the bad and the ugly
 
-As described in my previous post I took the approach of having NuGet packages built for each module (`csproj`) in our solution.
+As described in my [previous post]({{ site.url}}/2017/01/03/hands-on-with-sitecore-helix-setting-up-automated-build-packaging-continuous-delivery.html) I took the approach of having NuGet packages built for each module (`csproj`) in our solution.
 
-The reasons behind this approach were the following:
+The reasons behind this were the following:
 
-1. It is transparent which modules get deployed since that is clearly visible in the deployment process.
+1. It is transparent which modules get deployed since that is explicitly configured in the deployment process.
 2. You have control over which modules will be deployed. There is the option to skip modules but this does introduce a __big__ risk when there are dependencies between modules, so be very careful!
 
 The multiple package approach also has some drawbacks:
@@ -138,10 +140,16 @@ Will I use the exact same packaging & deployment strategy for the next Sitecore 
 Probably not. Although I do have (almost) everything in place now I'm not 100% satisfied with the current deployment process.
 
 I don't like the fact that whenever a new module has been built a deployment step needs to be added to the Octopus process. 
-Since adding a deployment step is still a manual process it might be forgotten and a module will not be deployed. This is quite big risk.
+Since adding a deployment step is still a manual procedure it might be forgotten and a module will not be deployed. This is quite big risk.
 
 I'm planning to write a PowerShell script that will locate NuGet packages within Octopus based on a naming convention and deploys these to a configurable target. 
 Then all the current deployment steps for the Feature modules can be replaced with __one__ PowerShell script step that will search & deploy packages matching `<Project>.Feature.*.nupkg`.
 The Foundation modules can be handled in the same way.
 
-By just using one NuGet package for the entire solution I wouldn't have this problem to begin with (but I'm sure I would have had other problems then ;).
+By just using one NuGet package for the entire solution I wouldn't have this problem to begin with (but I'm sure I would have had other problems then ;). 
+
+But which ever route you take for you next Sitecore project, make sure you use a deployment environment such as Octopus because it enables very controlled and reliable deployments.
+
+### Feedback
+
+I always appreciate good feedback, so feel free to leave a comment here or discuss this in the _helix-habitat_ channel on [sitecorechat.slack.com](https://sitecorechat.slack.com/).
