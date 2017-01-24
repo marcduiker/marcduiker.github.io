@@ -89,8 +89,8 @@ When I tried this automatic release creation I experienced that releases often w
 This discrepancy was caused by new packages not being available yet on the Octopus NuGet feed when the release was created.
 
 Octopus triggers the release creation based on __one__ NuGet package while a Helix solution will produce many packages (in this setup). 
-So if the package referred to in the NuGet Package deployment step is __not__ the last package to be pushed by the build server a release will be created in 
-Octopus which still refers to some old packages.
+So if the package referred to in the _Release Creation package step_ is __not__ the last package to be pushed by the build server a release will be created in 
+Octopus which still refers to some old packages. Yikes...
 
 Since the build order of the projects (and thus the push of the packages to Octopus) might change it is too risky to have the release created automatically 
 based on the presence of one package of which you assume is the latest in the build process.
@@ -102,7 +102,7 @@ This tool needs to be [installed on the build server](http://docs.octopusdeploy.
 
 `create-release --project <PROJECT_NAME> --version <RELEASE_VERSION> --packageversion <PACKAGE_VERSION> --server <URL_OCTOPUS_SERVER> --apiKey <OCTOPUS_API_KEY> --releaseNotes "Some notes here about the release"`
 
-Let's have a look at the argument switches:
+Let's have a look at the available argument switches:
 
 - `create-release` is clear right?
 - `--project <PROJECT_NAME>` specifies the project name in Octopus Deploy to create a new release for.
@@ -112,7 +112,8 @@ Let's have a look at the argument switches:
 - `--apiKey <OCTOPUS_API_KEY>` specifies the API key which is required to execute the create release command.
 - `--releaseNotes "Some notes here about the release"` Optional switch for the release notes.
 
-I've omitted the `--version`and `--packageversion` switches since I let Octopus determine the release number based on the latest NuGet package version available.
+I've omitted the `--version`and `--packageversion` switches in the post build job since I let Octopus determine the release number based on the latest NuGet package version available.
+And since all the NuGet packages are built with the same version number this is safe to use.
 
 An alternative of using the command line tool would be to use the [Octopus REST API](http://docs.octopusdeploy.com/display/OD/Octopus+REST+API){:target="_blank"}.
 The [OctopusDeploy-API GitHub repo](https://github.com/OctopusDeploy/OctopusDeploy-Api/tree/master/REST/PowerShell){:target="_blank"} contains loads of PowerShell scripts on how to use the REST API.
@@ -128,12 +129,12 @@ The reasons behind this were the following:
 
 The multiple package approach also has some drawbacks:
 
-1. Many of the created NuGet packages use the same dependencies (e.g. `Sitecore.*.dll`) which means that there is a lot of duplication of referenced assemblies in these packages. Therefore the total size of the multiple NuGet packages (one for each `csproj`) is much larger than the size of just one NuGet package for the whole solution. You need to be alert of setting up retention policies on OctopusDeploy and the Tentacles to prevent clogging of disk space (you need to do this anyway but it becomes a problem earlier with many packages). 
-2. When a new module is added to the solution Visual Studio, the deployment process also needs to be updated with an additional NuGet package deployment step. So you actually have a dynamic deployment process which you need to actively maintain. There are ways around this by using a custom Powershell script (see the final section of this post).
+1. Many of the created NuGet packages use the same dependencies (e.g. `Sitecore.*.dll`) which means that there is a lot of duplication of referenced assemblies in these packages. Therefore the total size of the multiple NuGet packages (one for each `csproj`) is much larger than the size of just one NuGet package for the whole solution. You need to be alert of setting up retention policies on OctopusDeploy and the Tentacles to prevent disk space filling up rapidly (you need to do this anyway but it becomes a problem earlier with many packages). 
+2. When a new module is added to the Visual Studio solution, the deployment process also needs to be updated with an additional NuGet package deployment step. So you actually have a dynamic deployment process which you need to actively maintain. There are ways around this by using a custom Powershell script (see the final section of this post).
 3. Because there are more packages to deploy the process also takes longer to complete. So if you don't use a [blue-green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
-strategy you have a longer downtime. The current deployment process takes about 20 minutes.
+strategy you have a longer downtime. The deployment process we have in place now takes about 20 minutes to deploy 48 NuGet packages.
 
-## Moving forward 
+## Moving forward
 
 Will I use the exact same packaging & deployment strategy for the next Sitecore Helix project? 
 
