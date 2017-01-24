@@ -104,7 +104,6 @@ This tool needs to be [installed on the build server](http://docs.octopusdeploy.
 
 Let's have a look at the available argument switches:
 
-- `create-release` is clear right?
 - `--project <PROJECT_NAME>` specifies the project name in Octopus Deploy to create a new release for.
 - `--version <RELEASE_VERSION>` sets the version of the Octopus release (optional).
 - `--packageversion <PACKAGE_VERSION>` defines which version of the NuGet packages will be used in the release (optional).
@@ -118,7 +117,7 @@ And since all the NuGet packages are built with the same version number this is 
 An alternative of using the command line tool would be to use the [Octopus REST API](http://docs.octopusdeploy.com/display/OD/Octopus+REST+API){:target="_blank"}.
 The [OctopusDeploy-API GitHub repo](https://github.com/OctopusDeploy/OctopusDeploy-Api/tree/master/REST/PowerShell){:target="_blank"} contains loads of PowerShell scripts on how to use the REST API.
 
-## Multiple Nuget packages: The good, the bad and the ugly
+## Multiple NuGet packages: The good, the bad and the ugly
 
 As described in my [previous post]({{ site.url}}/2017/01/03/hands-on-with-sitecore-helix-setting-up-automated-build-packaging-continuous-delivery.html) I took the approach of having NuGet packages built for each module (`csproj`) in our solution.
 
