@@ -26,7 +26,7 @@ Let me know if you have any questions or comments when you wan to get started wi
 
 ## So long, and thanks for all the fish!
 
-I had a great time at TechDays, I enjoyed speaking there as well as attending numerous great sessions.
+I had a great time at TechDays, I enjoyed speaking as well as attending numerous great sessions. It was a lot of fun being there with all my colleagues.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/10/19/xpirit-team.jpg" alt="Xpirit team at TechDays">
 
@@ -36,4 +36,4 @@ At the end of the conference the two fish which were present at our Xpirit stand
 
 ## Want to know more?
 
-If you would like to know more about serverless architectures and Azure Functions, please drop me line. I'll be happy to do a session on this topic at your organization or meetup.
+If you would like to know more about serverless architectures and Azure Functions, please [drop me line](mailto:mduiker@xpirit.com). I'll be happy to do a session on this topic at your organization or meetup.
