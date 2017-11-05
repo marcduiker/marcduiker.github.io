@@ -8,7 +8,7 @@ tags: azure durable functions serverless faas stateful orchestration
 
 ## Durable Functions
 
-Since my [Getting started with Serverless Architectures using Azure Functions]({{ site.url}}2017/10/19/serverless-architectures-using-azure-functions.html) session at Techdays I've been closely monitoring the latest news about Azure Functions. The most recent addition is called [Durable Functions](https://azure.github.io/azure-functions-durable-extension/articles/overview.html){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
+Since my [Getting started with Serverless Architectures using Azure Functions]({{ site.url}}/2017/10/19/serverless-architectures-using-azure-functions.html) session at Techdays I've been closely monitoring the latest news about Azure Functions. The most recent addition is called [Durable Functions](https://azure.github.io/azure-functions-durable-extension/articles/overview.html){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
 
 <!--more-->
 
@@ -108,6 +108,6 @@ The Durable Functions documentation describes this in an example called the [Sta
 
 ### Next steps
 
-I've now spent a couple of days tinkering with Durable Functions and I have to say that I enjoy this framework a lot. It's more powerful than I imagined and although I was a bit skeptic about a more direct coupling of functions by using these orchestration functions I definitely see their value.
+I've now spent a couple of days tinkering with Durable Functions and I have to say that I enjoy this framework a lot. It's more powerful than I imagined and although I was a bit skeptical about a more direct coupling of functions by using these orchestration functions I definitely see their value.
 
 In next posts I'll share more examples about the `DurableOrchestrationContext` and include a demo about the orchestration function I wrote.
