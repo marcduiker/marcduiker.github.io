@@ -10,6 +10,8 @@ tags: azure functions serverless faas "functions as a service"
 
 The most recent addition to Azure Functions, the FaaS Service offering from Microsoft, is called [Durable Functions](https://azure.github.io/azure-functions-durable-extension/articles/overview.html){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
 
+<!--more-->
+
 ### How does it work?
 
 Durable Functions are built on top of the [Durable Task Framework](https://github.com/Azure/durabletask){:target="_blank"} which enables development of long running persistent workflows by using a pattern called [Event Sourcing](https://azure.github.io/azure-functions-durable-extension/articles/overview.html#the-technology){:target="_blank"}. This pattern ensures that all actions in the orchestration function are stored and can be replayed. One of the benefits of this approach is that when the orchestration function instance has triggered another function to perform a task, the orchestration function itself can hibernate (and will not cost anything when the consumption plan is used) until the other function returns its result. 
@@ -27,7 +29,7 @@ In order to use this client the following input binding needs to be added:
 
 The client exposes the following functionalities: 
 
-__Starting an instance__ 
+##### Starting an instance 
 
 This will start a new instance of an orchestration function.
 
@@ -37,21 +39,21 @@ This [Gist](https://gist.github.com/marcduiker/e0e7cb5c7eb81614ab5a4470de95d74a)
 
 {% gist e0e7cb5c7eb81614ab5a4470de95d74a %}
 
-__Stopping an instance__
+##### Stopping an instance
 
 The orchestration function instance can be terminated without waiting for the results from other functions triggered by the orchestration function instance.
 
 `await orchestrationClient.TerminateAsync(instanceId, terminationReason);`
 
-__Retrieving the status of an instance__
+##### Retrieving the status of an instance
 
 Since Durable Functions are meant to be long running it is useful to query the status of the orchestration:
 
-`var statusTask = await orchestrationClient.GetStatusAsync(instanceId);`
+`var status = await orchestrationClient.GetStatusAsync(instanceId);`
 
 The returning type is `DurableOrchestrationStatus` which contains a `RuntimeStatus` property indicating if the orchestration function instance is still running, completed or terminated.
 
-__Raising events__
+##### Raising events
 
 The orchestration client is also capable of raising events:
 
@@ -72,7 +74,7 @@ This [Gist](https://gist.github.com/marcduiker/e127deda371260f71ca93b1182e35a85)
 
 Although the `DurableOrchestrationContext` class contains about 15 methods I'll only describe a few of them in this initial post.
 
-__Get function input__
+##### Get function input
 
 When input is passed to the orchestration function (as JSON) this can be retrieved & deserialized by the `GetInput<T>` method. 
 
@@ -80,7 +82,7 @@ To retrieve a list of names the following can be used:
 
 `var names = orchestrationContext.GetInput<List<string>>()`
 
-__Call another function__
+##### Call another function
 
 The orchestration function can call other functions using the `CallActivityAsync<T>` method.
 
@@ -88,7 +90,7 @@ The following example calls the _CollectNames_ function. Passes an initial list 
 
 `var collectNamesResult = await context.CallActivityAsync<List<string>>("CollectNames", names);`
 
-__Wait for an event__
+##### Wait for an event
 
 As mentioned earlier, the `OrchestrationClient` can raise events and other functions can react on these by using the `WaitForExternalEvent<T>` method.
 
@@ -98,7 +100,7 @@ The following example describes the method to wait on the _addname_ event which 
 
 When it's required to await several events use the `await Task.WhenAll(...)` or `Task.WhenAny(...)` methods.
 
-__Restart the orchestration__
+##### Restart the orchestration
 
 When an orchestration is required to be running forever and its history is not of importance the `ContinueAsNew(object input)` method can be used to restart the orchestration which resets its history. The current state of orchestration can still be kept because it can be passed to this method and used again at the start of the orchestration using `GetInput<T>`.
 
