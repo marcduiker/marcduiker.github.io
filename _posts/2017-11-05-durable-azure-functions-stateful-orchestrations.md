@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Azure Durable Functions - Stateful function orchestrations part 1"
-tags: azure functions serverless faas "functions as a service"
+tags: azure durable functions serverless faas stateful orchestration
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/11/05/DurableFunctionsDemo.png" alt="HttpStart DurableFunction">
 
 ## Durable Functions
 
-The most recent addition to Azure Functions, the FaaS Service offering from Microsoft, is called [Durable Functions](https://azure.github.io/azure-functions-durable-extension/articles/overview.html){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
+Since my [Getting started with Serverless Architectures using Azure Functions]({{ site.url}}2017/10/19/serverless-architectures-using-azure-functions.html) session at Techdays I've been closely monitoring the latest news about Azure Functions. The most recent addition is called [Durable Functions](https://azure.github.io/azure-functions-durable-extension/articles/overview.html){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
 
 <!--more-->
 
