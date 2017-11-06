@@ -106,6 +106,17 @@ When an orchestration is required to be running forever and its history is not o
 
 The Durable Functions documentation describes this in an example called the [Stateful Singleton](https://azure.github.io/azure-functions-durable-extension/articles/samples/counter.html){:target="_blank"}.
 
+### Developing Durable Functions
+
+I recommend creating compiled orchestration functions using Visual Studio 2017 because currently durable functions can only be developed in C# (support for other languages will follow).
+
+The following tools/packages are required:
+
+- The [Azure Functions and Web Jobs Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs) Visual Studio extension. This extension adds a project template to Visual Studio to create regular Function Apps.
+- In your Function App you need a reference to this NuGet package: `Microsoft.Azure.WebJobs.Extensions.DurableTask` (currently 1.0.0-beta). 
+
+I had some issues while adding this package since it has a dependency on `Microsoft.Azure.WebJobs` __2.1.0-beta4__ while the Function App project template uses __2.1.0-beta1__. Make sure when you create a new Function App using the project template you update `Microsoft.NET.Sdk.Functions` NuGet package to the most recent one (now 1.0.6) so the `Microsoft.Azure.WebJobs` versions match up.
+
 ### Next steps
 
 I've now spent a couple of days tinkering with Durable Functions and I have to say that I enjoy this framework a lot. It's more powerful than I imagined and although I was a bit skeptical about a more direct coupling of functions by using these orchestration functions I definitely see their value.
