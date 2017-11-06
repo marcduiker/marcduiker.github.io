@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Durable Functions - Stateful function orchestrations part 1"
+title: "Azure Durable Functions - Stateful function orchestrations (part 1)"
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
@@ -102,9 +102,13 @@ When it's required to await several events use the `await Task.WhenAll(...)` or 
 
 ##### Restart the orchestration
 
-When an orchestration is required to be running forever and its history is not of importance the `ContinueAsNew(object input)` method can be used to restart the orchestration which resets its history. The current state of orchestration can still be kept because it can be passed to this method and used again at the start of the orchestration using `GetInput<T>`.
+When an orchestration is required to be running forever and its full history is not of importance the `ContinueAsNew(object input)` method can be used to restart the orchestration which resets its history. The current state of orchestration can still be kept because it can be passed to this method and used again at the start of the orchestration using `GetInput<T>`.
 
-The Durable Functions documentation describes this in an example called the [Stateful Singleton](https://azure.github.io/azure-functions-durable-extension/articles/samples/counter.html){:target="_blank"}.
+This example restarts the orchestration function and passing it a list of strings (names):
+
+`orchestrationContext.ContinueAsNew(names);`
+
+The Durable Functions documentation describes this in an example called [Stateful Singleton](https://azure.github.io/azure-functions-durable-extension/articles/samples/counter.html){:target="_blank"}.
 
 ### Developing Durable Functions
 
