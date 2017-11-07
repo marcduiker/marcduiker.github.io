@@ -116,7 +116,8 @@ I recommend creating compiled orchestration functions using Visual Studio 2017 b
 
 The following tools/packages are required:
 
-- The [Azure Functions and Web Jobs Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs) Visual Studio extension. This extension adds a project template to Visual Studio to create regular Function Apps.
+- The [Azure Storage Emulator](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator){:target="_blank"} is a standalone tool which uses SQL Server LocalDB and the local file storage instead of Azure Storage. The emulator needs to be started before you can run & debug Durable Functions locally. 
+- The [Azure Functions and Web Jobs Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs){:target="_blank"} Visual Studio extension. This extension adds a project template to Visual Studio to create regular Function Apps.
 - In your Function App you need a reference to this NuGet package: `Microsoft.Azure.WebJobs.Extensions.DurableTask` (currently 1.0.0-beta). 
 
 I had some issues while adding this package since it has a dependency on `Microsoft.Azure.WebJobs` __2.1.0-beta4__ while the Function App project template uses __2.1.0-beta1__. Make sure when you create a new Function App using the project template you update `Microsoft.NET.Sdk.Functions` NuGet package to the most recent one (now 1.0.6) so the `Microsoft.Azure.WebJobs` versions match up.
