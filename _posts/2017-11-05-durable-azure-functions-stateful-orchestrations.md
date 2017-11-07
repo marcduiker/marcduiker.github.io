@@ -121,6 +121,10 @@ The following tools/packages are required:
 
 I had some issues while adding this package since it has a dependency on `Microsoft.Azure.WebJobs` __2.1.0-beta4__ while the Function App project template uses __2.1.0-beta1__. Make sure when you create a new Function App using the project template you update `Microsoft.NET.Sdk.Functions` NuGet package to the most recent one (now 1.0.6) so the `Microsoft.Azure.WebJobs` versions match up.
 
+Finally make sure you have the following local connection strings in your local.settings.json in your Function App:
+
+{% gist 1099547c20666cf179f9590e47b978ff %}  
+
 ### Next steps
 
 I've now spent a couple of days tinkering with Durable Functions and I have to say that I enjoy this framework a lot. It's more powerful than I imagined and although I was a bit skeptical about a more direct coupling of functions by using these orchestration functions I definitely see their value.
