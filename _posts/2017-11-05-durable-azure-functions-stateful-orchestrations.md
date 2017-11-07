@@ -116,7 +116,7 @@ I recommend creating compiled orchestration functions using Visual Studio 2017 b
 
 The following tools/packages are required:
 
-- The [Azure Storage Emulator](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator){:target="_blank"} is a standalone tool which uses SQL Server LocalDB and the local file storage instead of Azure Storage. The emulator needs to be started before you can run & debug Durable Functions locally. 
+- The [Microsoft Azure Storage Emulator](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator){:target="_blank"} is a standalone tool which uses SQL Server LocalDB and the local file storage instead of Azure Storage. The emulator needs to be started before you can run & debug Durable Functions locally. 
 - The [Azure Functions and Web Jobs Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs){:target="_blank"} Visual Studio extension. This extension adds a project template to Visual Studio to create Function Apps and run/debug them locally.
 - In your Function App you need a reference to this NuGet package: `Microsoft.Azure.WebJobs.Extensions.DurableTask` (currently 1.0.0-beta). 
 
