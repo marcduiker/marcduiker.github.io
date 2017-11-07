@@ -110,7 +110,7 @@ This example restarts the orchestration function and passing it a list of string
 
 The Durable Functions documentation shows how this can be used in [Eternal Orchestrations](https://docs.microsoft.com/en-us/azure/azure-functions/durable-functions-eternal-orchestrations){:target="_blank"}.
 
-### Developing Durable Functions
+### <a id="developing"></a>Developing Durable Functions
 
 I recommend creating compiled orchestration functions using Visual Studio 2017 because currently durable functions can only be developed in C# (support for other languages will follow).
 
