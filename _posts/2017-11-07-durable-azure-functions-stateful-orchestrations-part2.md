@@ -26,9 +26,7 @@ Have a look at the [Developing Durable Function]({{ site.url}}/2017/11/05/durabl
 
 ### Running Durable Functions Locally
 
-I usually type _azure_ in the Windows desktop searchbar to find the Microsoft Azure Storage Emulator and start it from there:
-
-<img src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-search.png" alt="Searching the Azure Storage Emulator">
+I usually type _azure_ in the Windows desktop search box to find the Microsoft Azure Storage Emulator and start it from there:
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-started.png" alt="Azure Storage Emulator is started">
 
