@@ -16,7 +16,7 @@ In this post we'll look into more detail at the `HttpStart` and `HelloWorld` fun
 
 ### Setup
 
-You can start by cloning my [demos-azure-durable-functions](https://github.com/marcduiker/demos-azure-durable-functions.git){:target="_blank"} GitHub repository to get the `DurableFunctionsDemo` Function App which contains the following Functions:
+You can start by cloning my [demos-azure-durable-functions](https://github.com/marcduiker/demos-azure-durable-functions.git){:target="_blank"} GitHub repository. This repo holds the `DurableFunctionsDemo` Function App which contains the following functions:
 
 - `HttpStart`, the HttpTrigger function which starts an orchestration function.
 - `HelloWorld`, the most basic orchestration function ever.
@@ -26,22 +26,32 @@ Have a look at the [Developing Durable Function]({{ site.url}}/2017/11/05/durabl
 
 ### Running Durable Functions Locally
 
-1. I usually type _azure_ in the Windows desktop searchbar to find the Microsoft Azure Storage Emulator and start it from there:</br>
-<img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-search.png" alt="Searching the Azure Storage Emulator"></br>
+1. I usually type _azure_ in the Windows desktop searchbar to find the Microsoft Azure Storage Emulator and start it from there:
+
+<img src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-search.png" alt="Searching the Azure Storage Emulator">
+
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-started.png" alt="Azure Storage Emulator is started">
-2. Open the DurableFunctionsDemo solution and press F5 to run it locally:</br>
+
+2. Open the DurableFunctionsDemo solution and press F5 to run it locally:
+
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/functionsruntime1.png" alt="Local Functions Runtime starting">
-3. After a few seconds you'll see the local endpoint of the `HttpStart` function in green:</br>
+
+3. After a few seconds you'll see the local endpoint of the `HttpStart` function in green:
+
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/functionsruntime2.png" alt="Local Functions Runtime is up and running with local endpoint">
+
 4. You can copy & paste this url to Postman (or any other HTTP API test client) and change the following:
    - Make this a __POST__ request
    - Change __{functionName}__ to __HelloWorld__
    - In the Body tab, select __raw__ and __JSON (application/json)__ as the content-type
-    - Type a string in the body of the request, such as __"Durable Functions!"__.</br>
-<img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-request.png" alt="Request to orchestration/HelloWorld">
-5. Click Send to do the request
+    - Type a string in the body of the request, such as __"Durable Functions!"__.
 
-You might expect to see __"Hello Durable Functions!"__ in the response body but that is not the case. You'll see this:</br>
+<img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-request.png" alt="Request to orchestration/HelloWorld">
+
+5. Click Send to do the request.
+
+You might expect to see __"Hello Durable Functions!"__ in the response body but that is not the case. You'll see this:
+
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-response.png" alt="Reponse from orchestration/HelloWorld">
 
 This is because you receive the response from the `HttpStart` function and not the `HelloWorld` function directly.
