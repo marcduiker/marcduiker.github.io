@@ -8,13 +8,13 @@ tags: azure durable functions serverless faas stateful orchestration
 
 ## Durable Functions
 
-Since my [Getting started with Serverless Architectures using Azure Functions]({{ site.url}}/2017/10/19/serverless-architectures-using-azure-functions.html) session at Techdays I've been closely monitoring the latest news about Azure Functions. The most recent addition is called [Durable Functions](https://azure.github.io/azure-functions-durable-extension/articles/overview.html){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
+Since my [Getting started with Serverless Architectures using Azure Functions]({{ site.url}}/2017/10/19/serverless-architectures-using-azure-functions.html) session at Techdays I've been closely monitoring the latest news about Azure Functions. The most recent addition is called [Durable Functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable-functions-overview){:target="_blank"}. With this extension long running and stateful function orchestrations can be developed. This is a welcome addition to the Azure serverless product suite since it is now much easier to implement function chaining and fan-in/fan-out messaging scenarios.
 
 <!--more-->
 
 ### How does it work?
 
-Durable Functions are built on top of the [Durable Task Framework](https://github.com/Azure/durabletask){:target="_blank"} which enables development of long running persistent workflows by using a pattern called [Event Sourcing](https://azure.github.io/azure-functions-durable-extension/articles/overview.html#the-technology){:target="_blank"}. This pattern ensures that all actions in the orchestration function are stored and can be replayed. One of the benefits of this approach is that when the orchestration function instance has triggered another function to perform a task, the orchestration function itself can hibernate (and will not cost anything when the consumption plan is used) until the other function returns its result. 
+Durable Functions are built on top of the [Durable Task Framework](https://github.com/Azure/durabletask){:target="_blank"} which enables development of long running persistent workflows by using a pattern called [Event Sourcing](https://docs.microsoft.com/en-us/azure/azure-functions/durable-functions-overview#the-technology){:target="_blank"}. This pattern ensures that all actions in the orchestration function are stored and can be replayed. One of the benefits of this approach is that when the orchestration function instance has triggered another function to perform a task, the orchestration function itself can hibernate (and will not cost anything when the consumption plan is used) until the other function returns its result. 
 
 Durable Functions use Azure Storage queues, tables and blobs to manage state and messages. It uses the storage account which is created when you create a new Function App through the Azure portal.
 
@@ -108,7 +108,7 @@ This example restarts the orchestration function and passing it a list of string
 
 `orchestrationContext.ContinueAsNew(names);`
 
-The Durable Functions documentation describes this in an example called [Stateful Singleton](https://azure.github.io/azure-functions-durable-extension/articles/samples/counter.html){:target="_blank"}.
+The Durable Functions documentation shows how this can be used in [Eternal Orchestrations](https://docs.microsoft.com/en-us/azure/azure-functions/durable-functions-eternal-orchestrations){:target="_blank"}.
 
 ### Developing Durable Functions
 
