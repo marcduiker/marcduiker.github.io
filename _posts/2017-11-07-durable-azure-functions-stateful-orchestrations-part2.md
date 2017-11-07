@@ -30,7 +30,7 @@ I usually type _azure_ in the Windows desktop search box to find the Microsoft A
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-started.png" alt="Azure Storage Emulator is started">
 
-Open the DurableFunctionsDemo solution and press F5 to run it locally:
+Open the `DurableFunctionsDemo.sln` solution and press _F5_ to run it locally:
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/functionsruntime1.png" alt="Local Functions Runtime starting">
 
@@ -38,26 +38,28 @@ After a few seconds you'll see the local endpoint of the `HttpStart` function in
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/functionsruntime2.png" alt="Local Functions Runtime is up and running with local endpoint">
 
-You can copy & paste this url to Postman (or any other HTTP API test client) and change the following:
+You can copy & paste this url into Postman (or any other HTTP API test client) and change the following:
    - Make this a __POST__ request
    - Change __{functionName}__ to __HelloWorld__
-   - In the Body tab, select __raw__ and __JSON (application/json)__ as the content-type
-    - Type a string in the body of the request, such as __"Durable Functions!"__.
+   - In the Body tab, select __raw__ and __JSON (application/json)__ as the content-type.
+   - Type a string in the body of the request, such as __"Durable Functions!"__.
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-request.png" alt="Request to orchestration/HelloWorld">
 
-Click Send to do the request.
+Click _Send_ to do the request.
 
 You might expect to see __"Hello Durable Functions!"__ in the response body but that is not the case. You'll see this instead:
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-response.png" alt="Reponse from orchestration/HelloWorld">
 
-This is because you receive the response from the `HttpStart` function and not the `HelloWorld` function directly.
+This is because you receive the response from the `HttpStart` function (the `DurableOrchestrationClient`) and not the `HelloWorld` function directly.
 
 The `DurableOrchestrationClient` class exposes the `CreateCheckStatusResponse` API which generates an HTTP response containing the HTTP API methods that the client supports. In this response we see the following API methods:
 - `statusQueryGetUri`; when a GET request is made to this endpoint the status of the orchestration function is returned (a serialized `Durable​Orchestration​Status`). 
 - `sendEventPostUri`; when a POST request is made to this endpoint (including a valid eventname and event data) an event is triggered which can be picked up by an orchestration function. I'll come back to this in the next blog post. 
 - `terminatePostUri`; when a POST request is made to this endpoint the orchestration function is stopped without waiting for normal completion.
+
+The `id` in the response is the `InstanceId` of the orchestration function.
 
 When you click the `statusQueryGetUri` endpoint and send it as a GET request you'll get the following response:
 
@@ -77,4 +79,4 @@ When you navigate to (Local and Attached) > Storage Accounts > Development you'l
 
 ### Next steps
 
-At this moment you should have gained some insights how to run & debug Durable Functions locally. In the next post I'll demonstrate an 'eternal' orchestration function which waits for external events.
+At this moment you should have gained some insights how to run & debug Durable Functions locally. In the next post I'll demonstrate an 'eternal' orchestration function which waits for external events and is stateful.
