@@ -26,21 +26,21 @@ Have a look at the [Developing Durable Function]({{ site.url}}/2017/11/05/durabl
 
 ### Running Durable Functions Locally
 
-1. I usually type _azure_ in the Windows desktop searchbar to find the Microsoft Azure Storage Emulator and start it from there:
+I usually type _azure_ in the Windows desktop searchbar to find the Microsoft Azure Storage Emulator and start it from there:
 
 <img src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-search.png" alt="Searching the Azure Storage Emulator">
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/azurestorageemulator-started.png" alt="Azure Storage Emulator is started">
 
-2. Open the DurableFunctionsDemo solution and press F5 to run it locally:
+Open the DurableFunctionsDemo solution and press F5 to run it locally:
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/functionsruntime1.png" alt="Local Functions Runtime starting">
 
-3. After a few seconds you'll see the local endpoint of the `HttpStart` function in green:
+After a few seconds you'll see the local endpoint of the `HttpStart` function in green:
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/functionsruntime2.png" alt="Local Functions Runtime is up and running with local endpoint">
 
-4. You can copy & paste this url to Postman (or any other HTTP API test client) and change the following:
+You can copy & paste this url to Postman (or any other HTTP API test client) and change the following:
    - Make this a __POST__ request
    - Change __{functionName}__ to __HelloWorld__
    - In the Body tab, select __raw__ and __JSON (application/json)__ as the content-type
@@ -48,9 +48,9 @@ Have a look at the [Developing Durable Function]({{ site.url}}/2017/11/05/durabl
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-request.png" alt="Request to orchestration/HelloWorld">
 
-5. Click Send to do the request.
+Click Send to do the request.
 
-You might expect to see __"Hello Durable Functions!"__ in the response body but that is not the case. You'll see this:
+You might expect to see __"Hello Durable Functions!"__ in the response body but that is not the case. You'll see this instead:
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-response.png" alt="Reponse from orchestration/HelloWorld">
 
@@ -63,7 +63,7 @@ The `DurableOrchestrationClient` class exposes the `CreateCheckStatusResponse` A
 
 When you click the `statusQueryGetUri` endpoint and send it as a GET request you'll get the following response:
 
-<img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-statusquerygeturi.png" alt="Request and response to the statusQueryGetUri endpoint">
+<img class="u-max-full-width" src="{{ site.url }}/assets/2017/11/07/postman-helloworld-getstatusqueryuri.png" alt="Request and response to the statusQueryGetUri endpoint">
 
 Now you have the input & output of the `HelloWorld` orchestration function and the status of the function.
 
