@@ -131,3 +131,5 @@ Finally make sure you have the following local connection strings in your local.
 I've now spent a couple of days tinkering with Durable Functions and I have to say that I enjoy this framework a lot. It's more powerful than I imagined and although I was a bit skeptical about a more direct coupling of functions by using these orchestration functions I definitely see their value.
 
 In next posts I'll share more examples about the `DurableOrchestrationContext` and include a demo about the orchestration function I wrote.
+
+__[Continue with Part 2]({{ site.url}}/2017/11/07/durable-azure-functions-stateful-orchestrations-part2.html)__
