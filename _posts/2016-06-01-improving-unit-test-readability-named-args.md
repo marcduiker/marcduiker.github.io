@@ -4,7 +4,7 @@ title: "Improving unit test readability: helper methods &amp; named arguments"
 tags: unit test readability named arguments C# .Net
 ---
 
-'Uncle Bob' wrote the following in <a rel="nofollow" href="http://www.amazon.co.uk/gp/product/0132350882/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0132350882&linkCode=as2&tag=marduiblo-21">Clean Code: A Handbook of Agile Software Craftsmanship</a><img src="http://ir-uk.amazon-adsystem.com/e/ir?t=marduiblo-21&l=as2&o=2&a=0132350882" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />:
+'Uncle Bob' wrote the following in <a rel="nofollow" href="https://www.amazon.co.uk/gp/product/0132350882/">Clean Code: A Handbook of Agile Software Craftsmanship</a>:
 
 _"The ratio of time spent reading (code) versus writing is well over 10 to 1 ... (therefore) making it easy to read makes it easier to write."_
 

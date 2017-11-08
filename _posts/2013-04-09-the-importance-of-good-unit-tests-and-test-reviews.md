@@ -5,8 +5,8 @@ tags: unit testing code quality
 canonical: "http://blog.marcduiker.nl/2013/04/the-importance-of-good-unit-tests-and.html"
 ---
 
-<a href="http://xkcd.com/292/" target="_blank">
-  <img class="u-max-full-width" src="http://imgs.xkcd.com/comics/goto.png" alt="GOTO by xkcd">
+<a href="https://xkcd.com/292/" target="_blank">
+  <img class="u-max-full-width" src="https://imgs.xkcd.com/comics/goto.png" alt="GOTO by xkcd">
 </a>
 
 I'm currently following an [online TDD course](https://www.udemy.com/draft/14162/) by [Roy Osherove](http://osherove.com/). I'm about half way through and although I have quite a bit of experience writing unit tests and using test frameworks I've gained a lot of knowledge from the course already. Here are some highlights about good unit tests and test reviews.
