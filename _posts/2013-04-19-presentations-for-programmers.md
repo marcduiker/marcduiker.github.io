@@ -5,11 +5,7 @@ tags: presenting html5 soft skills
 canonical: "http://blog.marcduiker.nl/2013/04/presentations-for-programmers.html"
 ---
 
-<a href="http://marcduiker.azurewebsites.net/presentations/presentations%20for%20programmers.html#/" target="_blank">
-  <img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/19/Presentations for programmers.png" alt="Presentations for programmers">
-</a>
-
-<small>(click to open the presentation)</small>
+<img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/19/Presentations for programmers.png" alt="Presentations for programmers">
 
 ## Great Slides + Great Speaker = Great Presentation
 
