@@ -7,3 +7,4 @@ markdown: kramdown
 future: true
 paginate: 50
 excerpt_separator: <!--more-->
+url: https://blog.marcduiker.nl
