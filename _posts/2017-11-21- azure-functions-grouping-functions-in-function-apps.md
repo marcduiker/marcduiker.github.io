@@ -22,7 +22,7 @@ You're now dealing with a serverless architecture challenge. Let's look at some 
 
 ### Serverless Architecture Aspects
 
-Here a couple of aspects which play a big role in deciding the serverless architecture:
+Here are a couple of aspects which play a big role in deciding a serverless architecture:
 
 - Single responsibility principle
 - Workload distribution
