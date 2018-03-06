@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Durable Functions - Durable Functions on Youtube (part 1)"
+title: "Durable Functions on YouTube (part 1)"
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
@@ -12,7 +12,7 @@ The first video covers a very basic 'Hello World' example and shows how to use t
 
 Here's the video, please give it a thumbs up if you like it and subscribe to my channel so you'll be notified of new videos.
 
-[![Durable Functions part 1](http://img.youtube.com/vi/29hX9jZvejE/0.jpg)](http://www.youtube.com/watch?v=29hX9jZvejE "Durable Functions part 1")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/29hX9jZvejE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Resources
 
