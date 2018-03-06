@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Durable Functions - Durable Functions on Youtube (part 1)"
+title: "Durable Functions on YouTube (part 1)"
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
