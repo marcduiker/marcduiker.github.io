@@ -31,7 +31,9 @@ Although the meaning of the string in the `[FunctionName]` attribute is clear, w
 In addition you will only be notified of an invalid `[FunctionName]` attribute during runtime: 
 
 ```
-"Orchestrator function 'HelloName' failed: The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function. The following are the active activity functions: '...'"
+"Orchestrator function 'HelloName' failed: 
+The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function. 
+The following are the active activity functions: '...'"
 ```
 
 If we could use a type safe way of naming functions, invalid names could be detected much earlier.
