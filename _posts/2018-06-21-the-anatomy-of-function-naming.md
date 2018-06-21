@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Durable Functions - The Anatomy of Function Naming"
-tags: azure durable functions serverless faas stateful orchestration
+tags: azure durable functions serverless faas stateful orchestration naming
 ---
 
 ## Function Names in the Wild
@@ -34,7 +34,7 @@ I definitely agree with [Phil Karlton](https://skeptics.stackexchange.com/questi
 
 When it comes to naming functions I always start with a verb followed by a noun related to the domain language. I don't mind verbose class or method names as long as they clearly communicate their intent.
 
-I recenty updated my Durable Functions demo code I wrap some calls to [swapi.co](http://swapi.co) (Star Wars API) in activity functions. Those function names are `GetCharacter`, `SearchCharacter`, `GetPlanet` and `SearchPlanet`. I hope you will agree the intent is clear.
+I recenty updated my Durable Functions demo code where I wrap some calls to [swapi.co](http://swapi.co) (Star Wars API) in activity functions. Those function names are named `GetCharacter`, `SearchCharacter`, `GetPlanet` and `SearchPlanet`. I hope you will agree the intent is clear.
 
 ## Structuring Orchestration and Activity Functions
 
@@ -47,11 +47,11 @@ I prefer my orchestration and activity functions to be in seperate classes. In a
 
 ## Safe and Consistent Naming
 
-An orchestration function depends on the implemented activity functions and both types of functions are located in the same Function App. This means we don't need to provide string literals seperately for the FunctionName in the activity and in the `CallActivityAsync()` method in the orchestration but we can do something more 'clever'.
+An orchestration function depends on the implemented activity functions and both types of functions are located in the same Function App. This means we don't need to provide string literals seperately for the `[FunctionName]` in the activity and in the `CallActivityAsync()` method in the orchestration but we can do something more 'clever'.
 
 ### Option 1: Static Naming Class
 
-The most basic option to have consistent naming of functions is to use a static class which contains the names as static fields/properties. Now both orchestration and activity functions can use that naming class. 
+The most basic option to have consistent naming of functions is to use a static class which contains string constants. Now both orchestration and activity functions can use that naming class:
 
 {% gist 0a841a123b103acbcd5fe96437b87084 %}
 
@@ -65,7 +65,7 @@ Since I write only one function per class I do the following when specifying the
 
 The `nameof()` expression is available since [C# 6.0](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/nameof) and provides a very clean way to use strings based on class names.
 
-The benefits are that I can now refer to an activity function in a strongly typed fashion so renaming/refactoring is less fragile.
+The benefit is that I can now refer to an activity function in a strongly typed fashion so renaming/refactoring is less fragile.
 
 The downside of this technique is ofcourse that function names are limited to valid C# class names.
 
