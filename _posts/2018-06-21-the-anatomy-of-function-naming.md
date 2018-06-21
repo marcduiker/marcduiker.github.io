@@ -30,7 +30,9 @@ Although the meaning of the string in the `[FunctionName]` attribute is clear, w
 
 In addition you will only be notified of an invalid `[FunctionName]` attribute during runtime: 
 
-`"Orchestrator function 'HelloName' failed: The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function. The following are the active activity functions: '...'"`
+```
+"Orchestrator function 'HelloName' failed: The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function. The following are the active activity functions: '...'"
+```
 
 If we could use a type safe way of naming functions, invalid names could be detected much earlier.
 
@@ -87,9 +89,9 @@ The benefits definitely outweight the downsides for me.
 
 So there you go, two options to refer to your function names in a safe and consistent manner when using Durable Functions. 
 
-I'd like to know which one do you prefer (or maybe you have another alternative), so feel free to reach out to me on [Twitter](https://twitter.com/marcduiker) or [GitHub](https://github.com/marcduiker/demos-azure-durable-functions/issues).
+I'd like to know which one do you prefer (or maybe you have an alternative), so feel free to reach out to me on [Twitter](https://twitter.com/marcduiker) or [GitHub](https://github.com/marcduiker/demos-azure-durable-functions/issues).
 
-Related to this subject is this issue on Github: [Convention-based FunctionName & HttpTrigger Routes](https://github.com/Azure/azure-functions-core-tools/issues/257)
+Related to this subject is this issue on Github: [Convention-based FunctionName & HttpTrigger Routes](https://github.com/Azure/azure-functions-core-tools/issues/257).
 
 ## Resources
 
