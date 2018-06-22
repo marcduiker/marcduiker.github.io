@@ -12,7 +12,7 @@ Whenever I see examples or implementations of Azure Funtions I always see this:
  
 Where the function name is present as a direct string literal. I'm not questioning that it *is* a string because that's simply the way the `FunctionName` attribute works currently. I'm more concerned how the string got there. 
 
-I'd like to show two different ways to refer to function names in a safe and consistent way. This is especially useful when you're using [Durable Functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable-functions-overview) and need to refer to activity function names in your orchestration function.
+I'd like to show two ways to refer to function names in a safe and consistent way. This is especially useful when you're using [Durable Functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable-functions-overview) and need to refer to activity function names in your orchestration function.
 
 <!--more-->
 
@@ -30,11 +30,9 @@ Although the meaning of the string in the `[FunctionName]` attribute is clear, w
 
 In addition you will only be notified of an invalid `[FunctionName]` attribute during runtime: 
 
-```
-"Orchestrator function 'HelloName' failed: 
-The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function. 
-The following are the active activity functions: '...'"
-```
+`"Orchestrator function 'HelloName' failed:` 
+`The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function.` 
+`The following are the active activity functions: '...'"`
 
 If we could use a type safe way of naming functions, invalid names could be detected much earlier.
 
@@ -80,6 +78,7 @@ The `nameof()` expression is available since [C# 6.0](https://docs.microsoft.com
 The benefits are that:
 - I can now refer to an activity function in a strongly typed fashion so renaming/refactoring is less fragile.
 - I always use names that are valid function names.
+- I don't have to think about creating __two__ names (class and function), just __one__.
 
 The downsides are that:
 - Function names are limited to valid C# class names.
