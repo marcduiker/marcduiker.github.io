@@ -4,6 +4,8 @@ title: "Durable Functions - The Anatomy of Function Naming"
 tags: azure durable functions serverless faas stateful orchestration naming
 ---
 
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2018/06/21/functionnaming.png" alt="How to name your Azure Functions">
+
 ## Function Names in the Wild
 
 Whenever I see examples or implementations of Azure Funtions I always see this:
