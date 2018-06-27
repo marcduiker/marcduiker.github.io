@@ -8,7 +8,7 @@ tags: azure durable functions serverless faas stateful orchestration naming
 
 ## Function Names in the Wild
 
-Whenever I see examples or implementations of Azure Funtions I always see this:
+Whenever I see examples or implementations of Azure Functions I always see this:
 
  `[FunctionName("myfunction")]`
  
@@ -22,7 +22,7 @@ I'd like to show two ways to refer to function names in a safe and consistent wa
 
 I admit that I've probably been reading too much *Code Complete* and *Clean Code* in my life because whenever I see literal strings in code I usually get the chills. So I'm probably overreacting a bit...
 
-What I find most annoying about direct usage of literal strings in general is that the intent or meaning is usually unclear or ambiguous (aka [magic string](https://en.wikipedia.org/wiki/Magic_string)). 
+What I find most annoying about the direct usage of literal strings in general is that the intent or meaning is usually unclear or ambiguous (aka [magic string](https://en.wikipedia.org/wiki/Magic_string)). 
 
 Although the meaning of the string in the `[FunctionName]` attribute is clear, what valid input is for the name is not clear. You need to dig into the [FunctionNameAttribute.cs](https://github.com/Azure/azure-webjobs-sdk/blob/9f96d3f1e63ae1241431990f256f1b2e6880167f/src/Microsoft.Azure.WebJobs/FunctionNameAttribute.cs#L34) class to find the regex that validates the `[FunctionName]` attribute string:
 
@@ -30,13 +30,13 @@ Although the meaning of the string in the `[FunctionName]` attribute is clear, w
 
 ... and then you need to understand the regex as well ;).
 
-In addition you will only be notified of an invalid `[FunctionName]` attribute during runtime: 
+In addition, you will only be notified of an invalid `[FunctionName]` attribute during runtime: 
 
 `"Orchestrator function 'HelloName' failed:` 
 `The function 'Hello.Activity' doesn't exist, is disabled, or is not an activity function.` 
 `The following are the active activity functions: '...'"`
 
-If we could use a type safe way of naming functions, invalid names could be detected much earlier.
+If we could use a type-safe way of naming functions, invalid names could be detected much earlier.
 
 ## Naming is Hard
 
@@ -44,11 +44,11 @@ I definitely agree with [Phil Karlton](https://skeptics.stackexchange.com/questi
 
 When it comes to naming functions I always start with a verb followed by a noun related to the domain language. I don't mind verbose class or method names as long as they clearly communicate their intent.
 
-For example, I recenty updated my Durable Functions demo code where I wrap some calls to [swapi.co](http://swapi.co) (Star Wars API) in activity functions. Those function names are named `GetCharacter`, `SearchCharacter`, `GetPlanet` and `SearchPlanet`. I hope you will agree the intent is clear.
+For example, I recently updated my Durable Functions demo code where I wrap some calls to [swapi.co](http://swapi.co) (Star Wars API) in activity functions. Those function names are named `GetCharacter`, `SearchCharacter`, `GetPlanet` and `SearchPlanet`. I hope you will agree the intent is clear.
 
 ## Structuring Orchestration and Activity Functions
 
-I prefer my orchestration and activity functions to be in seperate classes. In adddition, I prefer to have each activity function in it's own class (and file). For me this brings the following benefits:
+I prefer my orchestration and activity functions to be in separate classes. In addition, I prefer to have each activity function in its own class (and file). For me this brings the following benefits:
 
 - Files and classes are kept very small and therefore very readable.
 - When I add a new activity function I don't risk 'touching' other functions (except to call it from the orchestration function of course).
@@ -57,7 +57,7 @@ I prefer my orchestration and activity functions to be in seperate classes. In a
 
 ## Safe and Consistent Naming
 
-An orchestration function depends on the implemented activity functions and both types of functions are located in the same Function App. This means we don't need to provide string literals seperately for the `[FunctionName]` in the activity and in the `CallActivityAsync()` methods in the orchestration but we can do something better.
+An orchestration function depends on the implemented activity functions and both types of functions are located in the same Function App. This means we don't need to provide string literals separately for the `[FunctionName]` in the activity and in the `CallActivityAsync()` methods in the orchestration but we can do something better.
 
 ### Option 1: Static Class with Constants
 
@@ -65,7 +65,7 @@ The most basic option to have consistent naming of functions is to use a static 
 
 {% gist 0a841a123b103acbcd5fe96437b87084 %}
 
-I'd suggest to use this option only if you require a function naming convention that is not compatible with your C# class naming convention (e.g. you require hyphens or underscores in the function name). 
+I suggest using this option only if you require a function naming convention that is not compatible with your C# class naming convention (e.g. you require hyphens or underscores in the function name). 
 
 You could add comments what valid function names are and, even more important, you should add unit tests that fail when invalid names are used. Then at least you know during your CI/CD process that something is wrong.
 
@@ -86,7 +86,7 @@ The downsides are that:
 - Function names are limited to valid C# class names.
 - There can only be one function method per class.
 
-The benefits definitely outweight the downsides for me.
+The benefits definitely outweigh the downsides for me.
 
 ## Which one do you prefer?
 
