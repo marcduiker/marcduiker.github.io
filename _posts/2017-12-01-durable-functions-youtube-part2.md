@@ -14,4 +14,4 @@ Here's the video, please give it a thumbs up if you like it and subscribe to my 
 
 ### Resources
 
-The souce code that is used for this demo can be found on [GitHub](https://github.com/marcduiker/demos-azure-durable-functions).
+The source code that is used for this demo can be found on [GitHub](https://github.com/marcduiker/demos-azure-durable-functions).

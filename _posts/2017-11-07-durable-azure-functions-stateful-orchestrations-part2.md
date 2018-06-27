@@ -56,7 +56,7 @@ This is because you receive the response from the `HttpStart` function (the `Dur
 
 The `DurableOrchestrationClient` class exposes the `CreateCheckStatusResponse` API which generates an HTTP response containing the HTTP API methods that the client supports. In this response we see the following API methods:
 - `statusQueryGetUri`; when a GET request is made to this endpoint the status of the orchestration function is returned (a serialized `Durable​Orchestration​Status`). 
-- `sendEventPostUri`; when a POST request is made to this endpoint (including a valid eventname and event data) an event is triggered which can be picked up by an orchestration function. I'll come back to this in the next blog post. 
+- `sendEventPostUri`; when a POST request is made to this endpoint (including a valid event name and event data) an event is triggered which can be picked up by an orchestration function. I'll come back to this in the next blog post. 
 - `terminatePostUri`; when a POST request is made to this endpoint the orchestration function is stopped without waiting for normal completion.
 
 The `id` in the response is the `InstanceId` of the orchestration function.
