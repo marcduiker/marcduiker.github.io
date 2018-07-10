@@ -5,6 +5,6 @@ gems:
   - jekyll-feed
 markdown: kramdown
 future: true
-paginate: 50
+paginate: 10
 excerpt_separator: <!--more-->
 url: https://blog.marcduiker.nl

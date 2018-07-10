@@ -11,7 +11,7 @@ title: "My experiences &amp; thoughts about Azure, DevOps &amp; personal program
       <div class="row">
         <div class="twelve columns">
 
-            {% for post in paginator.posts %}
+            {% for post in paginator.posts limit:10 %}
                 <article itemscope itemtype="https://schema.org/BlogPosting">
                   <h1><a href="{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a></h1>
                   <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}"><em>{{ post.date | date_to_long_string }}</em></time>
@@ -28,7 +28,11 @@ title: "My experiences &amp; thoughts about Azure, DevOps &amp; personal program
     </div>
 
     {% include footer.html %} 
-    
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
     {% include disqus.html %}
   </body>
 </html>
