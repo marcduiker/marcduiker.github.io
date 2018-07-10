@@ -28,7 +28,11 @@ title: "My experiences &amp; thoughts about Azure, DevOps &amp; personal program
     </div>
 
     {% include footer.html %} 
-    
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
     {% include disqus.html %}
   </body>
 </html>
