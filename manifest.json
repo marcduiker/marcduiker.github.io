@@ -1,17 +1,37 @@
 {
-    "name": "Marc Duiker | My experiences & thoughts about Azure, DevOps & personal programming projects.",
+    "name": "Marc Duiker | Blog",
     "short_name": "Marc Duiker",
     "lang": "en-US",
-    "theme_color": "#ffffff",
-    "background_color": "#1eaedb",
+    "theme_color": "#1eaedb",
+    "background_color": "#ffffff",
     "display": "browser",
     "scope": "/",
     "start_url": "/",
     "icons": [
       {
-        "src": "https://blog.marcduiker.nl/assets/favicon.ico",
+        "src": "https://blog.marcduiker.nl/assets/icons/favicon.ico",
         "sizes": "16x16",
         "type": "image/ico"
+      },
+      {
+        "src": "https://blog.marcduiker.nl/assets/icons/favicon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "https://blog.marcduiker.nl/assets/icons/favicon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://blog.marcduiker.nl/assets/icons/favicon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "https://blog.marcduiker.nl/assets/icons/favicon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
       }
     ],
     "splash_pages": null
