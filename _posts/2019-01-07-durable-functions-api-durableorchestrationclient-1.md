@@ -8,6 +8,8 @@ tags: azure durable functions serverless faas stateful orchestration
 
 This is the first part of a series of blogs/vlogs to discover the Durable Functions API.
 
+<!--more-->
+
 In the video linked below I'm looking into methods from the  `DurableOrchestrationClient`(`Base`) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
 
 - `StartNewAsync(string orchestratorFunctionName, object input)`
