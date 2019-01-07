@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Durable Functions API - DurableOrchestrationClient (part 1)"
+title: "Discovering the Durable Functions API - DurableOrchestrationClient (part 1)"
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
-## DurableOrchestrationClient(Base) class (Part 1)
+## DurableOrchestrationClient(Base) class
 
 This is the first part of a series of blogs/vlogs to discover the Durable Functions API.
 
