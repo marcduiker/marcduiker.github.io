@@ -4,7 +4,9 @@ title: "Discovering the Durable Functions API - DurableOrchestrationClient (part
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
-## DurableOrchestrationClient(Base) class
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/01/07/DurableOrchestrationClientBase1_900.png" alt="Methods in DurableOrchestrationClientBase">
+
+## DurableOrchestrationClient(Base) class - Starting & waiting for completion
 
 This is the first part of a series of blogs/vlogs to discover the Durable Functions API.
 
@@ -32,3 +34,4 @@ Here's the video, please give it a thumbs up if you like it and subscribe to my 
 ### Links to other posts in this series
 
 - DurableOrchestrationClient(Base) class (Part 1)
+- [DurableOrchestrationClient(Base) class (Part 2)](/2019-02-10-durable-functions-api-durableorchestrationclient-2.html)
