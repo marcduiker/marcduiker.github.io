@@ -4,13 +4,15 @@ title: "Discovering the Durable Functions API - DurableOrchestrationClient (part
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
-## DurableOrchestrationClient(Base) class
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/01/07/DurableOrchestrationClientBase1_900.png" alt="Methods in DurableOrchestrationClientBase">
+
+## DurableOrchestrationClient(Base) class - Starting & waiting for completion
 
 This is the first part of a series of blogs/vlogs to discover the Durable Functions API.
 
 <!--more-->
 
-In the video linked below I'm looking into methods from the  `DurableOrchestrationClient`(`Base`) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
+In the video linked below I'm looking into methods from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/aa38ee7a608f8fb552a9c34dd1d4ea25525cdf58/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
 
 - `StartNewAsync(string orchestratorFunctionName, object input)`
 - `StartNewAsync(string orchestratorFunctionName, string instanceId, object input)`
@@ -32,3 +34,4 @@ Here's the video, please give it a thumbs up if you like it and subscribe to my 
 ### Links to other posts in this series
 
 - DurableOrchestrationClient(Base) class (Part 1)
+- [DurableOrchestrationClient(Base) class (Part 2)](/2019/02/17/durable-functions-api-durableorchestrationclient-2.html)
