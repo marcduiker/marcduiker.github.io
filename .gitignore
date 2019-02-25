@@ -1,0 +1,10 @@
+# Files
+Gemfile*
+feed.xml
+settings.json
+cSpell.json
+CNAME
+
+# Folders
+_plugins/
+_site/

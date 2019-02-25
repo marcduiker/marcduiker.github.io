@@ -9,12 +9,13 @@
   <link rel="manifest" href="manifest.json">
   <meta charset="utf-8">
   <meta name="description" content="{{ page.title }}" />
-  <meta name="author" content="Marc Duiker">
+  <meta name="author" content="{{ site.author.name }}">
   <meta name="google-site-verification" content="8x6RFwJ53Ryr_sAZQgcInmeiKuuyRDvZcl9SSo3a0BI" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1eaedb"/>
-  <meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src 'self' 'unsafe-inline' data: https://disqus.com https://*.disqus.com https://*.disquscdn.com https://*.googletagmanager.com https://*.google-analytics.com https://gist.github.com; style-src 'self' 'unsafe-inline' https://*.disquscdn.com https://*.googleapis.com https://cdnjs.cloudflare.com https://assets-cdn.github.com https://github.githubassets.com; img-src 'self' *; media-src 'self' *.youtube.com ; frame-src https://disqus.com https://www.slideshare.net https://*.youtube.com; font-src https: data: fonts.gstatic.com; object-src 'none'; base-uri 'none'; manifest-src 'self';">
-  <title>{{ page.title }} | Marc Duiker</title>
+  <meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src 'self' localhost:* 'unsafe-inline' data: https://disqus.com https://*.disqus.com https://*.disquscdn.com https://*.googletagmanager.com https://*.google-analytics.com https://gist.github.com; style-src 'self' localhost:* 'unsafe-inline' https://*.disquscdn.com http://fonts.googleapis.com/ https://fonts.googleapis.com/ https://cdnjs.cloudflare.com https://assets-cdn.github.com https://github.githubassets.com; img-src 'self' *; media-src 'self' *.youtube.com ; frame-src https://disqus.com https://www.slideshare.net https://*.youtube.com; font-src https: data: fonts.gstatic.com; object-src 'none'; base-uri 'none'; manifest-src 'self';">
+  <title>{{ page.title }} | {{ site.author.name }}</title>
+  <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="Marc Duiker Blog Feed" />
   <link rel="stylesheet" rel="preload" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css" media="none" onload="if(media!='all')media='all'">
   <noscript><link rel="stylesheet" rel="preload" href="//fonts.googleapis.com/css?family=Raleway:400,300,600" type="text/css"></noscript>
   <link rel="stylesheet" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" type="text/css" media="none" onload="if(media!='all')media='all'" />
