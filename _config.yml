@@ -1,10 +1,17 @@
-gems:
-  - jekyll-sitemap
+plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
   - jekyll-feed
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 future: true
 paginate: 10
 excerpt_separator: <!--more-->
 url: https://blog.marcduiker.nl
+title: I ❤ Serverless
+author:
+  name: Marc Duiker
+  twitter: https://twitter.com/marcduiker/
