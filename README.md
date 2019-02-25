@@ -2,6 +2,6 @@
 
 My personal blog space.
 
-# Contibuting
+# Contributing
 
 Feel free to open a pull request when you spot a typo! 
