@@ -103,4 +103,4 @@ I already have plans to extend the application beyond GitHub release updates. So
 
 The full source code of the Azure Functions Updates Twitterbot is found in the [az-func-updates](https://github.com/marcduiker/az-func-updates) repo on GitHub.
 
-If you feature requests or suggestions, feel free to add those as an [issue](https://github.com/marcduiker/az-func-updates/issues), so we can discuss it.
+If you have feature requests or suggestions, feel free to add those as an [issue](https://github.com/marcduiker/az-func-updates/issues), so we can discuss it.
