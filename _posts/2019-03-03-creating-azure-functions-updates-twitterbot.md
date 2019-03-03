@@ -14,7 +14,7 @@ Go to [https://twitter.com/az_func_updates](https://twitter.com/az_func_updates)
 
 ## What I'm trying to solve
 
-The [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) ecosystem consists of a lot of moving parts. There's the runtime, core tools, VS templates, Webjobs SDK and it's dozen or so extensions, definitions for writing functions using TypeScript and much more.
+The [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) ecosystem consists of a lot of moving parts. There's the runtime, core tools, VS templates, Webjobs SDK and its dozen or so extensions, definitions for writing functions using TypeScript and much more.
 
 As a developer, it's important you are aware of the latest releases and what is compatible with one another. I've spent quite some time troubleshooting incompatible runtimes and packages in the past, and it would be great if this experience can be improved.
 
