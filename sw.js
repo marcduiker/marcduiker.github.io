@@ -7,9 +7,7 @@ const PRECACHE = 'marcduikerblog-precache-v1';
 const RUNTIME = 'marcduikerblog-runtime';
 
 // A list of local resources we always want to be cached.
-var PRECACHE_URLS = [
-  'index.html'
-];
+var PRECACHE_URLS = [];
 
 {% for post in site.posts %}
     PRECACHE_URLS.push("{{ post.url }}")
