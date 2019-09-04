@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Discovering the Durable Functions API - DurableOrchestrationClient (part 2)"
+title: "Discovering the Durable Functions API - Retrieving the orchestration status (DurableOrchestrationClient part 2)"
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
@@ -12,7 +12,7 @@ This is the second part of a series of blogs/vlogs to discover the Durable Funct
 
 <!--more-->
 
-In the video linked below I'm looking into the functionality from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/aa38ee7a608f8fb552a9c34dd1d4ea25525cdf58/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class which can be used to retrieve the status of orchestration instances.
+In the video linked below I'm looking into the functionality from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class which can be used to retrieve the status of orchestration instances.
 
 These are the methods to retrieve the status of __one__ orchestration and return a [`DurableOrchestrationStatus`](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationStatus.cs) object: 
 - `GetStatusAsync(string instanceId)`
@@ -35,5 +35,6 @@ Here's the video, please give it a thumbs up if you like it and subscribe to my 
 
 ### Links to other posts in this series
 
-- [DurableOrchestrationClient(Base) class (Part 1)](/2019/01/07/durable-functions-api-durableorchestrationclient-1.html)
-- DurableOrchestrationClient(Base) class (Part 2)
+- [Starting Orchestrations (DurableOrchestrationClient Part 1)](/2019/01/07/durable-functions-api-durableorchestrationclient-1.html)
+- Retrieving the Orchestration Status (DurableOrchestrationClient Part 2)
+- [Purge & Terminate Orchestrations (DurableOrchestrationClient Part 3)](/2019/08/12/durable-functions-api-purge-terminate.html)
