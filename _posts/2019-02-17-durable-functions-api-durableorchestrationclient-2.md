@@ -8,7 +8,7 @@ tags: azure durable functions serverless faas stateful orchestration
 
 ## DurableOrchestrationClient(Base) class - Retrieving status
 
-This is the second part of a series of blogs/vlogs to discover the Durable Functions API.
+This post is the second part of a series of blogs/vlogs to discover the Durable Functions API.
 
 <!--more-->
 

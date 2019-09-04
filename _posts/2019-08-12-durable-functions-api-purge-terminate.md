@@ -8,20 +8,20 @@ tags: azure durable functions serverless faas stateful orchestration
 
 ## DurableOrchestrationClient(Base) class - Purge & Terminate
 
-This is the third part of a series of blogs/vlogs to discover the Durable Functions API.
+This post is the third part of a series of blogs/vlogs to discover the Durable Functions API.
 
 <!--more-->
 
-In the video linked below I'm looking into the functionality from the [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class which can be used to:
+In the video linked below, I'm looking into the functionality from the [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class which is used to:
 
-- Purge the history orchestration instances
+- Purge the history of orchestration instances
 - Terminate a running orchestration
 
 ### Purging
 
-Purging the history of orchestration instances means deleting the records from table storage. I recommend doing this on a regular basis (for instance using timer triggered function) so you won't storage clutter up your storage account with gigabytes of data you likely don't need. I usually remove all completed instances within a month but keep the failed, cancelled and terminated ones. Make sure you don't inadvertedly purge the running and pending instances!
+Purging the history of orchestration instances means deleting the records from table storage. I recommend doing this regularly, for instance using timer triggered function, so you won't clutter up your storage account with gigabytes of data you likely don't need. I usually remove all completed instances older than a week but keep the failed, canceled and terminated ones a bit longer. Make sure you don't inadvertently purge the running and pending instances!
 
-There are two methods to purge the history of orchestration instances. The first method listed below deletes the history for multiple orchestration instances. The method requires a datetime range and a collection of `OrchestrationStatus` enum values. These arguments act as a filter so only the instance history within the datetime range and selected statusses are purged:
+There are two methods to purge the history of orchestration instances. The first method listed below deletes the history for multiple orchestration instances. The method requires a DateTime range and a collection of `OrchestrationStatus` enum values. These arguments act as a filter, so only the instance history within the DateTime range and selected statuses are purged:
 
 ``` csharp
 Task<PurgeHistoryResult> PurgeInstanceHistoryAsync(
@@ -39,9 +39,9 @@ Task<PurgeHistoryResult> PurgeInstanceHistoryAsync(
 
 ### Termination
 
-Terminating an orchestation instance means you stop a running orchestration. You only change the state of the instance and the instance history is still available in table storage. Using this method should only be used in exceptional cases. Perhaps you have an orchestration with a bug and it keeps running forever and you want it to stop.
+Terminating an orchestration instance means you stop a running orchestration. You only change the state of the instance. The instance history is still available in table storage. Using this method should only be used in exceptional cases. Perhaps you have an orchestration with a bug, so it keeps running forever, and you want it to stop.
 
-The method requires an orchestration instance ID and a reason why you want stop the instance:
+The method requires an orchestration instance ID and a reason why you are stopping the instance:
 
 ```csharp
 Task TerminateAsync(string instanceId, string reason);
