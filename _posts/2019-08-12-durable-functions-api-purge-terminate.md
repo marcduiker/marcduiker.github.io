@@ -4,7 +4,7 @@ title: "Discovering the Durable Functions API - Purge & Terminate Orchestrations
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/08/12/purge-terminate-cover.png.png" alt="Methods in DurableOrchestrationClientBase">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/08/12/purge-terminate-cover.png" alt="Methods in DurableOrchestrationClientBase">
 
 ## DurableOrchestrationClient(Base) class - Purge & Terminate
 
