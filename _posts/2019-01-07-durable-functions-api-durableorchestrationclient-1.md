@@ -12,7 +12,7 @@ This post is the first part of a series of blogs/vlogs to discover the Durable F
 
 <!--more-->
 
-In the video linked below I'm looking into methods from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
+In the video linked below, I'm looking into methods from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
 
 - `StartNewAsync(string orchestratorFunctionName, object input)`
 - `StartNewAsync(string orchestratorFunctionName, string instanceId, object input)`

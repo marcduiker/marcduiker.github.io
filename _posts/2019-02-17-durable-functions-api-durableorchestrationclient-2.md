@@ -12,7 +12,7 @@ This post is the second part of a series of blogs/vlogs to discover the Durable 
 
 <!--more-->
 
-In the video linked below I'm looking into the functionality from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class which can be used to retrieve the status of orchestration instances.
+In the video linked below, I'm looking into the functionality from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class, which can be used to retrieve the status of orchestration instances.
 
 These are the methods to retrieve the status of __one__ orchestration and return a [`DurableOrchestrationStatus`](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationStatus.cs) object: 
 - `GetStatusAsync(string instanceId)`
