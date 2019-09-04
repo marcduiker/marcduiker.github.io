@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Discovering the Durable Functions API - DurableOrchestrationClient (part 1)"
+title: "Discovering the Durable Functions API - Starting orchestrations (DurableOrchestrationClient part 1)"
 tags: azure durable functions serverless faas stateful orchestration
 ---
 
@@ -12,7 +12,7 @@ This is the first part of a series of blogs/vlogs to discover the Durable Functi
 
 <!--more-->
 
-In the video linked below I'm looking into methods from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/aa38ee7a608f8fb552a9c34dd1d4ea25525cdf58/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
+In the video linked below I'm looking into methods from the  [`DurableOrchestrationClient`(`Base`)](https://github.com/Azure/azure-functions-durable-extension/blob/master/src/WebJobs.Extensions.DurableTask/DurableOrchestrationClientBase.cs) class on how to start a new orchestration instance and how to retrieve the status and the result of the instance:
 
 - `StartNewAsync(string orchestratorFunctionName, object input)`
 - `StartNewAsync(string orchestratorFunctionName, string instanceId, object input)`
@@ -33,5 +33,6 @@ Here's the video, please give it a thumbs up if you like it and subscribe to my 
 
 ### Links to other posts in this series
 
-- DurableOrchestrationClient(Base) class (Part 1)
-- [DurableOrchestrationClient(Base) class (Part 2)](/2019/02/17/durable-functions-api-durableorchestrationclient-2.html)
+- Starting orchestrations (DurableOrchestrationClient Part 1)
+- [Retrieving the orchestration status (DurableOrchestrationClient Part 2)](/2019/02/17/durable-functions-api-durableorchestrationclient-2.html)
+- [Purge & Terminate Orchestrations (DurableOrchestrationClient Part 3)](/2019/08/12/durable-functions-api-purge-terminate.html)
