@@ -4,7 +4,7 @@ title: "My learnings from running the Azure Functions Updates Twitterbot for hal
 tags: azure durable functions serverless faas learnings
 ---
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/azfunctionupdates_diagram_cover" alt="Azure Functions Updates component diagram">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/azfunctionupdates_diagram_cover.png" alt="Azure Functions Updates component diagram">
 
 ## Some quick facts about the Twitterbot
 
@@ -16,7 +16,7 @@ In this post, I want to highlight some of the actions I took and the insights I'
 
 ## 1. Failure & resiliency
 
-![Azure Functions Updates component map](/assets/2019/09/05/azfunctionupdates_diagram.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/azfunctionupdates_diagram.png" alt="Azure Functions Updates component diagram">
 
 Looking at the component diagram above, three external dependencies are shown; GitHub, Twitter and Azure Table Storage. *(Note that this is the initial design of the application, it has been extended later to include the Azure Service Updates RSS feed.)*
 
@@ -47,19 +47,19 @@ There were several occasions where the GitHub API returned a gateway time-out (5
 
 In case something goes wrong with the function app which is not recoverable with retries I want to receive a notification so I can look into the issue. The function app only delivers value when it's posting updates to Twitter. Therefore I've configured [an alert](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview) which sends me an email when the *PostUpdate* activity function fails 3 times within one hour (equal to the maximum amount of retries). The image below shows the alert configuration:
 
-![Alert configuration](/assets/2019/09/05/alert-configuration.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/alert-configuration.png" alt="Alert configuration">
 
 Notice that the top right shows a chart with the selected signal events in a time window. In this case, it shows 6 occasions of *PostUpdate* activity failures within one week. I found this graph quite helpful to look for meaningful signals.
 
 When [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) is enabled for the function app, there are many options for signal selection when configuring the condition of the alert. As can be seen in the image below, the success rate, failure rate, and min/max/avg durations of the functions can be chosen as the signal source:
 
-![Signal selection](/assets/2019/09/05/configure-signal-logic.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/configure-signal-logic.png" alt="Signal s election">
 
 ## 3. Performance
 
 This function app is a very low volume application. It is triggered once every hour, which results in about 51k function executions per month. Even though a high volume or performance is not of my concern in this situation, it is interesting to see how the function app and its dependencies perform. The [Application Map](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map) below shows the connections from the function app in the center to its dependent resources. The data shown is aggregated for 24 hours:
 
-![Application Map](/assets/2019/09/05/application-map.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/application-map.png" alt="Application map">
 
 The first time I looked at the Application Map it struck me that there were only 22 instances of the function app. I expected 24 instances since the function app runs every hour. However, it appears that instances are sometimes reused. In this case, two instances had been reused, which explains the 22 individual instances over 24 hours.
 
@@ -67,19 +67,19 @@ The calls to the [Azure Service Updates RSS feed](azurecomcdn.azureedge.net/en-u
 
 Let's look deeper into the performance of the GitHub and Twitter HTTP APIs. Here's a chart that shows the average duration of the HTTP calls in August:
 
-![Average duration HTTP APIs](/assets/2019/09/05/dependency-reponse-time.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/dependency-reponse-time.png" alt="Average duration HTTP APIs">
 
 I recommend looking at these dependency response time charts because they can reveal trends about the performance of the dependencies over time. In this case, there is an apparent increase in duration around 11 to 13 Aug (GitHub was slower in its response then) and after that, the average duration stabilizes around 0.8s.
 
 Looking at the duration distribution of all calls, we see a large spread ranging from 120ms to 2.9s:
 
-![Duration distribution for HTTP calls to GitHub and Twitter](/assets/2019/09/05/durationdistribution-httpapis.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/durationdistribution-httpapis.png" alt="Duration distribution for HTTP calls to GitHub and Twitter">
 
 There's nothing I can do about the performance of the external dependencies, but it is important to realize that calls to other systems are never constant. The network is not 100% reliable and latency is never 0. I recommend reading about the [*fallacies of distributed computing*](http://www.rgoarchitects.com/Files/fallacies.pdf).
 
 Something which is under my control are the functions I wrote myself. Here's the distribution chart for the ReleaseUpdateOrchestration function:
 
-![Duration distribution for ReleaseUpdateOrchestration](/assets/2019/09/05/durationdistribution-orchestration.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/durationdistribution-orchestration.png" alt="Duration distribution for ReleaseUpdateOrchestration">
 
 Again there is a wide distribution of durations. Part of this variance is due to performance differences across function app instances, but another factor is that orchestrator functions are replayed several times and each time they proceed further in the orchestrator code and take longer to complete. I plan to do a more thorough investigation of how significant this effect is.
 
@@ -91,7 +91,7 @@ I wanted a cheap solution for this bot. I'm running this application as a person
 
 When we look at the accumulated costs of the resource group since its inception, it's clear the costs are extremely low, only 1.22 Euro from Jan-Aug 2019.
 
-![Cost analysis](/assets/2019/09/05/cost-analysis.png)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/cost-analysis.png" alt="Cost analysis">
 
 The bright-green part of the chart is the actual costs until the 1st of September. The lighter green is the forecast costs. I think the forecast is a bit on the high side, there aren't any new GitHub repositories to monitor (although I'm looking to include other sources) and the number of releases is unlikely to change drastically. Nevertheless, it's a nice feature to have this forecast.
 
