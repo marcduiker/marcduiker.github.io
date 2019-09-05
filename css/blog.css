@@ -2,6 +2,7 @@ body { font-size: 1.8em; }
 .section { text-align: center; }
 h1 a { color: #1EAEDB; text-decoration: none; }
 h1 a:hover { color: #0FA0CE; text-decoration: none; }
+ul { list-style: outside; }
 ul.tags { list-style-type: none; }
 ul.tags li { float: left; padding-left: 10px; font-style: italic; }
 ul.tags li:before { content: "#"; }
