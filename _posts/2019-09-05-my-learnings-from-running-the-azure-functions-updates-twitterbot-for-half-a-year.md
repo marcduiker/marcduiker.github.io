@@ -8,7 +8,7 @@ tags: azure durable functions serverless faas learnings
 
 ## Some quick facts about the Twitterbot
 
-In my [previous post](/2019/03/03/creating-azure-functions-updates-twitterbot.html), I wrote about why and how I created the Azure Functions Updates Twitterbot. This bot has been posting updates about Azure Functions related GitHub repositories (and Azure Service announcements) since January 2019, so that's well over 6 months. It monitors 24 repositories, including itself, and the Azure Service Updates RSS feed, filtered for Azure Functions related updates. The full list of sources is listed [on GitHub](https://github.com/marcduiker/az-func-updates/blob/master/docs/monitored-sources.md). The function app that runs the bot has captured 128 GitHub releases, 8 Azure Service Update posts and posted 154 messages to Twitter (the introductory tweets were posted manually).
+In my [previous post](/2019/03/03/creating-azure-functions-updates-twitterbot.html), I wrote about why and how I created the Azure Functions Updates Twitterbot. This bot has been posting updates about Azure Functions related GitHub repositories (and Azure Service announcements) since February 2019, so that's well over 6 months. It monitors 24 repositories, including itself, and the Azure Service Updates RSS feed, filtered for Azure Functions related updates. The full list of sources is listed [on GitHub](https://github.com/marcduiker/az-func-updates/blob/master/docs/monitored-sources.md). The function app that runs the bot has captured 128 GitHub releases, 8 Azure Service Update posts and posted 154 messages to Twitter (the introductory tweets were posted manually).
 
 In this post, I want to highlight some of the actions I took and the insights I've got after I put the Twitterbot live. I'm going to cover: failure & resiliency, monitoring & alerts, performance, and costs.
 
@@ -89,7 +89,7 @@ I wanted a cheap solution for this bot. I'm running this application as a person
 
 ### Cost breakdown
 
-When we look at the accumulated costs of the resource group since its inception, it's clear the costs are extremely low, only 1.22 Euro from Jan-Aug 2019.
+When we look at the accumulated costs of the resource group since its inception, it's clear the costs are extremely low, only 1.22 Euro from Feb-Aug 2019.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/cost-analysis.png" alt="Cost analysis">
 
