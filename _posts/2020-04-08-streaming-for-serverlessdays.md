@@ -45,7 +45,7 @@ What I didn't realize initially is that the VM has no preinstalled drivers to ac
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/nvidia_driver_extensions.png" alt="Azure Portal Extensions">
 
-Now use can use the hardware encoding (NVENC) in OBS:
+Now we can use the hardware encoding (NVENC) in OBS:
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/obs_output.png" alt="OBS Output Settings">
 
