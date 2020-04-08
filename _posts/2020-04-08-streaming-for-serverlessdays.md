@@ -45,13 +45,13 @@ What I didn't realize initially is that the VM has no preinstalled drivers to ac
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/nvidia_driver_extensions.png" alt="Azure Portal Extensions">
 
-Now use can use the harware encoding (NVENC) in OBS:
+Now use can use the hardware encoding (NVENC) in OBS:
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/obs_output.png" alt="OBS Output Settings">
 
 ### Redirect local USB devices to the VM
 
-I purchased an Elgato Stream Deck so I can easily switch between scenes in OBS and set timers. I really like this small piece of hardware since it's very customizable.
+I purchased an [Elgato Stream Deck](https://www.elgato.com/en/gaming/stream-deck) so I can easily switch between scenes in OBS and set timers. I really like this small piece of hardware since it's very customizable.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/tweet_stream_deck.png" alt="Twitter Stream Deck Tweet">
 
