@@ -61,7 +61,7 @@ The Stream Deck can be used OOTB when OBS is running locally but I'd also want t
 
 - Open the _Local Group Policy Editor_ (use the windows search bar and type `group` )
 - Navigate to _Administrative Templates_ > _Windows Components_ > _Remote Desktop Services_ > _Remote Desktop Connection Client_ > _RemoteFX USB Device Redirection_
-- Set _Allow RDP redirection of other supported RemoteFX USB devies from this computer to `Enabled`.
+- Set _Allow RDP redirection of other supported RemoteFX USB devices from this computer_ to `Enabled`.
 - Select `Administrators & Users` for the _RemoteFX USB Redirection Access Rights_ options.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/rdp_client.png" alt="Group policy settings for enabling RemoteFX on the local client side.">
@@ -70,8 +70,7 @@ In a command prompt run: `gpupdate /force` to enfore the updated policy (a resta
 
 #### Group Policy Setting for the remote VM
 
-- Open the _Local Group Policy Editor_ (use the windows search bar and type `group` )
-- Navigate to _Administrative Templates_ > _Windows Components_ > _Remote Desktop Services_ > _Remote Desktop Session Host_ > _Device and Resource Redirection_
+- Open the _Local Group Policy Editor_ and navigate to _Administrative Templates_ > _Windows Components_ > _Remote Desktop Services_ > _Remote Desktop Session Host_ > _Device and Resource Redirection_
 - Set the _Do not allow suported Plug and Play device redirection_ to `Disabled`. 
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/rdp_host.png" alt="Group policy settings for enabling USB devices on the remote host side.">
