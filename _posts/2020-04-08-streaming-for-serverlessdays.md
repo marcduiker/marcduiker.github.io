@@ -8,7 +8,7 @@ tags: azure live-streaming serverlessdays
 
 Well, ok, not *everyone*, but a lot of meetups & conferences which were previously only offline and IRL have an online presence these days. It really lowers the boundary of attending these events, and I think this is great!
 
-ServerlessDays Amsterdam (which I'm co-organizing) is also moving online for both the meetups and the conference. In this post, I'm highlighting some details on how we're settting this up.
+ServerlessDays Amsterdam (which I'm co-organizing) is also moving online for both the meetups and the conference. In this post, I'm highlighting some details on how we're setting this up.
 
 <!--more-->
 
