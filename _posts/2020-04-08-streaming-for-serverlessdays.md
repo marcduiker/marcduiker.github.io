@@ -88,4 +88,7 @@ Now a remote desktop connection can be started from the local machine, and the U
 
 Now both hard and software are set up to use the Stream Deck on the remote VM.
 
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/stream_deck_vm.png" alt="Stream Deck software on the VM.">
+
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/04/08/stream_deck_hardware.jpg" alt="Stream Deck hardware.">
 In the next part I'll show more details about the OBS setup we're using for ServerlessDays Amsterdam.
