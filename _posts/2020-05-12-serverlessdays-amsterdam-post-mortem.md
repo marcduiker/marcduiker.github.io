@@ -6,7 +6,7 @@ tags: azure live-streaming serverlessdays
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/00-desk.jpg" alt="My deskat the start of the conference.">
 
-It is now May 12th, four days after the ServerlessDays Amsterdam 2020 virtual conference. The conference was incredibly fun and slightly terrible at the same time. 
+It is now May 12th, four days after the ServerlessDays Amsterdam 2020 virtual conference. The conference was incredibly fun and slightly terrifying at the same time.
 
 I had two roles during the conference; in the morning, I would do the hosting with Lian Li (who really has a talent for MC-ing), and during the entire day, I would be responsible for the technical part. In specific that means that I'd be calling in speakers & panelists into the Skype group call, and controlling the streaming software (OBS), switching scenes, configuring webcam sources, shared screens, names, and starting the prerecorded sessions.
 
@@ -46,7 +46,7 @@ Something I didn't want to spend much time on during the day itself would be con
 
 ### 7:00
 
-My day started at a reasonable time. I woke up at 7:00, took a shower, had some breakfast, and made *a lot of coffee*. I also prepared some lunch, snacks, and fruits to take with me upstairs since I would spend my entire day in my home office in the attic.
+My day started at a reasonable time. I woke up at 7:00, took a shower, had some breakfast, and made *a lot of coffee* ☕. I also prepared some lunch, snacks, and fruits to take with me upstairs since I would spend my entire day in my home office in the attic. I did allow myself some bathroom breaks though.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/05-food.jpg" alt="Refreshments for during the day.">
 
@@ -75,22 +75,22 @@ I invited Lian to the group call and asked her to share her screen so I could se
 
 ### 8:45
 
-Our keynote speaker, Ant Stanley, joined the group call. We three had a nice and relaxed chat while I was setting up the sources in OBS. Ant was going to give his session live, so we needed to make sure screen sharing was working. I added his webcam feed to the screen sharing scene so the audience could see his face during his session (more on this later). Lian quickly asked Ant for a fun fact she could use for his intro.  
+Our keynote speaker, Ant Stanley, joined the group call. We three had a nice and relaxed chat while I was setting up the sources in OBS. Ant was going to give his session live, so we needed to make sure screen sharing was working. I added his webcam feed to the screen sharing scene so the audience could see his face during his session (more on this later). Lian quickly asked Ant for a fun fact she could use for his intro.
 
 ### 8:50
 
-I started the 10 min countdown timer and started streaming. We were streaming simultaneously to YouTube, Twitch, and Periscope (using Restream). There were already some people waiting on YouTube, amazing! 
+I started the 10 min countdown timer and started streaming. We were streaming simultaneously to YouTube, Twitch, and Periscope (using Restream). There were already some people waiting on YouTube, amazing!
 
 ### 9:00
 
-Just before 9:00, I started counting down out loud so Lian would know when the exact moment of go-live would be. As soon as the timer reached 0:00, I switched to the scene with webcam feeds of Lian and me, and we are LIVE 🎉. Lian did most of the intro work here, as agreed upfront, and she did great! There was an issue with Lian her webcam feed, unfortunately. The entire frame was resizing now and then. The resizing kept on occurring during the whole day and also happened to a few others. I don't know the cause yet, could be Skype, NDI Tools, or the OBS plugin. I was quite distracted by this and tried to rescale the webcam source wh- enever this happened, it felt like a continuous battle 😟. 
+Just before 9:00, I started counting down out loud so Lian would know when the exact moment of go-live would be. As soon as the timer reached 0:00, I switched to the scene with webcam feeds of Lian and me, and we are [LIVE](https://www.youtube.com/watch?v=cqaewpYtYTA&t=595s) 🎉. Lian did most of the intro work here, as agreed upfront, and she did great! There was an issue with Lian her webcam feed, unfortunately. The entire frame was resizing now and then. The resizing kept on occurring during the whole day and also happened to a few others. I don't know the cause yet, could be Skype, NDI Tools, or the OBS plugin. I was quite distracted by this and tried to rescale the webcam source whenever this happened, it felt like a continuous battle 😟.
 
 - Issue 1: Uncontrolled resizing of webcam/NDI source.
 - Solution: unknown
 
 ### 9:15
 
-Ant started his session, and I switched to the scene with his shared screen and his webcam feed. It became apparent quickly that there was not a single good spot for this small webcam inside the shared screen feed since Ant's slides were ever-changing. I moved his webcam feed around during this presentation, which must have looked hilarious to the audience 😂. 
+Ant started his keynote session, and I switched to the scene with his shared screen and his webcam feed. It became apparent quickly that there was not a single good spot for this small webcam inside the shared screen feed since Ant's slides were ever-changing. I moved his webcam feed around during this presentation, which must have looked hilarious to the audience 😂.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/08-ant.jpg" alt="Ant being moved from right to left during his presentation.">
 
@@ -112,11 +112,11 @@ Just before 12:15, the members of the expert panel joined the group call. I set 
 
 ### 12:40
 
-Time for the lunch break! Even though I had prepared my lunch up-front and took it with me upstairs, I really enjoyed being able to have a small break. At this moment, I was still annoyed with the weird resizing webcam issues, so it was good to have a short break for my laptop. Lian dropped out of the call because we would now switch over to Floor Drees and Marek as the hosts. I invited them to the group call, set up their webcam sources, and updated the hosts' names in OBS to match theirs. I also added the next speaker, Sven Al Hamad, to the group call and configured his prerecorded session and name. So far, so good.
+Time for the lunch break! Even though I had prepared my lunch up-front and took it with me upstairs, I really enjoyed being able to have a small break. At this moment, I was still annoyed with the weird resizing webcam issues, so it was good to have a short break for my laptop. Lian dropped out of the call because we would now switch over to Floor Drees and Marek Kuczynski as the hosts. I invited them to the group call, set up their webcam sources, and updated the hosts' names in OBS to match theirs. I also added the next speaker, Sven Al Hamad, to the group call and configured his prerecorded session and name. So far, so good.
 
 ### 13:20
 
-When the break was almost over, I counted down out loud again, so Floor and Marek would know the exact moment of go live. I LOL'd about the introduction Floor gave when she mentioned that Marek would explain why they are 'arch enemies' 🤣.
+When the break was almost over, I counted down out loud again, so Floor and Marek would know the exact moment of go live. I LOL'd about the introduction Floor gave when she mentioned that Marek would explain why they are 'arch enemies' 🤣. Floor works at Microsoft and Marek at AWS. I love the fact that they could host together, it shows we have a fun and respectful community 🧡.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/08-floorandmarek.jpg" alt="Hilarious intro by Floor and Marek.">
 
@@ -124,10 +124,10 @@ When the break was almost over, I counted down out loud again, so Floor and Mare
 
 ### 13:20 - 15:25
 
-The next three sessions from Sven Al Hamad, Josh Carlise, and Farrah Campbell were all prerecorded and went pretty smoothly, at least from the perspective of the audience. My Skype call actually dropped during the prerecorded session from Sven. It took me about 1 minute to reconnect again, nobody noticed, but this freaked me out quite a bit!
+The next three sessions from Sven Al Hamad, Josh Carlise, and Farrah Campbell were all prerecorded and went pretty smoothly, at least from the perspective of the audience. My Skype call actually dropped during the prerecorded session by Sven. It took me about 1 minute to reconnect again, nobody noticed, but this freaked me out quite a bit! 😱
 
 - Issue 4: Skype call dropped unexpectedly.
-- Solution: Don't use Skype for events that last several hours? 
+- Solution: Don't use Skype for events that last several hours?
 
 At the start of Josh his session, I was a bit too slow with updating the speaker name source in OBS. Also, Josh's audio was not working initially, but it was all fixed quickly. His session ended pretty hilariously thanks to a question from Floor; "What is behind door number 3?". It was a bathroom, and Josh said he didn't want to open the door in case someone would be in there 🤣.
 
