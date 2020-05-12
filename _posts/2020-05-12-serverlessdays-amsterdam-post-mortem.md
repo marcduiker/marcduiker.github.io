@@ -201,10 +201,6 @@ The performance was awesome! Sam was clearly having a good time as well since we
 
 Once the after-party was done, we thanked Sam on Discord. There was plenty of positive feedback there, which was great to see.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/13-thankssam.jpg" alt="Sam being thanked on Discord">
-
-*Sam is being thanked after his performance.*
-
 Once the after-party was over, I watched some Netflix, and then went to bed. I couldn't fall asleep, though, as I still felt the adrenaline rushing through my body. When I did fell asleep, I probably dreamt of continuously resizing webcam feeds in OBS 😫.
 
 ## Until next time?
