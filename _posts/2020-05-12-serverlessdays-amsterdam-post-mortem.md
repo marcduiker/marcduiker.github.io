@@ -83,10 +83,10 @@ I started the 10 min countdown timer and started streaming. We were streaming si
 
 ### 9:00
 
-Just before 9:00, I started counting down out loud so Lian would know when the exact moment of go-live would be. As soon as the timer reached 0:00, I switched to the scene with webcam feeds of Lian and me, and we are LIVE 🎉. Lian did most of the intro work here, as agreed upfront, and she did great! There was an issue with Lian her webcam feed, unfortunately. The entire frame was resizing now and then. The resizing kept on occurring during the whole day and also happened to a few others. I don't know the cause yet, could be Skype, NDI Tools, or the OBS plugin. I was quite distracted by this and tried to rescale the webcam source whenever this happened, it felt like a continuous battle 😟. 
+Just before 9:00, I started counting down out loud so Lian would know when the exact moment of go-live would be. As soon as the timer reached 0:00, I switched to the scene with webcam feeds of Lian and me, and we are LIVE 🎉. Lian did most of the intro work here, as agreed upfront, and she did great! There was an issue with Lian her webcam feed, unfortunately. The entire frame was resizing now and then. The resizing kept on occurring during the whole day and also happened to a few others. I don't know the cause yet, could be Skype, NDI Tools, or the OBS plugin. I was quite distracted by this and tried to rescale the webcam source wh- enever this happened, it felt like a continuous battle 😟. 
 
-Issue 1: Uncontrolled resizing of webcam/NDI source.
-Solution: unknown
+- Issue 1: Uncontrolled resizing of webcam/NDI source.
+- Solution: unknown
 
 ### 9:15
 
@@ -96,8 +96,8 @@ Ant started his session, and I switched to the scene with his shared screen and 
 
 *Ant being moved from right to left during his live presentation.*
 
-Issue 2: Webcam source hides info on slides.
-Solution: Don't compose a scene where the webcam source is overlaying the presentation source. Or instruct speakers to leave some space available for their webcam feed. 
+- Issue 2: Webcam source hides info on slides.
+- Solution: Don't compose a scene where the webcam source is overlaying the presentation source. Or instruct speakers to leave some space available for their webcam feed. 
 
 ### 9:50-12:15
 
@@ -107,8 +107,8 @@ After Ant's keynote, there were three prerecorded sessions, each with live Q&A f
 
 Just before 12:15, the members of the expert panel joined the group call. I set up their webcams/NDI  sources in the scene called Panel OBS. This scene was new and hadn't been tested during any of the meetups. And this became quite evident since I forgot to mute the panelists' audio sources, which resulted in a loud and annoying echo (sorry for your ears!). I received multiple warnings from the team and attendees, so this was fixed relatively quickly. It could have easily been prevented if I had tried the scene with the four panelists in advance. Besides the audio issue, the resizing issue was also prominent in this scene, for both Lian and Sara's webcams. The panel discussion itself went very well, but due to the technical issues, I was too distracted to follow it closely. 
 
-Issue 3: Echo due to multiple audio sources in an untested scene.
-Solution: Always do a trial run with scenes that use multiple NDI sources.
+- Issue 3: Echo due to multiple audio sources in an untested scene.
+- Solution: Always do a trial run with scenes that use multiple NDI sources.
 
 ### 12:40
 
@@ -122,13 +122,12 @@ When the break was almost over, I counted down out loud again, so Floor and Mare
 
 *Hilarious intro by Floor and Marek.*
 
-
 ### 13:20 - 15:25
 
 The next three sessions from Sven Al Hamad, Josh Carlise, and Farrah Campbell were all prerecorded and went pretty smoothly, at least from the perspective of the audience. My Skype call actually dropped during the prerecorded session from Sven. It took me about 1 minute to reconnect again, nobody noticed, but this freaked me out quite a bit!
 
-Issue 4: Skype call dropped unexpectedly.
-Solution: Don't use Skype for events that last several hours? 
+- Issue 4: Skype call dropped unexpectedly.
+- Solution: Don't use Skype for events that last several hours? 
 
 At the start of Josh his session, I was a bit too slow with updating the speaker name source in OBS. Also, Josh's audio was not working initially, but it was all fixed quickly. His session ended pretty hilariously thanks to a question from Floor; "What is behind door number 3?". It was a bathroom, and Josh said he didn't want to open the door in case someone would be in there 🤣.
 
@@ -142,8 +141,8 @@ Two live sessions followed; one by Sia Ghassemi, who showed some awesome tricks 
 
 During the lightning session, the panelists joined the group call again for the expert panel session, but two of the three webcam feeds were not showing in OBS! I removed the non-working NDI sources from the scene and added them again, now it did work again, phew. But of course, I forgot something which would result in more issues...
 
-Issue 5: Webcam feeds not available for people rejoining the call.
-Solution/Workaround: Remove NDI sources and add them again.
+- Issue 5: Webcam feeds not available for people rejoining the call.
+- Solution/Workaround: Remove NDI sources and add them again.
 
 ### 16:25 - 17:30
 
@@ -151,33 +150,33 @@ As soon as the second expert panel session started, the annoying echo was back! 
 
 Near the end of the panel discussion, I added our closing keynote speaker to the call, Simona Cotin. I was a bit late with switching to the scene with just two webcam feeds for Floor and Marek. So while the panelists were leaving the group call, their scene was still active, and empty rectangles were appearing where their webcam used to be. Not the most elegant. Then I switched to the scene with both hosts and Simona, and then Floor her webcam feed started resizing out of the blue. Luckily during Simona her session, everything went smoothly again. The keynote was very well done, both in style and content.
 
-Issue 6: Empty spots in the scene due to people dropping out of the call.
-Solution: Agree upfront that people will stay in the group call a bit longer with webcam enabled. 
+- Issue 6: Empty spots in the scene due to people dropping out of the call.
+- Solution: Agree upfront that people will stay in the group call a bit longer with webcam enabled. 
 
 During the final keynote session, I created a new scene in OBS with the webcam feeds of all four hosts, so Floor, Marek, Lian, and myself. I wanted to have a moment where we would all be visible to the audience so I could say thanks for their excellent work.
 
 ### 17:30 - 17:55
 
-After Simona's keynote, I switched to the new scene, and again two of the four webcam sources had resizing issues. I pretty much gave up by now to correct it.
+After Simona's keynote, I switched to the new scene, and again two of the four webcam sources had resizing issues. I pretty much gave up by now to correct it. 😫
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/10-4hosts.jpg.jpg" alt="Unexpected resizing of webcam feeds again">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/10-4hosts.jpg" alt="Unexpected resizing of webcam feeds again">
 
 *Unexpected resizing of webcam feeds again.*
 
 After thanking Floor and Marek, I switched to the scene with just Lian and me so we could close the conference. Again this scene suffered from webcam feed resizing now and then. 
 When it was time to raffle the prizes, the Google Sheets script for selecting the winners did not cooperate, it took way longer than we expected. We spent quite some time online waiting for the script to finish, and Lian did a great job of filling the void with her creativity. Also, Floor helped by asking questions to keep the conversation going, great teamwork! In the end, we decided not to wait for the script to finish and announce the winners on Discord.
 
-Issue 7: Script to select winners was taking too long.
-Solution: Always have a backup plan when doing a live raffle of prizes.
+- Issue 7: Script to select winners was taking too long.
+- Solution: Always have a backup plan when doing a live raffle of prizes.
 
-Lian continued the closing of the conference and thanked sponsors, speakers, and organizers. At the exact moment, Lian was thanking me, my Skype connection froze, and eventually, my call dropped again! I was really was annoyed since this was the second time it happened during the day. I had to replay the YouTube recording to hear Lian's compliments, so thank you, Lian, for your kind words. I was lucky my frozen image was looking ok and I'm not making weird faces 😅.
+Lian continued the closing of the conference and thanked sponsors, speakers, and organizers. At the exact moment, Lian was thanking me, my Skype connection froze, and eventually, my call dropped again! I was really was annoyed since this was the second time it happened during the day. I had to replay the YouTube recording to hear Lian's compliments, so thank you, Lian, for your kind words. I was lucky my frozen image was looking ok and I'm not making a weird face 😅.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/11-frozen.jpg" alt="My frozen image during the close out of the conference.">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/11-frozen.jpg" alt="My frozen but happy image during the close out of the conference.">
 
-*My frozen image during the close out of the conference.* 
+*My frozen but happy image during the close out of the conference.* 
 
-Issue 7: Skype call dropped unexpectedly again.
-Solution: Never use Skype again for an event that lasts an entire day!
+- Issue 8: Skype call dropped unexpectedly again.
+- Solution: Never use Skype again for an event that lasts an entire day! 😞
 
 After I rejoined the call, Lian & I continued our conversation for a bit, and we encouraged everyone to attend the after-party event by Sam Aaron.
 
@@ -185,8 +184,8 @@ After I rejoined the call, Lian & I continued our conversation for a bit, and we
 
 As soon as I dropped off the group call, I stopped streaming the conference event and got in contact with Sam via Discord to test the stream for the after-party. I was using another Restream account for the after-party, which I had configured earlier that week; unfortunately, I had to reconnect the Twitch account in Restream. Next, the ServerlessDays after-party event on YouTube was not showing Sam's live stream. I had to create a new YouTube event via Restream, and Sam had to stop and start streaming to get the live streaming to work again.
 
-Issue 8: Connection issues with streaming and very little time to fix it.
-Solution: Perform a live test at least a day in advance. Use a paid version for Restream, which allows multiple simultaneous streams and better options for restarting streams.
+- Issue 9: Connection issues with streaming and very little time to fix it.
+- Solution: Perform a live test at least a day in advance. Use a paid version for Restream, which allows multiple simultaneous streams and better options for restarting streams.
 
 ### 18:10
 
@@ -214,7 +213,7 @@ So, would I ever do this again? Yes and no. I would do this again since I enjoy 
 
 I hope to see you all next year! 😊
 
-Marc
+*Marc*
 
 
 
