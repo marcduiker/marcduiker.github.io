@@ -203,11 +203,31 @@ Once the after-party was done, we thanked Sam on Discord. There was plenty of po
 
 Once the after-party was over, I watched some Netflix, and then went to bed. I couldn't fall asleep, though, as I still felt the adrenaline rushing through my body. When I did fell asleep, I probably dreamt of continuously resizing webcam feeds in OBS 😫.
 
+## May 9th
+
+When I looked at the Restream statistics the day after, there were, on average, 82 people watching simultaneously. This is a bit lower than I expected since we received 380 registrations for the event. A lot of people must have thought the recording would appear online anyway. Or perhaps they had an online conference overload. Honestly, I can understand that. This was a free conference in the end, so some virtual no-show was expected.
+
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/13-restream.jpg" alt="Restream statistics showing the view count throughout the day.">
+
+*Restream statistics showing the view count throughout the day.*
+
+You can clearly see a drop around lunch time and a slow decline towards the afternoon, as is expected for any conference. 
+
+## May 12th
+
+The YouTube viewcount as of today is 775. So the views are steadily increasing, which is great!
+
+Yesterday, Lian sent out a questionnaire asking for feedback, regarding both the format and the content. I hope we will receive enough information so we can make an even better conference next year 😊.
+
 ## Until next time?
 
-So, would I ever do this again? Yes and no. I would do this again since I enjoy working with the kind people in this awesome community. I would not do it in the exact same way, though. I'd prepare more, investigate in different tools, and, most importantly, share the responsibility for running the technical setup. Because now, I was solely responsible for doing tech work, which was quite a risk. If I had fallen down the stairs and had broken my leg, nobody could have stepped in quickly and continued the streaming. So my most important lesson learned is to involve others early on and to help them get familiar with the technical setup. This way, we can share the responsibility and I can sleep better in the nights leading to the event 😉.
+If you've read until this point, you're either really interested in this or slightly masochistic. If you want to see all the mistakes for yourself, please enjoy the recording of the conference on YouTube. I do suggest you use the links in the description of the video so you can skip ahead to the individual sessions.
 
-I hope to see you all next year! 😊
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cqaewpYtYTA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+So, would I ever do this again? Yes and no. I would do this again since I enjoy working with the kind people in this awesome community. I also like to play around with the technology and learn new things. I would not do it in the exact same way, though. I'd prepare more, investigate in different tools, and, most importantly, share the responsibility for running the technical setup. Because now, I was solely responsible for doing tech work, which was quite a risk. If I had fallen down the stairs and had broken my leg, nobody could have stepped in quickly and continued the streaming. So my most important lesson learned is to involve others early on and to help them get familiar with the technical setup. This way, we can share the responsibility and I can sleep better in the nights leading to the event 😉.
+
+I hope to see you all at the conference next year or at one of our [(virtual) Meetups](https://www.meetup.com/ServerlessDays-Amsterdam/)!
 
 *Marc*
 
