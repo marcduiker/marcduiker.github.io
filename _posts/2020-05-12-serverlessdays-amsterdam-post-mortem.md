@@ -36,7 +36,9 @@ An annoying thing about the VLC Media Source (and the regular Media Source) is t
 
 *Using timers for each recorded session.*
 
-Something I didn't want to spend much time on during the day itself would be configuring the speaker's names in OBS. I was looking into the read from file option, and then I noticed the chatlog mode. With this option enabled, with a row count of 1, only the last line is used as the input for a text field. So I put all the speaker names in a text file in reverse order and used that as the source for the speaker name field in OBS. When a new speaker was joining, I only needed to remove the last line and save the file.
+### Text Files & Chatlog Mode
+
+Something I didn't want to spend much time on during the day itself would be configuring the speaker's names in OBS. I was looking into the read from file option, and then I noticed the Chatlog Mode. With this option enabled, with a row count of 1, only the last line is used as the input for a text field. So I put all the speaker names in a text file in reverse order and used that as the source for the speaker name field in OBS. When a new speaker was joining, I only needed to remove the last line and save the file.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/04-chatlogmode.jpg" alt="Using text files with chatlog mode enabled.">
 
@@ -199,6 +201,7 @@ The performance was awesome! Sam was clearly having a good time as well since we
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8RX2WkBiXk0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
 Once the after-party was done, we thanked Sam on Discord. There was plenty of positive feedback there, which was great to see.
 
 Once the after-party was over, I watched some Netflix, and then went to bed. I couldn't fall asleep, though, as I still felt the adrenaline rushing through my body. When I did fell asleep, I probably dreamt of continuously resizing webcam feeds in OBS 😫.
@@ -211,7 +214,7 @@ When I looked at the Restream statistics the day after, there were, on average, 
 
 *Restream statistics showing the view count throughout the day.*
 
-You can clearly see a drop around lunch time and a slow decline towards the afternoon, as is expected for any conference. 
+You can clearly see a drop around lunchtime (the chart is in UTC) and a slow decline towards the afternoon, as is expected for any conference. Most of the viewers watched on YouTube (61.1%), followed by Twitch (38.9%). Apparently, nobody viewed the event on Periscope/Twitter, so I'll be dropping that channel for future streaming sessions.
 
 ## May 12th
 
@@ -225,9 +228,10 @@ If you've read until this point, you're either really interested in this or slig
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cqaewpYtYTA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-So, would I ever do this again? Yes and no. I would do this again since I enjoy working with the kind people in this awesome community. I also like to play around with the technology and learn new things. I would not do it in the exact same way, though. I'd prepare more, investigate in different tools, and, most importantly, share the responsibility for running the technical setup. Because now, I was solely responsible for doing tech work, which was quite a risk. If I had fallen down the stairs and had broken my leg, nobody could have stepped in quickly and continued the streaming. So my most important lesson learned is to involve others early on and to help them get familiar with the technical setup. This way, we can share the responsibility and I can sleep better in the nights leading to the event 😉.
+So, would I ever 
+do this again? Yes and no. I would do this again since I enjoy working with the kind people in this awesome community. I also like to play around with the technology and learn new things. I would not do it in the exact same way, though. I'd prepare more, investigate in different tools, and, most importantly, share the responsibility for running the technical setup. Because now, I was solely responsible for doing tech work, which was quite a risk. If I had fallen down the stairs and had broken my leg, nobody could have stepped in quickly and continued the streaming. So my most important lesson learned is to involve others early on and to help them get familiar with the technical setup. This way, we can share the responsibility and I can sleep better in the nights leading to the event 😉.
 
-I hope to see you all at the conference next year or at one of our [(virtual) Meetups](https://www.meetup.com/ServerlessDays-Amsterdam/)!
+I hope to see you all at the conference next year, or at one of our [(virtual) Meetups](https://www.meetup.com/ServerlessDays-Amsterdam/)!
 
 *Marc*
 
