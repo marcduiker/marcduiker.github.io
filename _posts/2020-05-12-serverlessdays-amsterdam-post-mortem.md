@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ServerlessDays Amsterdam, my personal post-mortem"
+title: "ServerlessDays Amsterdam, a personal post-mortem"
 tags: azure live-streaming serverlessdays
 ---
 
