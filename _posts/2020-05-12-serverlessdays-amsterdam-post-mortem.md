@@ -88,7 +88,8 @@ I started the 10 min countdown timer and started streaming. We were streaming si
 Just before 9:00, I started counting down out loud so Lian would know when the exact moment of go-live would be. As soon as the timer reached 0:00, I switched to the scene with webcam feeds of Lian and me, and we are [LIVE](https://www.youtube.com/watch?v=cqaewpYtYTA&t=595s) 🎉. Lian did most of the intro work here, as agreed upfront, and she did great! There was an issue with Lian her webcam feed, unfortunately. The entire frame was resizing now and then. The resizing kept on occurring during the whole day and also happened to a few others. I don't know the cause yet, could be Skype, NDI Tools, or the OBS plugin. I was quite distracted by this and tried to rescale the webcam source whenever this happened, it felt like a continuous battle 😟.
 
 - Issue 1: Uncontrolled resizing of webcam/NDI source.
-- Solution: unknown
+- Solution: ~~unknown~~, -- [UPDATE May 14th] -- 
+Thanks to the Twitterverse I now know the source of the issue and the solution! Apparently NDI Tools scales the video feed based on available bandwith. Apparently everyone knew this but me! 😅 Thanks to [Maarten Balliauw](https://twitter.com/maartenballiauw) and [Henk Boelman](https://twitter.com/hboelman), who already [wrote about this](https://www.henkboelman.com/articles/online-meetups-with-obs-and-skype/). The fix is to apply a Transform in OBS to prevent the scaling as is [described here](https://support.skype.com/en/faq/FA34853/what-is-skype-for-content-creators). Note to self: RTFM! 😂
 
 ### 9:15
 
