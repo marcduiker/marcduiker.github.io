@@ -89,7 +89,7 @@ Just before 9:00, I started counting down out loud so Lian would know when the e
 
 - Issue 1: Uncontrolled resizing of webcam/NDI source.
 - Solution: ~~unknown~~, -- [UPDATE May 14th] -- 
-Thanks to the Twitterverse I now know the source of the issue and the solution! Apparently NDI Tools scales the video feed based on available bandwith. Apparently everyone knew this but me! 😅 Thanks to [Maarten Balliauw](https://twitter.com/maartenballiauw) and [Henk Boelman](https://twitter.com/hboelman), who already [wrote about this](https://www.henkboelman.com/articles/online-meetups-with-obs-and-skype/). The fix is to apply a Transform in OBS to prevent the scaling as is [described here](https://support.skype.com/en/faq/FA34853/what-is-skype-for-content-creators). Note to self: RTFM! 😂
+Thanks to the Twitterverse I now know the source of the issue and the solution! NDI Tools scales the video feed based on available bandwidth. Apparently everyone knew this but me! 😅 Thanks to [Maarten Balliauw](https://twitter.com/maartenballiauw) and [Henk Boelman](https://twitter.com/hboelman), who already [wrote about this](https://www.henkboelman.com/articles/online-meetups-with-obs-and-skype/). The fix is to apply a Transform in OBS to prevent the scaling as is [described here](https://support.skype.com/en/faq/FA34853/what-is-skype-for-content-creators). Note to self: RTFM! 😂
 
 ### 9:15
 
