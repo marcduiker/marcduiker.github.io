@@ -49,18 +49,18 @@ During the next day, I thought it would be nice to show my appreciation to the h
 
 I received lovely responses from everyone 😊. The Microsoft Developer Twitter account did a shout-out with an illustrated & 8-bit version of myself 😂.
 
-![]({{ site.url }}/assets/2020/05/22/illustrated_marc.jpg)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/22/illustrated_marc.jpg" alt="Hilarious shout-out from the Microsoft Developer Twitter account">
 
-*Hilarious shout-out from the Microsoft Developer Twitter account*
+*Hilarious shout-out from the Microsoft Developer Twitter account.*
 
 During the final minutes of Build, I even got a shout-out from Dona, Seth, and Christina for this. This really made my day! 🎉😃
 
-![]({{ site.url }}/assets/2020/05/22/twitter_thankyou_message.jpg)
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/22/twitter_thankyou_message.jpg" alt="My thank you tweet with the 8-bit collage.">
 
 *My thank you tweet with the 8-bit collage.*
 
 
-I receive quite some requests for 8-bit portraits now. I hope you understand I can't do all of them. I make them by hand, pixel by pixel (using a tool called Aseprite). It takes quite some time to create a recognizable pixel portrait for someone. If you want to support my creative work, please buy me a coffee: [ko-fi.com/marcduiker](https://ko-fi.com/marcduiker) and let's get in touch 😊.
+I receive quite some requests for 8-bit portraits now 😅. I hope you understand I can't do all of them. I make them by hand, pixel by pixel (using a tool called Aseprite). It takes quite some time to create a recognizable pixel portrait for someone. If you want to support my creative work, please buy me a coffee: [ko-fi.com/marcduiker](https://ko-fi.com/marcduiker) and let's get in touch 😊.
 
 ### Retro game
 
@@ -73,7 +73,7 @@ I really enjoyed one of the last sessions of the third day by Scott Hanselman an
 
 I only used the visual blocks and the built-in sprite editor to make this game called _Cheeze-It Deth Match_. The game refers to a social hour during MSBuild day 2, where Dona Sarkar and Seth Juarez were 'cooking' Cheez-Its 🤔. _Deth_ refers to the combination of Dona and Seth ([see this tweet](https://twitter.com/donasarkar/status/1263305140200632321)).
 
-It's a local two-player game, best played with a keyboard. One player plays Dona, and the other Seth and whoever eats the most Cheeze-Its wins. Play it online at [makecode.com](https://makecode.com/_CPJKJtiR5dz4). The game is definitely not perfect, but I built it in just 1.5 hours. The development & playing experience is incredibly smooth and fun.
+It's a local two-player game, best played with a keyboard. One player plays Dona, and the other Seth and whoever eats the most Cheeze-Its wins. Play it online at [makecode.com](https://makecode.com/_CPJKJtiR5dz4) 🕹. The game is definitely not perfect, but I built it in just 1.5 hours! The development & playing experience is incredibly smooth and fun.
 
 ## Build Complete
 
