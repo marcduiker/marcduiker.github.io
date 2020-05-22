@@ -6,7 +6,7 @@ tags: microsoft msbuild community
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/22/Build_Wallpaper_DarkTheme_DesignA_8bit.jpg" alt="8-bit MSBuild wallpaper">
 
-Microsofts just finished its 48-hour live online event, MSBuild 2020, and I enjoyed it immensely! I was fortunate to be invited for two sessions: a panel discussion on building serverless APIs, and a community update session. I also threw in some pixel art just for fun, more on that later.
+Microsoft just finished its 48-hour live online event, [MSBuild 2020](https://mybuild.microsoft.com/), and I enjoyed it immensely! I was fortunate to be invited for two sessions: a panel discussion on building serverless APIs, and a community update session. I also threw in some pixel art just for fun, more on that later.
 
 <!--more-->
 
@@ -22,7 +22,7 @@ You can view the [recording here](https://mybuild.microsoft.com/sessions/e477304
 
 ## Community Update
 
-The second session I was part of, was _Connect with Microsoft Western Europe and your local dev community_. During this session, many community members took part in panel discussions and gave updates on projects they are working on in their own time. 
+The second session I was part of, was *Connect with Microsoft Western Europe and your local dev community* (Session COM178). During this session, many community members took part in panel discussions and gave updates on projects they are working on in their own time.
 
 I got the opportunity to talk about the [Azure Functions Update Twitter bot](https://blog.marcduiker.nl/2019/03/03/creating-azure-functions-updates-twitterbot.html) that I made with Azure Functions & Durable Functions. I explained the reason why I built it, shared plans for future updates, and mentioned that I'll be helping out Suzanne Daniels (Microsoft Dev PMM) with [meetupgemist.nl](https://meetupgemist.nl/).
 
@@ -34,7 +34,7 @@ My other contributions to MSBuild was not planned upfront at all. They just happ
 
 ### Digital Swag
 
-On the first day of MSBuild, just before it started, I read [this tweet](https://twitter.com/livelovegeek/status/1262849878943653889) by Morgan Mitchell who announced [this GitHub repo](https://github.com/microsoft/Build2020_DigitalSwag) with digital swag for MSBuild. I really liked the desktop wallpapers and decided to make an [8-bit version](https://twitter.com/marcduiker/status/1262719249203597312) out of it (see the header image of this post). I made a pull request, which got merged very quick, and my first creative contribution to MSBuild was a fact! 😀
+On the first day of MSBuild, just before it started, I read [this tweet](https://twitter.com/livelovegeek/status/1262849878943653889) by Morgan Mitchell who announced [this GitHub repo](https://github.com/microsoft/Build2020_DigitalSwag) with digital swag for MSBuild. I really liked the desktop wallpapers and decided to make an [8-bit version](https://twitter.com/marcduiker/status/1262719249203597312) for one of the designs (see the header image of this post). I made a pull request, which got merged very quick, and my first creative contribution to MSBuild was a fact! 😀
 
 ### Pixel art portraits
 
