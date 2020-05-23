@@ -11,6 +11,6 @@ future: true
 paginate: 10
 excerpt_separator: <!--more-->
 url: https://blog.marcduiker.nl
-title: I ❤ Serverless
+title: I ❤️ Serverless
 author:
   name: Marc Duiker
