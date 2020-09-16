@@ -20,4 +20,4 @@ The source code that is used for this demo can be found on [GitHub](https://gith
 
 - [Starting Orchestrations (DurableOrchestrationClient Part 1)](/2019/01/07/durable-functions-api-durableorchestrationclient-1.html)
 - [Retrieving the Orchestration Status (DurableOrchestrationClient Part 2)](/2019/02/17/durable-functions-api-durableorchestrationclient-2.html)
-- [Purge & Terminate Orchestrations (DurableOrchestrationClient Part 3)](2019/08/12/durable-functions-api-purge-terminate.html)
+- [Purge & Terminate Orchestrations (DurableOrchestrationClient Part 3)](/2019/08/12/durable-functions-api-purge-terminate.html)
