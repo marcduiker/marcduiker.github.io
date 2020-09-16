@@ -25,6 +25,7 @@ Here's the video, please give it a thumbs up if you like it and please subscribe
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtIQgR25_Y0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
 ### Resources
 
 - GitHub repo with demo solution containing the code violations & workarounds: [github.com/marcduiker/demos-durable-task-analyzer](https://github.com/marcduiker/demos-durable-task-analyzer).
