@@ -15,6 +15,8 @@ Here's the Wikipedia definition:
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Creative_coding)
 
+<!--more-->
+
 For me, creative coding means creating something enjoyable for myself and, hopefully, also for others. Creative coding can be a myriad of things, allowing you to express yourself in many different ways. I'd like to share my experience with you, and I hope you'll be inspired to try some creative coding yourself!
 
 ## Games & Graphics
@@ -39,7 +41,7 @@ When I learned to code, during my first job, my interest in creating computer gr
 
 I really recommend [The Nature of Code playlist]( https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK), which features 83 videos ranging from Perlin noise, my favorite type of noise, to fractals and genetic algorithms.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/noise_worms.gif" alt="Noise Worms (moving circles) created in Processing">
+<iframe src="https://editor.p5js.org/marcduiker/embed/LMF39YZcR"></iframe>
 
 You can play with one of my sketches that uses Perlin noise [here](https://editor.p5js.org/marcduiker/sketches/LMF39YZcR).
 
