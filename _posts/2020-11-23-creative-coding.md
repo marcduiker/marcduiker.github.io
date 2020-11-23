@@ -18,6 +18,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Creative_coding)
 For me, creative coding means creating something enjoyable for myself and, hopefully, also for others. Creative coding can be a myriad of things, allowing you to express yourself in many different ways. I'd like to share my experience with you, and I hope you'll be inspired to try some creative coding yourself!
 
 ## Games & Graphics
+
 My fascination with creative coding started with computer graphics. This started in my early teenage years while playing [Prince of Persia](https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)). The fascination grew over time when I began to create graphics myself. I created 3D landscapes with Bryce, fractal flames using [Apophisis](https://en.wikipedia.org/wiki/Apophysis_(software)), and other recursive structures using [L-system](https://en.wikipedia.org/wiki/L-system) generators. I'm still intrigued by how well recursive rules can describe nature. Look at these computer-generated fractal weeds 😍:
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/fractal_weeds.jpg" alt="Fractal Weeds">
@@ -42,7 +43,7 @@ I really recommend [The Nature of Code playlist]( https://www.youtube.com/playli
 
 You can play with one of my sketches that uses Perlin noise [here](https://editor.p5js.org/marcduiker/sketches/LMF39YZcR).
 
-## Retro game developement
+## Retro game development
 
 I excel in starting new projects and never finishing them 😅. Sometimes I don't even start them at all 😬. About one and a half years ago, I read about retro game development using [PICO-8](https://www.lexaloffle.com/pico-8.php). I bought the software with the intent to create some cool games, but I didn't touch the software for a couple of months. Then, I read about PICO-8 again, this time in a [MagPi magazine](https://magpi.raspberrypi.org/articles/build-retro-game-pico-8-raspberry-pi). At about the same time, Scott Hanselman invited Joseph White, the creator of PICO-8, on one of his [podcasts](https://hanselminutes.com/703/tiny-games-with-the-pico-8-fantasy-console-and-joseph-white). This clearly was a sign I had to pick up PICO-8 and create a game with it. Since I am a big fan of Azure Functions, I created a game in which you play the Azure Functions logo and need to collect items to restore the power of an Azure data center.
 
@@ -55,7 +56,7 @@ inspired by Sokoban, and is themed around Docker & Kubernetes, so it features wh
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/yucky_yaml_3.gif" alt="Animated gif of the Yucky YAML game (work in progress).">
 
-PICO-8 is also an excellent platform to create mini-games. These are very basic games you can play in a minute or so. I created two interactive cards for a lovely 5-year-old, one for his birthday, where he needs to collect all the balloons. And another one for Easter, where he needs to collect eggs. These mini-games are around 100 lines of code and take only an hour or two to create. 
+PICO-8 is also an excellent platform to create mini-games. These are very basic games you can play in a minute or so. I created two interactive cards for a lovely 5-year-old, one for his birthday, where he needs to collect all the balloons. And another one for Easter, where he needs to collect eggs. These mini-games are around 100 lines of code and take only an hour or two to create.
 
 You can play the above mentioned games at [marcduiker.itch.io](https://marcduiker.itch.io/).
 
