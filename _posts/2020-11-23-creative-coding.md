@@ -21,7 +21,7 @@ For me, creative coding means creating something enjoyable for myself and, hopef
 
 My fascination with creative coding started with computer graphics. This started in my early teenage years while playing [Prince of Persia](https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)). The fascination grew over time when I began to create graphics myself. I created 3D landscapes with Bryce, fractal flames using [Apophisis](https://en.wikipedia.org/wiki/Apophysis_(software)), and other recursive structures using [L-system](https://en.wikipedia.org/wiki/L-system) generators. I'm still intrigued by how well recursive rules can describe nature. Look at these computer-generated fractal weeds 😍:
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/fractal_weeds.jpg" alt="Fractal Weeds">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/Fractal_weeds.jpg" alt="Fractal Weeds">
 
 ## Photography
 
@@ -70,7 +70,7 @@ I was very fortunate to be part of MS Build this year. First, I took part in a p
 
  After my talks, I wanted to show appreciation to the hosts since I know it's a lot of effort to keep an event rolling smoothly. So I started creating 8-bit pixel portraits for the hosts. I used a 16x16 pixel format, which is really limited, so it was a challenge drawing everyone in a way they were still recognizable. I posted them on Twitter, and the responses I got were so kind. I kept making the portraits until I had one for each of the hosts. At the end of Build, the hosts gave me a shout-out for my work, which made me very proud. It was a wonderful experience to contribute to Build in this way 😊.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/Build_hosts_1920.jpg" alt="Build 2020 hosts, as 8bit avatars.">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/Build_hosts_900.jpg" alt="Build 2020 hosts, as 8bit avatars.">
 
 ### Make Code
 
