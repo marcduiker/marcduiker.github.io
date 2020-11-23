@@ -41,9 +41,9 @@ When I learned to code, during my first job, my interest in creating computer gr
 
 I really recommend [The Nature of Code playlist]( https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK), which features 83 videos ranging from Perlin noise, my favorite type of noise, to fractals and genetic algorithms.
 
-<iframe src="https://editor.p5js.org/marcduiker/embed/LMF39YZcR"></iframe>
+<iframe width="600" height="600" src="https://editor.p5js.org/marcduiker/embed/LMF39YZcR"></iframe>
 
-You can play with one of my sketches that uses Perlin noise [here](https://editor.p5js.org/marcduiker/sketches/LMF39YZcR).
+*[Noise worms](https://editor.p5js.org/marcduiker/sketches/LMF39YZcR): move your mouse (or tap) over the image to change the noise pattern.*
 
 ## Retro game development
 
