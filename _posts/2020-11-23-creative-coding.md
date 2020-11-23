@@ -31,13 +31,14 @@ For a couple of years, my attention turned to photography and photo editing. I e
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/salve_mater_urbex.jpg" alt="Indoor shot of a decayed building">
 
+*Decayed interioir of a former sanatorium.*
+
 For about two years, I gave photography workshops at the local community college. This experience really helped me to speak in public with more confidence.
 
 ## Visual arts
 
 When I learned to code, during my first job, my interest in creating computer graphics spiked again. I discovered [Processing](https://processing.org/), a software sketchbook. I created many sketches while watching tutorials from Daniel Schiffman ([The Coding Train](https://www.youtube.com/user/shiffman/)). He has a gift for explaining topics on software engineering, maths, and graphics in a very accessible way.
-
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/the_coding_train.jpg" alt="The Coding Train on YouTube">
+<a href="https://www.youtube.com/user/shiffman/" target="_blank"><img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/the_coding_train.jpg" alt="The Coding Train on YouTube"></a>
 
 I really recommend [The Nature of Code playlist]( https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aFlwukCmDf0-1-uSR7mklK), which features 83 videos ranging from Perlin noise, my favorite type of noise, to fractals and genetic algorithms.
 
@@ -49,14 +50,17 @@ I really recommend [The Nature of Code playlist]( https://www.youtube.com/playli
 
 I excel in starting new projects and never finishing them 😅. Sometimes I don't even start them at all 😬. About one and a half years ago, I read about retro game development using [PICO-8](https://www.lexaloffle.com/pico-8.php). I bought the software with the intent to create some cool games, but I didn't touch the software for a couple of months. Then, I read about PICO-8 again, this time in a [MagPi magazine](https://magpi.raspberrypi.org/articles/build-retro-game-pico-8-raspberry-pi). At about the same time, Scott Hanselman invited Joseph White, the creator of PICO-8, on one of his [podcasts](https://hanselminutes.com/703/tiny-games-with-the-pico-8-fantasy-console-and-joseph-white). This clearly was a sign I had to pick up PICO-8 and create a game with it. Since I am a big fan of Azure Functions, I created a game in which you play the Azure Functions logo and need to collect items to restore the power of an Azure data center.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/azure_functions_the_game.gif" alt="Animated gif of Azure Functions, The Game">
+<a href="https://marcduiker.itch.io/azure-functions-the-game" target="_blank"><img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/azure_functions_the_game.gif" alt="Animated gif of Azure Functions, The Game"></a>
+
+*Azure Functions, The Game*
 
 Creating this puzzle game took some effort, I spent many evenings and nights over a couple of weeks, but the process was so much fun! PICO-8 is a very restricted environment to create games in, the screen is only 128x128 pixels, sprites are 8x8 pixels, and there's even a restriction on the amount of code you can write. Once it was finished, I was thrilled the game was well received in the community, the Azure Functions team and others within Microsoft 😊.
 
-My next game, YuckyYAML, is still in progress. It is a puzzle game, 
-inspired by Sokoban, and is themed around Docker & Kubernetes, so it features whales and containers.
+My next game, YuckyYAML, is still in progress. It is a puzzle game, inspired by Sokoban, and is themed around Docker & Kubernetes, so it features whales and containers.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/yucky_yaml_3.gif" alt="Animated gif of the Yucky YAML game (work in progress).">
+
+*Yucky YAML game (work in progress).*
 
 PICO-8 is also an excellent platform to create mini-games. These are very basic games you can play in a minute or so. I created two interactive cards for a lovely 5-year-old, one for his birthday, where he needs to collect all the balloons. And another one for Easter, where he needs to collect eggs. These mini-games are around 100 lines of code and take only an hour or two to create.
 
@@ -74,13 +78,15 @@ I was very fortunate to be part of MS Build this year. First, I took part in a p
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/Build_hosts_900.jpg" alt="Build 2020 hosts, as 8bit avatars.">
 
+*Build 2020 hosts, as 8bit avatars.*
+
 ### Make Code
 
 One of the last sessions of MS Build was about MakeCode, an educational programming platform backed by various organizations. During [this session](https://mybuild.microsoft.com/sessions/a1638103-16a8-4059-90ac-54c7e0dda8a2?source=sessions), Louanne Murphy and Scott Hanselman showed how versatile and accessible the platform is. One of the areas where you can use MakeCode is creating [arcade games](https://arcade.makecode.com/), so obviously, I had to try that. In about 1.5 hours, I completed this mini-game featuring Dona and Seth, competing to eat as many Cheeze-Its within 30 seconds.The game is far from perfect, but the process of making this was a lot of fun!
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/Cheeze-it_Deth_Match.jpg" alt="Screenshot of Cheeze-It Deth Match, a minigame made with MakeCode.">
+<a href="https://arcade.makecode.com/30800-46845-98441-86480" target="_blank"><img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/23/Cheeze-it_Deth_Match.jpg" alt="Screenshot of Cheeze-It Deth Match, a minigame made with MakeCode."></a>
 
-Play Cheeze-It Deth Match [here](https://arcade.makecode.com/30800-46845-98441-86480).
+*[Cheeze-It Deth Match](https://arcade.makecode.com/30800-46845-98441-86480) on MakeCode.*
 
 ## Post Build
 
