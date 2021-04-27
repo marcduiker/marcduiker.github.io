@@ -40,7 +40,7 @@ At this moment, the curriculum contains the following lessons:
 * **Deployment**; How to deploy your Function App to Azure using VSCode, Azure CLI, and GitHUb Actions.
 * **Configuration**; Why and how to use app settings in your Function App, using App Configuration service for easier management for app settings across multiple resources.
 * **CosmosDB**; How to use the output and input bindings to read/write data from/to CosmosDB, using the CosmosDBTrigger to start a function when a new document is added to a collection, and using KeyVault to store the CosmosDB connection string.
-* **Durable Functions I**; Why using Durable Functions is beneficial when dealing with multiple functions. This demonstrated by using the function chaining pattern to illustrate how orchestrations work.
+* **Durable Functions, part I**; Why using Durable Functions is beneficial when dealing with multiple functions. This is demonstrated by using the function chaining pattern to illustrate how orchestrations work.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/04/27/AzureFunctionsUniversity_YouTube_Playlist.png" alt="Screenshot of the Azure Functions University playlist on YouTube">
 
@@ -52,7 +52,7 @@ I believe that consistency is key when creating educational content. Therefore e
 * a complete Function App project is available as reference;
 * at the end of each lesson, there's a homework assignment.
 
-All coding exercises use VSCode as the code editor because this I find this is a more beginner-friendly environment than Visual Studio 2019.
+All coding exercises use VSCode as the code editor because I find this is a more beginner-friendly environment than Visual Studio 2019.
 
 Although we started creating content for .NET functions, we're now also accepting contributions for other languages. We have some lessons in TypeScript and PowerShell as well now.
 
