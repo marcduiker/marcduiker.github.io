@@ -19,7 +19,7 @@ Azure Functions University is an educational project to learn about Azure Functi
 
 I started this project because I want to enable newcomers to serverless technology to get up and running with Azure Functions in a very low friction way. Learning new things can be challenging, and frequently, the official documentation alone is not enough to understand a new topic and put it into practice.
 
-The dual-channel delivery, lessons on GitHub and videos on YouTube, is intentional because some people prefer watching (or listening) to videos, while others prefer reading.
+The dual-channel delivery, [lessons on GitHub](https://bit.ly/az-func-uni) and [videos on YouTube](https://bit.ly/az-func-uni-playlist), is intentional because some people prefer watching (or listening) to videos, while others prefer reading.
 
 ## How it started
 
