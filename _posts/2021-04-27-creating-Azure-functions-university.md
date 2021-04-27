@@ -68,15 +68,11 @@ This brings us to another challenge, and that is the Azure Functions University 
 
 ## What's next?
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/04/27/Zappy_University still_480.png" alt="Zappy University 8bit">
-
-
 There's a lot of progress to be made. First, there is still a lot of new content to be written. Many topics have not been touched yet, e.g., security, monitoring, SignalR, EventGrid. There are also content translations to the other languages that Azure Functions supports. Some people did show interest in helping out with Python and TypeScript, but it's still a long way to go until that’s on the same level as the .NET lessons. 
 
 Secondly, I want to have better insight into how many people are using the GitHub repo and how they experience it. I'll be looking into GitHub classroom to see if I can get a better grip on the usage of the lessons. I prefer to have as little friction as possible, because additional sign-up boundaries might prevent people from using the material.
 
 Will this project ever be finished? Not any time soon, I think. The Azure Functions team recently presented their roadmap for the next major releases. I expect plenty of opportunities to create new lessons and help more people to use serverless technology.
-
 
 ## Help us!
 
@@ -86,6 +82,6 @@ Please have a look at the existing issues to see if you can contribute to those.
 
 ## Links
 
-* YouTube playlist: https://bit.ly/az-func-uni-playlist
-* Azure Functions University GitHub repo: http://bit.ly/az-func-uni
-* GitHub issue list: http://bit.ly/az-func-uni-issues
+* YouTube playlist: [https://bit.ly/az-func-uni-playlist](https://bit.ly/az-func-uni-playlist)
+* Azure Functions University GitHub repo: [http://bit.ly/az-func-uni](http://bit.ly/az-func-uni)
+* GitHub issue list: [http://bit.ly/az-func-uni-issues](http://bit.ly/az-func-uni-issues)
