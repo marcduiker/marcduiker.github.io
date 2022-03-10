@@ -4,7 +4,7 @@ title: Azure Functions University - Blob Lesson (TypeScript)
 tags: serverless azure functions
 ---
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/09/03/AzureFunctionsUniversity_Blob_Lesson_typescript.png" alt="Http Lesson TypeScript">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/09/03/AzureFunctionsUniversity_Blob_Lesson_typescript.png" alt="Blob Lesson TypeScript">
 
 Hi serverless friends, we have a new Azure Functions University lesson for you! In this lesson we will learn how to use the Blob trigger & bindings in Azure Functions written in TypeScript.
 
