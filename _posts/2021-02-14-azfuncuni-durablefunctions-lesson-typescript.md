@@ -4,9 +4,9 @@ title: Azure Functions University - Durable Functions Introduction & Chaining (T
 tags: serverless azure functions
 ---
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/02/14/AzureFunctionsUniversity_DurableFunctions_Lesson1_typescript.png" alt="Durable Functions Lesson 1 TypeScript">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/02/25/AzureFunctionsUniversity_DurableFunctions_Lesson2_typescript.png" alt="Durable Functions Lesson 1 TypeScript">
 
-Hi serverless friends, we have a new Azure Functions University lesson for you! In this lesson we will learn how to use the Durable Functions in Azure Functions written in TypeScript.
+Hi serverless friends, we have a new Azure Functions University lesson for you! In this lesson we will learn how to use Durable Functions in Azure Functions written in TypeScript.
 
 <!--more-->
 
