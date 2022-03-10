@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Azure Functions University - HTTP Lesson (.NET Core)
-tags: serverless, 'azure functions university'
+tags: serverless azure functions
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/10/28/AzureFunctionsUniversity_HTTP_Lesson_dotnetcore.png" alt="Http Lesson .NET Core">
@@ -17,6 +17,7 @@ You can find the lesson on GitHub: [HTTP Trigger .NET Core](https://github.com/m
 Or you can watch the video on YouTube:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5k35dlBAXxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 The lesson consists of the following exercises:
 
