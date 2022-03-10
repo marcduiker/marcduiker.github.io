@@ -4,7 +4,7 @@ title: Azure Functions University - Durable Functions Advanced Patterns (TypeScr
 tags: serverless azure functions
 ---
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/02/25/AzureFunctionsUniversity_DurableFunctions_Lesson2_typescript.png" alt="Durable Functions Lesson 2 TypeScript">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/02/25/AzureFunctionsUniversity_DurableFunctions_Lesson2_typescript.png" alt="Durable Functions Lesson 2 TypeScript">
 
 Hi serverless friends, we have a new Azure Functions University lesson for you! In this lesson we will learn how to use some advanced Durable Functions patterns in Azure Functions written in TypeScript.
 
