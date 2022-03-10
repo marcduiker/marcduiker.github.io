@@ -12,9 +12,9 @@ Hi serverless friends, we have a new Azure Functions University lesson for you! 
 
 ## Lesson
 
-You can find the lesson on GitHub: [HTTP Trigger .NET Core](https://github.com/marcduiker/azure-functions-university/blob/main/lessons/dotnetcore31/http/README.md).
+You can find the lesson on GitHub: [HTTP Trigger (.NET Core)](https://github.com/marcduiker/azure-functions-university/blob/main/lessons/dotnetcore31/http/README.md).
 
-Or you can watch the video on YouTube:
+And you can watch the video on YouTube:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5k35dlBAXxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -30,4 +30,3 @@ The lesson consists of the following exercises:
 |4|Adding a new function for POST requests
 |5|Change the route for a custom greeting
 |6|Homework
-|7|More info
