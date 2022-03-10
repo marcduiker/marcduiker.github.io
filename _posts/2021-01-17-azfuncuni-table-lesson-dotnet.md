@@ -29,4 +29,4 @@ The lesson consists of the following exercises:
 |3|Using `IAsyncCollector<T>` Table output bindings
 |4|Using `TableEntity` input bindings
 |5|Using `CloudTable` input bindings
-|8|Homework
+|6|Homework
