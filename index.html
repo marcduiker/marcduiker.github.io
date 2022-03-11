@@ -11,7 +11,7 @@ title: "I ❤ Serverless"
       <div class="row">
         <div class="twelve columns">
 
-            {% for post in paginator.posts limit:20 %}
+            {% for post in paginator.posts limit:25 %}
                 <article itemscope itemtype="https://schema.org/BlogPosting">
                   <h1><a href="{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a></h1>
                   <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}"><em>{{ post.date | date_to_long_string }}</em></time>
