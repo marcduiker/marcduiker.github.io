@@ -8,6 +8,8 @@ tags: serverless azure functions
 
 Hi serverless friends, since the amount of Azure Functions University content is growing rapidly, I've made a video on how you can get started with Azure Functions University.
 
+<!--more-->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xJEi8Mofp0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
