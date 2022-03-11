@@ -28,4 +28,4 @@ The lesson consists of the following exercises:
 |2|Changing the template for GET requests
 |3|Changing the template for POST requests
 |4|Adding a new function for POST requests
-|7|Homework
+|5|Homework
