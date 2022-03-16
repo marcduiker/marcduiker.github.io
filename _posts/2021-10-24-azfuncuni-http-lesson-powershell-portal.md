@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Azure Functions University - HTTP Lesson (PowerShell)
+title: Azure Functions University - HTTP Lesson (PowerShell via Portal)
 tags: serverless azure functions
 ---
 
