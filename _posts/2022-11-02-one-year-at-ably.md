@@ -1,10 +1,12 @@
 ---
 layout: post
-title: One year at Ably as Sr Developer Advocate
+title: One year at Ably as a Developer Advocate
 tags: 
 ---
 
-It has been one year since I've joined the DevRel team at Ably as Sr Developer Advocate. In this post I'll highlight the things I've been working and what I've learned in the past year.
+It has been one year since I've joined the DevRel team at Ably as Sr Developer Advocate. In this post I'll highlight some things I've been working on and what I've learned in the past year. I'll cover content creation, developer tooling, events, and roadmap & predictability.
+
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/DevRel_team_marc_selected.png" alt="Ably DevRel team">
 
 <!--more-->
 
@@ -123,6 +125,8 @@ During the second Ably Innovation Days, I started working on specifications for 
 
 I had the opportunity to speak at several conferences and meetups this year, both online and in-person. It was great to attend in-person events again, and see people respond to your talk, and ask questions afterwards. I'm still proponent of online (or hybrid) events as well. Online events can be more accessible, and allow for a more diverse audience.
 
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/dotnetdaysro_speaking.jpg" alt="Speaking at dotnetdays Romania">
+
 Events I spoke at:
 
 - [Azure Lowlands](https://azurelowlands.com/)
@@ -137,8 +141,8 @@ Events I spoke at:
 
 ## Roadmap & Predictability
 
-Part of my role involves creating and updating a roadmap for the .NET & Azure community. This document refers to the company strategy, and how the DevRel team activities fit in that strategy. The roadmap contains the high level topics which I'll create content for, estimations on their outcomes,  and a timeline. The metrics & predictability aspect is really one of the most difficult parts in DevRel. One blog post can go viral while the next one gets hardly any engagement. It's important to try understand why something works well or why it doesn't.
+Part of my role involves creating and updating a roadmap for the .NET & Azure community. This document refers to the company strategy, and how the DevRel team activities fit in that strategy. The roadmap contains the topics which I plan to create content for, estimations on their outcomes, and a timeline. The metrics & predictability of the outcomes is really one of the most difficult parts in DevRel. One blog post can go viral while the next one hardly gets any engagement. It's important to try understand why something works well or why it doesn't.
 
-What I've learned over the last year is that content creation is just a small part of the bigger picture when working in DevRel. Content distribution is just as important. If I write a great blog post but hardly anyone will read it, then writing it has been a waste of my time. I spend more time recently on the distribution part, to make sure content gets the proper exposure across various channels. It's not a part I particularly like, but it needs to be done, and I do appreciate new insights it gives me.
+What I've learned over the last year is that content creation is just a small part of the bigger picture when working in DevRel. Content distribution is just as important. If I write a great blog post but hardly anyone will read it, then writing it has been a waste of my time. I'm spending more time these days on the distribution part, to make sure the content gets the proper exposure across various channels. It's not a part I particularly like, but it needs to be done, and I do appreciate the new insights it gives me.
 
-Reflecting on the content, the engagement, and analysing the performance (visits, session duration, signups) is even more important. If a content piece is not resulting in (enough) signups, then we investigate why, and change the content, or use a different approach for future pieces. We're measuring several aspects for a couple of months now and it still feels like we're at the beginning of understanding the numbers. It's certainly an area that interests me, and where I want to improve in. Being in DevRel means that you're constantly learning, measuring, and tweaking. And that's what I love about it.
+Reflecting on the content, the engagement, and analyzing the performance (visits, session duration, sign-ups etc) is even more important. If a content piece is not resulting in (enough) sign-ups, then we investigate why, change the content, or use a different approach for future pieces. We're measuring several aspects for a couple of months now and it still feels like we're at the beginning of understanding the numbers. It's certainly an area that interests me, and where I want to improve the predictability of my work. Being in DevRel means that you're constantly learning, measuring, and tweaking. And that's what I love about it.
