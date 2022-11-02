@@ -37,7 +37,7 @@ A playful web app for remote poker planning. The clients publish their votes and
 
 The demo is a .NET 6 console application that can publish or subscribe to messages which get delivered through Ably. The blog post also covers the basics what pub/sub is, the typical use cases, and benefits.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/console_chat.png" alt="Console Chat">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/console_chat.gif" alt="Console Chat">
 
 - [Blog post](https://ably.com/blog/use-pub-sub-to-build-a-chat-app-with-csharp-net)
 - [GitHub repo](https://github.com/ably-labs/pubsub-demo-dotnet)
@@ -46,7 +46,7 @@ The demo is a .NET 6 console application that can publish or subscribe to messag
 
 A turn-based mini game with with real-time aspects build on Azure Functions, Durable Functions, and Ably.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/serverless-websockets-play.png" alt="Serverless WebSockets Quest">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/serverless-websockets-play.gif" alt="Serverless WebSockets Quest">
 
 - [Blog post](https://ably.com/blog/quest-for-serverless-websockets-azure-functions-adventure)
 - [Video](https://www.youtube.com/watch?v=KHzdc3USFU4)
@@ -57,11 +57,11 @@ A turn-based mini game with with real-time aspects build on Azure Functions, Dur
 
 ### Collaborative Pixelart Drawing
 
-A collaborative pixelart drawing canvas. Multiple users draw on a canvas, and their movement and actions are shared with the other connected users. 
+A collaborative pixelart drawing canvas. Multiple users draw on a canvas, and their movement and actions are shared with the other connected users.
 
 I created two versions of this demo, one using Ably, and one using Azure Web PubSub, and did a write-up about difference in developer experience between the two services.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/collaborative-pixelart-drawing.png" alt="Collaborative Pixelart Drawing">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/collaborative-pixelart-drawing.gif" alt="Collaborative Pixelart Drawing">
 
 - [Blog post](https://ably.com/blog/cloud-pubsub-services-compared-azure-web-pubsub-ably)
 - [Video](https://www.youtube.com/watch?v=sPgHwm3-yiM)
@@ -117,7 +117,7 @@ During the first Ably Innovation Days, I proposed to create a VSCode extension t
 
 During the second Ably Innovation Days, I started working on specifications for an Ably CLI. After the first day [Phil](https://twitter.com/leggetter) and I started with a prototype based on [oclif](https://oclif.io/). We managed to create a working prototype in a day that lists Ably apps, and creates a new Ably app. This project is still Work In Progress. Once the CLI is in a releasable state, I'll create some content around this.
 
-<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/ably-cli.gif" alt="Ably CLI: List Ably Apps">
+<img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/ably-cli.png" alt="Ably CLI: List Ably Apps">
 
 - [GitHub repo](https://github.com/ably-labs/ably-cli)
 
