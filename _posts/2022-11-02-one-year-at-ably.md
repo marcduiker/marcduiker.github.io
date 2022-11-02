@@ -123,7 +123,7 @@ During the second Ably Innovation Days, I started working on specifications for 
 
 ## Events
 
-I had the opportunity to speak at several conferences and meetups this year, both online and in-person. It was great to attend in-person events again, and see people respond to your talk, and ask questions afterwards. I'm still proponent of online (or hybrid) events as well. Online events can be more accessible, and allow for a more diverse audience.
+I had the opportunity to speak at several conferences and meetups this year, both online and in-person. It was great to attend in-person events again, networking with other people, seeing people respond to your talk, and people asking questions afterwards. I'm still a proponent of online (or hybrid) events as well though. Online events can be more accessible, and allow for a more diverse audience.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/dotnetdaysro_speaking.jpg" alt="Speaking at dotnetdays Romania">
 
@@ -146,3 +146,9 @@ Part of my role involves creating and updating a roadmap for the .NET & Azure co
 What I've learned over the last year is that content creation is just a small part of the bigger picture when working in DevRel. Content distribution is just as important. If I write a great blog post but hardly anyone will read it, then writing it has been a waste of my time. I'm spending more time these days on the distribution part, to make sure the content gets the proper exposure across various channels. It's not a part I particularly like, but it needs to be done, and I do appreciate the new insights it gives me.
 
 Reflecting on the content, the engagement, and analyzing the performance (visits, session duration, sign-ups etc) is even more important. If a content piece is not resulting in (enough) sign-ups, then we investigate why, change the content, or use a different approach for future pieces. We're measuring several aspects for a couple of months now and it still feels like we're at the beginning of understanding the numbers. It's certainly an area that interests me, and where I want to improve the predictability of my work. Being in DevRel means that you're constantly learning, measuring, and tweaking. And that's what I love about it.
+
+## Anything that could be improved?
+
+Always! 😅 I noticed that I spent less time on my open source projects than before I joined Ably. It's probably because I now create content for a living, I don't always feel like doing that in my spare time as well. I still have plenty of plans to continue working on these projects though, it just needs a bit more planning and prioritization.
+
+One of the areas I really want to expand on is collaborations with other people. These could be collaborations with other DevRel folks, or individual developers who share a common interest around serverless, real-time communication, pixelart, or something completely out of the box! If you think we should combine forces to work on a fun project together, please [reach out](https://twitter.com/marcduiker)!
