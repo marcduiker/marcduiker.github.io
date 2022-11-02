@@ -4,7 +4,7 @@ title: One year at Ably as a Developer Advocate
 tags: 
 ---
 
-It has been one year since I've joined the DevRel team at Ably as Sr Developer Advocate. In this post I'll highlight some things I've been working on and what I've learned in the past year. I'll cover content creation, developer tooling, events, and roadmap & predictability.
+It has been one year since I've joined the DevRel team at Ably as Sr Developer Advocate. In this post I'll highlight some things I've been working on and what I've learned in the past year. I'll cover content creation, developer tooling, events, roadmap & predictability, communication & relationships, and finally 'anything that could be improved'.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/DevRel_team_marc_selected.png" alt="Ably DevRel team">
 
@@ -146,6 +146,20 @@ Part of my role involves creating and updating a roadmap for the .NET & Azure co
 What I've learned over the last year is that content creation is just a small part of the bigger picture when working in DevRel. Content distribution is just as important. If I write a great blog post but hardly anyone will read it, then writing it has been a waste of my time. I'm spending more time these days on the distribution part, to make sure the content gets the proper exposure across various channels. It's not a part I particularly like, but it needs to be done, and I do appreciate the new insights it gives me.
 
 Reflecting on the content, the engagement, and analyzing the performance (visits, session duration, sign-ups etc) is even more important. If a content piece is not resulting in (enough) sign-ups, then we investigate why, change the content, or use a different approach for future pieces. We're measuring several aspects for a couple of months now and it still feels like we're at the beginning of understanding the numbers. It's certainly an area that interests me, and where I want to improve the predictability of my work. Being in DevRel means that you're constantly learning, measuring, and tweaking. And that's what I love about it.
+
+## Communication & Relationships
+
+So far, it looks like this is all a one-person-show, but it's far from that.
+
+I depend on:
+
+- My DevRel and content team colleagues, who help me review the content I create.
+- Our community manager, who informs me of CfPs, sponsoring opportunities, and new questions on Discord and social media.
+- Our content marketing team, to provide me with insights on keyword research and content performance.
+- Our product team, to keep me up to date with the latest product features and changes.
+- My managers, to provide me with valuable feedback about my work, so I can keep improving.
+
+The *relations* part of DevRel is really crucial. In order to have a good relation with your developer audience, you also need to have a good relation with your team members, Marketing, Product, Documentation, Engineering, and Customer Support. Establishing and growing these relations take time. New people join the company and others leave, it's an ever changing environment. It can be tiring and challenging at times, but once the relationship is there, it feels good to work together to achieve a common goal.
 
 ## Anything that could be improved?
 
