@@ -31,7 +31,7 @@ A playful web app for remote poker planning. The clients publish their votes and
 - [Live demo](https://agileflush.ably.dev/)
 - [GitHub repo](https://github.com/ably-labs/agile-flush-vue-app)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=59BZCQuRRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/59BZCQuRRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### What is pub/sub and how to apply it in C# .NET to build a chat app
 
@@ -53,7 +53,7 @@ A turn-based mini game with with real-time aspects build on Azure Functions, Dur
 - [Live demo](https://quest.ably.dev/)
 - [GitHub repo](https://github.com/ably-labs/serverless-websockets-quest)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=59BZCQuRRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/59BZCQuRRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Collaborative Pixelart Drawing
 
@@ -68,7 +68,7 @@ I created two versions of this demo, one using Ably, and one using Azure Web Pub
 - [Live demo](https://pixel-paint.ably.dev/)
 - [GitHub repo](https://github.com/ably-labs/collaborative-pixel-drawing)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=sPgHwm3-yiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPgHwm3-yiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Serverless Pizza Workflow Visualizer
 
@@ -81,7 +81,7 @@ A demo that visualizes the real-time progress of a serverless workflow that is b
 - [Live demo](https://pizza.ably.dev/)
 - [GitHub repo](https://github.com/ably-labs/serverless-workflow-visualizer)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=y9-a_ewgWCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y9-a_ewgWCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Developer tooling
 
@@ -98,7 +98,7 @@ Since most of my demos require a new Ably App, I created a GitHub action that cr
 - [Marketplace](https://github.com/marketplace/actions/ably-control-api)
 - [GitHub repo](https://github.com/ably-labs/ably-control-api-action)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=b7GE39JaM3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b7GE39JaM3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Ably VSCode extension
 
@@ -111,7 +111,7 @@ During the first Ably Innovation Days, I proposed to create a VSCode extension t
 - [Marketplace](https://marketplace.visualstudio.com/items?itemName=ably-labs.vscode-ably)
 - [GitHub repo](https://github.com/ably-labs/vscode-ably)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=3CPHb_kn1-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3CPHb_kn1-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Ably CLI
 
