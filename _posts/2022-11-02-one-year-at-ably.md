@@ -10,15 +10,17 @@ It has been one year since I've joined the DevRel team at Ably as Sr Developer A
 
 ## Content creation
 
-Before I joined Ably, I mostly worked on event-driven architectures using .NET-based backends and Azure services (Azure Functions, CosmosDB, Service Bus). Ably really shines when real-time communication is needed between clients, or between servers and clients, so this meant I had to get up to speed with client-side programming, and WebSocket based communication using the Ably SDK.
+Before I joined Ably, I mostly worked on event-driven architectures using .NET-based backends and Azure services (Azure Functions, CosmosDB, Service Bus). Ably really shines when real-time communication is needed between clients, or between servers and clients, so this meant I had to get up to speed with client-side programming, and WebSocket-based communication using the Ably SDK.
 
-During my onboarding, I created my first demo, [Agile Flush](https://agileflush.ably.dev/), a small and playful web app to do remote planning poker. This was my first introduction to VueJS and the Ably client SDK, and after a while I got to like working with Vue. It did took me some time to get used to the toolchain though.
+During my onboarding, I created my first demo, [Agile Flush](https://agileflush.ably.dev/), a small and playful web app to do remote planning poker. This was my first introduction to VueJS and the Ably client SDK, and after a while I got to like working with Vue. It did take me some time to get used to the toolchain though.
 
-I've stuck to using Vue (TypeScript based, with Vite as the dev tooling) for most of my demos where I need a front-end. It pairs nicely with Azure Static Web Apps that I use for hosting the demos.
+I've stuck to using Vue (TypeScript based, with Vite for the dev tooling) for most of my demos where I need a front-end. It pairs nicely with Azure Static Web Apps that I use for hosting the demos.
 
-Here's a list with all the demos I've created so far, incl related content pieces.
+Here's a list with all the demos I've created so far, including related content pieces.
 
 ### Agile Flush
+
+A playful web app for remote poker planning. The clients publish their votes and actions to Ably, and Ably pushes the updates to the subscribed clients.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/agileflush_screenshot.png" alt="Agile Flush web app">
 
@@ -30,6 +32,8 @@ Here's a list with all the demos I've created so far, incl related content piece
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=59BZCQuRRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### What is pub/sub and how to apply it in C# .NET to build a chat app
+
+The demo is a .NET 6 console application that can publish or subscribe to messages which get delivered through Ably. The blog post also covers the basics what pub/sub is, the typical use cases, and benefits.
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/11/02/console_chat.png" alt="Console Chat">
 
@@ -117,7 +121,22 @@ During the second Ably Innovation Days, I started working on specifications for 
 
 ## Events
 
+I had the opportunity to speak at several conferences and meetups this year, both online and in-person. It was great to attend in-person events again, and see people respond to your talk, and ask questions afterwards. I'm still proponent of online (or hybrid) events as well. Online events can be more accessible, and allow for a more diverse audience.
 
+Events I spoke at:
 
-## Roadmap & Metrics
+- [Azure Lowlands](https://azurelowlands.com/)
+- [NDC Oslo](https://ndcoslo.com/)
+- [dotnetdays Romania](https://dotnetdays.ro/)
+- [CosmosDB Conference](https://www.youtube.com/watch?v=LpzJTJvH6go&t=3453s)
+- [ServerlessDays NYC](https://youtu.be/Y0YTtgn5KKo)
+- [Microsoft Reactor Toronto](https://www.youtube.com/watch?v=FGklbFQrd44)
+- [Oxford .NET User Group](https://www.dotnetoxford.com/posts/2022-02-lightning-talks)
+- [Welsh Azure User Group](https://www.youtube.com/watch?v=R87-35-Aiw8)
+- [ESPC Community Webinar](https://www.sharepointeurope.com/webinars/start-building-serverless-applications-on-azure/)
 
+## Roadmap & Predictability
+
+Part of my role involves creating and updating a roadmap for the .NET & Azure community. This document contains the company strategy and how the DevRel team activities fit in that strategy. The roadmap contains the high level topics I'll create content for, estimations on their performance and a timeline. The metrics & predictability is really one of the most difficult parts in DevRel. One blog post can go viral while the next one gets hardly any engagement.
+
+What I've learned over the last year is that content creation is just a small part of the bigger picture. Content distribution is just as important. If I write a great blog post but hardly anyone will read it, then I missed the mark. Reflecting on the content and analysing why something worked or not is also very important. Being in DevRel means that you're constantly learning, improving, and tweaking. And that's what I love about it.
