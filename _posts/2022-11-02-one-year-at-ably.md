@@ -53,7 +53,7 @@ A turn-based mini game with with real-time aspects build on Azure Functions, Dur
 - [Live demo](https://quest.ably.dev/)
 - [GitHub repo](https://github.com/ably-labs/serverless-websockets-quest)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/59BZCQuRRkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KHzdc3USFU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Collaborative Pixelart Drawing
 
