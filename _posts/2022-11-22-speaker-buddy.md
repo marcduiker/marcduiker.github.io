@@ -49,15 +49,30 @@ The downside of this solution is that it does require a good internet connection
 
 ## The Speaker Buddy System
 
-This is the idea that Mattias and I talked about after my failing laptop experience, and I love it! We named it **Speaker Buddy**, but I'm open to better names. In the above mentioned solutions, you still need access to another laptop and the internet, and this can be a solution for that!
+This is the idea that Mattias and I talked about after my failing laptop experience, and I love it! We named it **Speaker Buddy** (not to be mistaken with [Conference Buddy](https://www.conferencebuddy.io/)), but I'm open to better names. In the solutions mentioned above, you still need access to another laptop (and internet), and the Speaker Buddy system solves this!
 
 ### For conference speakers
 
-Once the conference agenda is published and the Speaker Buddies are known, contact one of them (who does not speak at the same time as you!) to ask if they are willing to help you out, in case of technical issues / laptop failure. If they are, you can discuss the details such as:
+#### For speakers who want to volunteer as Speaker Buddy
+
+You can be a Speaker Buddy if you enjoy helping others to be successful during their talks.
+
+You can help out by:
+
+- Being kind and respectful (e.g. following the Code of Conduct of the conference).
+- Announcing that you're available to help out as a Speaker Buddy (preferably do this via the conference organizers and their communication channels).
+- Agreeing up front how you can help (see 1.2).
+
+#### For speakers who want a Speaker Buddy
+
+If you are going to speak at a conference and you want another speaker to have your back in case you run into technical issues, then is for you!
+
+Once the conference agenda is known and the Speaker Buddies are confirmed by the conference organizers, contact one of the Speaker Buddies (who does not speak at the same time as you!) to ask if they are willing to help you out in case of technical issues / laptop failure. If they are, you can discuss the details such as:
 
 - Having a copy of your presentation on their machine.
 - Cloning your code repository on their machine, if you want to show code locally.
 - Installing some SDKs & tools you need on their machine, if you want to run things locally.
+- Doing a (remote) dry run via their laptop to be completely prepared for a technical failure. (You also test your database backups right?)
 - Is there any other way your buddy can help you out? Can they tell a funny story during the technical issue, or ask a relevant question, or do something else to put you at ease?
 
 > Even with the existence of cloud-based coding environments, I still suggest to have a local environment available in case the internet connection is not good enough.
@@ -102,4 +117,4 @@ When you prepare the conference rooms, label a front-row seat for the Speaker Bu
 
 ## Use the template
 
-I've put together a [template](https://github.com/marcduiker/speaker-buddy) that organizers can use in their communication to inform speakers about the Speaker Buddy System. Feel free to refer to it, and please submit an issue or PR if you see an opportunity for improvement. ❤️
+I've put together a [repository](https://github.com/marcduiker/speaker-buddy) that organizers can use in their communication to inform speakers about the Speaker Buddy System. Feel free to refer to it, and please submit an issue or PR if you see an opportunity for improvement. ❤️
