@@ -24,11 +24,11 @@ Could I have prevented the technical issue? No, but I could have been better pre
 
 ## Preparing for failure
 
-There are several ways of preparing for technical issues. I'll share some of my ideas and close with an idea initially proposed by Mattias, called the Speaker Buddy System.
+There are several ways of preparing for technical issues. I'll share some of my ideas, and close with an idea initially proposed by Mattias, called the Speaker Buddy System.
 
-I won't cover the 'my demo doesn't work' part here, since these things can be solved with showing a solution that has been prepared beforehand, or playing a video instead of a live demo.
+I won't cover 'my demo doesn't work' failures here, since these things can be solved in different ways, such as; showing a solution that has been prepared beforehand, or recording the solution before the conference and playing it back during the session.
 
-The general idea for a catastrophic (laptop) failure is to try to ensure that your presentation and code are available on other environments you can quickly access.
+The general idea to overcome a catastrophic (laptop) failure is to ensure that your presentation, code, and demos are available on other environments you can quickly access.
 
 Let's go through some solutions:
 
@@ -45,7 +45,7 @@ For things that doesn't require showing or running code, you can use a cloud sto
 When you *do* need to show, or run, code in your session, make sure you can run it in the cloud instead of your own machine! I have all my source code on GitHub, and I'm using [GitHub Codespaces](https://github.com/features/codespaces) so I can run a demo completely in the cloud if necessary. There are many similar solutions out there such as [Gitpod](https://www.gitpod.io/), [JetBrains Space](https://www.jetbrains.com/space/), [CodeSandbox](https://codesandbox.io/).
 The downside of this solution is that it does require a good internet connection.
 
-> **TIP**: If your source code is on GitHub, and you just need to show source code, you can use [github.dev](https://github.com/github/dev), a lightweight, browser-based editor (based on VSCode) you can access by replacing `.com` with `.dev` when typing the repository URL. It even supports some extension such as the brilliant [CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) which is great for showing code in a guided way throughout your session.
+> **TIP**: If your source code is on GitHub, and you just need to show source code, you can use [github.dev](https://github.com/github/dev), a lightweight, browser-based editor (based on VSCode) you can access by replacing `.com` with `.dev` when typing the repository URL. It even supports some extensions such as the brilliant [CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour), which is great for showing code in a guided way throughout your session.
 
 ## The Speaker Buddy System
 
