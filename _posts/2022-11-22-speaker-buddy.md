@@ -8,7 +8,7 @@ tags:
 
 ## Conferences
 
-I love ❤️ going to conferences, especially when I'm invited to speak there. Although I've been speaking at dozens of conferences and meetings over the past years, I still have impostor syndrome when it comes to speaking. Some people really seem to have a gift for public speaking, and sometimes I feel way out of my league. I do realize those experienced speakers have been practicing for years, and perhaps I'll get there as well, practice makes ~~perfect~~ improvement! 💪
+I love ❤️ going to conferences, especially when I'm invited to speak there. Although I've been speaking at dozens of conferences and meetups over the past years, I still have impostor syndrome when it comes to speaking. Some people really seem to have a gift for public speaking, and sometimes I feel way out of my league. I do realize those experienced speakers have been practicing for years, and perhaps I'll get there as well, practice makes ~~perfect~~ improvement! 💪
 
 <!--more-->
 
