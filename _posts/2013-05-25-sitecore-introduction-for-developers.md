@@ -2,7 +2,7 @@
 layout: post
 title: Sitecore Introduction for Developers
 tags: Sitecore presentation html5 reveal.js
-canonical: "http://blog.marcduiker.nl/2013/05/sitecore-introduction-for-developers.html"
+redirect_to: https://marcduiker.dev/articles/sitecore-introduction-for-developers
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2013/05/25/Sitecore Intro.png" alt="Sitecore introduction for programmers">

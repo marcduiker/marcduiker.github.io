@@ -2,7 +2,7 @@
 layout: post
 title: Presentations for Programmers
 tags: presenting html5 soft skills
-canonical: "http://blog.marcduiker.nl/2013/04/presentations-for-programmers.html"
+redirect_to: https://marcduiker.dev/articles/presentations-for-programmers
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2013/04/19/Presentations for programmers.png" alt="Presentations for programmers">
