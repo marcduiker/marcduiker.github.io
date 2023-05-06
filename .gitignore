@@ -7,3 +7,5 @@ cSpell.json
 # Folders
 _plugins/
 _site/
+
+.DS_Store
