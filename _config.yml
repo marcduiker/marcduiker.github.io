@@ -3,6 +3,7 @@ plugins:
   - jekyll-gist
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 markdown: kramdown
 kramdown:
   input: GFM
@@ -14,3 +15,5 @@ url: https://blog.marcduiker.nl
 title: I ❤️ Serverless, Dev Community, and Creative Coding
 author:
   name: Marc Duiker
+whitelist:
+  - jekyll-redirect-from
