@@ -2,6 +2,7 @@
 layout: post
 title: "Sitecore investigation: Errors installing a content package with item buckets"
 tags: Sitecore bucket index error
+redirect_to: https://marcduiker.dev/articles/sitecore-investigation-error-installing-item-bucket-package
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2016/04/28/bucket_icon.png" alt="Bucket icon">

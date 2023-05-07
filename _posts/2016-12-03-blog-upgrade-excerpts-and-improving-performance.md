@@ -2,6 +2,7 @@
 layout: post
 title: "Blog upgrade: Post excerpts, microformats and improving performance"
 tags: blog microformat excerpt jekyll cdn performance seo
+redirect: https://marcduiker.dev/articles/blog-upgrade-excerpts-and-improving-performance
 ---
 
 ## Time for an upgrade

@@ -2,6 +2,7 @@
 layout: post
 title: "Improving unit test readability: helper methods &amp; named arguments"
 tags: unit test readability named arguments C# .Net
+redirect_to: https://marcduiker.dev/articles/improving-unit-test-readability-named-args
 ---
 
 'Uncle Bob' wrote the following in <a rel="nofollow" href="https://www.amazon.co.uk/gp/product/0132350882/">Clean Code: A Handbook of Agile Software Craftsmanship</a>:

@@ -2,6 +2,7 @@
 layout: post
 title: "Hands-on with Sitecore Helix: Using PowerShell to add a new module"
 tags: powershell sitecore helix habitat dte envdte visual studio
+redirect_to: https://marcduiker.dev/articles/hands-on-with-sitecore-helix-using-powershell-add-module
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2016/12/28/powershell_vs_sitecore_helix.png" alt="PowerShell plus Visual Studio equals Sitecore Helix">

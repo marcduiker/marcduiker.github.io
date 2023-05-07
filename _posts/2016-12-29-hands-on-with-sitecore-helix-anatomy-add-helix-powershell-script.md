@@ -2,6 +2,7 @@
 layout: post
 title: "Hands-on with Sitecore Helix: Anatomy of the Add-HelixModule.ps1 PowerShell script"
 tags: powershell sitecore helix habitat dte envdte visual studio
+redirect_to: https://marcduiker.dev/articles/hands-on-with-sitecore-helix-anatomy-add-helix-powershell-script
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2016/12/29/add-feature-script.png" alt="Add-Feature PowerShell function">

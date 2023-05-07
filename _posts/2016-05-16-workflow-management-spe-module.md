@@ -2,6 +2,7 @@
 layout: post
 title: "Workflow Management SPE Module"
 tags: sitecore PowerShell Extensions Workflow Management
+redirect_to: https://marcduiker.dev/articles/workflow-management-spe-module
 ---
 
 
