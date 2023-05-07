@@ -2,7 +2,7 @@
 layout: post
 title: "Isolating calls to Sitecore.Context for improved unit testability - Part II: ItemAdapter"
 tags: Sitecore .Net unit testing
-canonical: "http://blog.marcduiker.nl/2014/11/isolating-calls-to-sitecorecontext-for_22.html"
+redirect_to: https://marcduiker.dev/articles/isolating-calls-to-sitecore-context-part-2
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2014/11/22/norris adapt.jpg" alt="I don't adapt to my environment, my enviroment adapts to me.">

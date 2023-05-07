@@ -2,7 +2,7 @@
 layout: post
 title: Sitecore MVP Summit, Dev Podcasts and Newsletter
 tags: Sitecore MVP summit learning
-canonical: "http://blog.marcduiker.nl/2013/11/sitecore-mvp-summit-podcasts-and.html"
+redirect_to: https://marcduiker.dev/articles/sitecore-mvp-summit-dev-podcasts-and-newsletter
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2013/11/11/Sitecore MVP summit 2013.png" alt="Sitecore MVP Summit Miami">
