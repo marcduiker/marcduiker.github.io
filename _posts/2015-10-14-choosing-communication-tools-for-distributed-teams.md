@@ -2,6 +2,7 @@
 layout: post
 title: "Choosing communication tools for distributed teams"
 tags: communication team tools
+redirect_to: https://marcduiker.dev/articles/choosing-communication-tools-for-distributed-teams
 ---
 
 <a href="https://slack.com" target="_blank">

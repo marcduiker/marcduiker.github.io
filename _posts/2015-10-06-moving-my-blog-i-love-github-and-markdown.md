@@ -2,6 +2,7 @@
 layout: post
 title: "Moving my blog - I <3 Github &amp; Markdown"
 tags: Github markdown Jekyll
+redirect_to: https://marcduiker.dev/articles/moving-my-blog-i-love-github-and-markdown
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/06/successkid-blog.jpg" alt="Moved blog to Github, writing posts in markdown.">

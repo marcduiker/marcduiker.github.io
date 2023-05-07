@@ -2,6 +2,7 @@
 layout: post
 title: "Ruling the continuous integration seas with Sitecore.Ship - Part 2: fileupload"
 tags: Sitecore Ship continuous integration deployment
+redirect_to: https://marcduiker.dev/articles/ruling-the-continuous-integration-seas-with-sitecore-ship-part-2
 ---
 
 <img class="u-max-full-width" src="{{ site.url }}/assets/2015/10/31/one-does-not-simply-make-a-proper-http-request.jpg" alt="One does not simply make a proper http request.">
