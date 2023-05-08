@@ -2,6 +2,7 @@
 layout: post
 title: "Installing the Python Azure SDK on a Raspberry Pi Zero"
 tags: azure sdk python raspberry pi zero
+redirect_to: https://marcduiker.dev/articles/installing-python-azure-sdk-raspberrypi
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/07/16/Pi Zero with camera.jpg" alt="Pi Zero with camera module">

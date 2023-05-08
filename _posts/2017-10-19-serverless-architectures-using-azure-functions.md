@@ -2,6 +2,7 @@
 layout: post
 title: "Getting started with Serverless Architectures using Azure Functions"
 tags: serverless architecture azure functions faas
+redirect_to: https://marcduiker.dev/articles/serverless-architectures-using-azure-functions
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/10/19/marcduiker-on-stage.jpg" alt="Marc Duiker on stage">

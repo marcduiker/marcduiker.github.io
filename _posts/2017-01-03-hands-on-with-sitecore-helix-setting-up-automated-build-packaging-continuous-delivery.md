@@ -2,6 +2,7 @@
 layout: post
 title: "Hands-on with Sitecore Helix: Setting up automated build and packaging for continuous delivery"
 tags: sitecore helix habitat automated build bamboo nuget octopus deploy modular architecture
+redirect_to: https://marcduiker.dev/articles/hands-on-with-sitecore-helix-setting-up-automated-build-packaging-continuous-delivery
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/01/03/helix-logical-architecture.png" alt="Modular architecture">

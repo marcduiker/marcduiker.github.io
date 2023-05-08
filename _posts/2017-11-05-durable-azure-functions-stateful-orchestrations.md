@@ -2,6 +2,7 @@
 layout: post
 title: "Azure Durable Functions - Stateful function orchestrations (part 1)"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-azure-functions-stateful-orchestrations
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/11/05/DurableFunctionsDemo.png" alt="HttpStart DurableFunction">

@@ -2,6 +2,7 @@
 layout: post
 title: "Hands-on with Sitecore Helix: Continuous Delivery with Octopus Deploy"
 tags: sitecore helix habitat automated nuget octopus deploy modular architecture
+redirect_to: https://marcduiker.dev/articles/hands-on-with-sitecore-helix-continuous-delivery-with-octopusdeploy
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/01/24/Octopus_diagram.png" alt="Octopus Deploy process">
