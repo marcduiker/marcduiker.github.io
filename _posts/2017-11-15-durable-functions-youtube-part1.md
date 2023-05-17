@@ -2,6 +2,7 @@
 layout: post
 title: "Durable Functions on YouTube (part 1)"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-functions-youtube-part1
 ---
 
 ## Durable Functions Videos

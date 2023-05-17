@@ -2,6 +2,7 @@
 layout: post
 title: "Durable Functions on YouTube (part 3) - The Function Chaining Pattern"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-functions-youtube-part3
 ---
 
 ## The Function Chaining Pattern

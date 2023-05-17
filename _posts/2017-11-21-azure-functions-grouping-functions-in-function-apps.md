@@ -2,6 +2,7 @@
 layout: post
 title: "Azure Functions Tips: Grouping Functions into Function Apps"
 tags: azure functions faas serverless deployment
+redirect_to: https://marcduiker.dev/articles/azure-functions-grouping-functions-in-function-apps
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2017/11/21/serverless-architecture.png" alt="Simple serverless architecure example">

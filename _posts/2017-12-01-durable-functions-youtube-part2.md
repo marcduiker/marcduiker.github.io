@@ -2,6 +2,7 @@
 layout: post
 title: "Durable Functions on YouTube (part 2) - Eternal orchestrations & external events"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-functions-youtube-part2
 ---
 
 ## Eternal orchestrations & external events

@@ -2,6 +2,7 @@
 layout: post
 title: "Durable Functions - The Anatomy of Function Naming"
 tags: azure durable functions serverless faas stateful orchestration naming
+redirect_to: https://marcduiker.dev/articles/the-anatomy-of-function-naming
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2018/06/21/functionnaming.png" alt="How to name your Azure Functions">
