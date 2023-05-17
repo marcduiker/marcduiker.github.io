@@ -2,6 +2,7 @@
 layout: post
 title: "Creating the Azure Functions Updates Twitterbot"
 tags: azure durable functions serverless faas stateful orchestration twitter github
+redirect_to: https://marcduiker.dev/articles/creating-azure-functions-updates-twitterbot
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/03/03/azfuncupdates_twitter.png" alt="Azure Funtions Updates Twitter account screenshot">

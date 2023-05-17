@@ -2,6 +2,7 @@
 layout: post
 title: "Discovering the Durable Functions API - Retrieving the orchestration status (DurableOrchestrationClient part 2)"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-functions-api-durableorchestrationclient-2
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/02/10/DurableOrchestrationClientBase2_900.png" alt="Methods in DurableOrchestrationClientBase">

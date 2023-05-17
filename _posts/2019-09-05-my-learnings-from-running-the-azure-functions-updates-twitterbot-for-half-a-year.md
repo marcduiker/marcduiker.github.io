@@ -2,6 +2,7 @@
 layout: post
 title: "My learnings from running the Azure Functions Updates Twitterbot for half a year"
 tags: azure durable functions serverless faas learnings
+redirect_to: https://marcduiker.dev/articles/my-learnings-from-running-the-azure-functions-updates-twitterbot-for-half-a-year
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/09/05/azfunctionupdates_diagram_cover.png" alt="Azure Functions Updates component diagram">

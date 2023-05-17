@@ -2,6 +2,7 @@
 layout: post
 title: "Discovering the Durable Functions API - Starting orchestrations (DurableOrchestrationClient part 1)"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-functions-api-durableorchestrationclient-1
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2019/01/07/DurableOrchestrationClientBase1_900.png" alt="Methods in DurableOrchestrationClientBase">
