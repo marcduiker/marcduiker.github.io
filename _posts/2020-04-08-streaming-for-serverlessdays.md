@@ -2,6 +2,7 @@
 layout: post
 title: "Live streaming the meetups and conference for ServerlessDays Amsterdam - Part 1"
 tags: azure live-streaming serverlessdays
+redirect_to: https://marcduiker.dev/articles/streaming-for-serverlessdays
 ---
 
 ## Everyone is live streaming!

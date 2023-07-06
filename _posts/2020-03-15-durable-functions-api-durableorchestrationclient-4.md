@@ -2,6 +2,7 @@
 layout: post
 title: "Discovering the Durable Functions API - Human Interaction (DurableOrchestrationClient part 4)"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/durable-functions-api-durableorchestrationclient-4
 ---
 
 ## Human Interaction Pattern
