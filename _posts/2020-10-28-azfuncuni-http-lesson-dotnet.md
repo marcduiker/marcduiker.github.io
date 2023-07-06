@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - HTTP Lesson (.NET Core)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-http-lesson-dotnet
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/10/28/AzureFunctionsUniversity_HTTP_Lesson_dotnetcore.png" alt="Http Lesson .NET Core">
