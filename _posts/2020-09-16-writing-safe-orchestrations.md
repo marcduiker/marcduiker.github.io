@@ -2,6 +2,7 @@
 layout: post
 title: "Durable Functions API - Writing Safe Orchestrations"
 tags: azure durable functions serverless faas stateful orchestration
+redirect_to: https://marcduiker.dev/articles/writing-safe-orchestrations
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/09/16/safe-orchestrations-cover.png" alt="Slide showing Writing Safe Orchestrations">
