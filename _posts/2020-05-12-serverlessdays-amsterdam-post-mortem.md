@@ -2,6 +2,7 @@
 layout: post
 title: "ServerlessDays Amsterdam, a personal post-mortem"
 tags: azure live-streaming serverlessdays
+redirect_to: https://marcduiker.dev/articles/serverlessdays-amsterdam-post-mortem
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/12/00-desk.jpg" alt="My deskat the start of the conference.">
