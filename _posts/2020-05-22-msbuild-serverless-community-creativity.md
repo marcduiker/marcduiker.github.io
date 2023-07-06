@@ -2,6 +2,7 @@
 layout: post
 title: "My MSBuild 2020 experience: serverless, community & creativity"
 tags: microsoft msbuild community
+redirect_to: https://marcduiker.dev/articles/msbuild-serverless-community-creativity
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/05/22/Build_Wallpaper_DarkTheme_DesignA_8bit.jpg" alt="8-bit MSBuild wallpaper">
