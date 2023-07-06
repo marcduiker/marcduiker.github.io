@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Blob Lesson (.NET Core)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-blob-lesson-dotnet
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2020/11/11/AzureFunctionsUniversity_Blob_Lesson_dotnetcore.png" alt="Blob Lesson .NET Core">
