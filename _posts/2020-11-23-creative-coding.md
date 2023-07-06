@@ -2,6 +2,7 @@
 layout: post
 title: "How I Got Started With Creative Coding"
 tags: 'creative coding'
+redirect_to: https://marcduiker.dev/articles/creative-coding
 ---
 
 This article is part of [Festive Tech Calendar 2020](https://festivetechcalendar.com/). An online event organized by the tech community with content created by many kind individuals around the world.
