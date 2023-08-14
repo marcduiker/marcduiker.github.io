@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Lesson Tips
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-lesson-tips
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/05/19/AzureFunctionsUniversity_Lesson_Tips.png" alt="Lesson Tips">

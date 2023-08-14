@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - HTTP Lesson (PowerShell)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-http-lesson-powershell
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/05/08/AzureFunctionsUniversity_HTTP_Lesson_PowerShell.png" alt="Http Lesson PowerShell">

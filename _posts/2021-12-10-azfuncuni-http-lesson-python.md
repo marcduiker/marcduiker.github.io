@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - HTTP Lesson (Python)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-http-lesson-python
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/12/10/AzureFunctionsUniversity_HTTP_Lesson_python.png" alt="Http Lesson Python">

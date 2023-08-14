@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Blob Lesson (TypeScript)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-blob-lesson-typescript
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/09/03/AzureFunctionsUniversity_Blob_Lesson_typescript.png" alt="Blob Lesson TypeScript">
