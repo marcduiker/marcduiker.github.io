@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Table Lesson (.NET Core)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-table-lesson-dotnet
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/01/17/AzureFunctionsUniversity_Table_Lesson_dotnetcore.png" alt="Table Lesson .NET Core">

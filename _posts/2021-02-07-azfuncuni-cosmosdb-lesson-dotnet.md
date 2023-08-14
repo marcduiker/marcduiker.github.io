@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - CosmosDB Lesson (.NET Core)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-cosmosdb-lesson-dotnet
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/02/07/AzureFunctionsUniversity_CosmosDB_Lesson_dotnetcore.png" alt="CosmosDB Lesson .NET Core">

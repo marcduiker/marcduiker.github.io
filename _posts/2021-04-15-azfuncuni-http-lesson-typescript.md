@@ -2,7 +2,7 @@
 layout: post
 title: Azure Functions University - HTTP Lesson (TypeScript)
 tags: serverless azure functions
----
+redirect_to: https://marcduiker.dev/articles/azfuncuni-http-lesson-typescript
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/04/15/AzureFunctionsUniversity_HTTP_Lesson_typescript.png" alt="Http Lesson TypeScript">
 

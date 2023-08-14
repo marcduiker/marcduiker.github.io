@@ -2,6 +2,7 @@
 layout: post
 title: Creating Azure Functions University, an open source educational project
 tags: azure functions serverless open-source education
+redirect_to: https://marcduiker.dev/articles/azure-functions-university
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2021/04/27/AzureFunctionsUniversity_YouTube_Lesson1.png" alt="Screenshot of the first Azure Functions University lesson">

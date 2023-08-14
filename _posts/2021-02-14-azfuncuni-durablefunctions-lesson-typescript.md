@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Durable Functions Introduction & Chaining (TypeScript)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-durablefunctions-lesson-typescript
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/02/25/AzureFunctionsUniversity_DurableFunctions_Lesson2_typescript.png" alt="Durable Functions Lesson 1 TypeScript">
