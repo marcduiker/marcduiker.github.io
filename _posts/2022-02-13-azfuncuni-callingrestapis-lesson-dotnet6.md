@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Calling third-party REST APIs (.NET 6)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-callingrestapis-lesson-dotnet6
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/02/13/AzureFunctionsUniversity_Calling3rdpartyRESTAPIs_dotnet6.png" alt="Calling third-party REST APIs .NET 6">

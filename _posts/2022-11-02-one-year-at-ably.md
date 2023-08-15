@@ -2,6 +2,7 @@
 layout: post
 title: One year at Ably as a Developer Advocate
 tags: 
+redirect_to: https://marcduiker.dev/articles/one-year-at-ably-as-developer-advocate
 ---
 
 It has been one year since I've joined the DevRel team at Ably as Sr Developer Advocate. In this post I'll highlight some things I've been working on and what I've learned in the past year. I'll cover content creation, developer tooling, events, roadmap & predictability, communication & relationships, and finally 'anything that could be improved'.

@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Durable Functions Advanced Patterns (TypeScript)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-durablefunctions-advanced-lesson-typescript
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/02/25/AzureFunctionsUniversity_DurableFunctions_Lesson2_typescript.png" alt="Durable Functions Lesson 2 TypeScript">

@@ -2,6 +2,7 @@
 layout: post
 title: Azure Functions University - Deployment Lesson (.NET 6)
 tags: serverless azure functions
+redirect_to: https://marcduiker.dev/articles/azfuncuni-deployment-lesson-dotnet6
 ---
 
 <img class="u-max-full-width" itemprop="image" src="{{ site.url }}/assets/2022/03/15/AzureFunctionsUniversity_Deployment_Lesson_NET6.png" alt="Deployment Lesson .NET 6">
